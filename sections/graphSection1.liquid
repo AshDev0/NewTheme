@@ -1,37 +1,35 @@
 <section id="graph-section">
     <div class="graph-container">
-        {% for block in blocks.settings%}
+      {% for block in section.blocks %}
         <div class="graph-items">
-            <h2>{{block.settings.heading}}</h2>
-            <p>{{block.settings.desc}}</p>
+          <h2>{{ block.settings.heading }}</h2>
+          <p>{{ block.settings.desc }}</p>
         </div>
-        
-        {%endfor%}
+      {% endfor %}
     </div>
-</section>
-{% schema %}
+  </section>
+  {% schema %}
   {
     "name": "Graph Section",
-    "tag": "section",
-    "class": "",
     "settings": [
     ],
     "blocks": [
-        {
-        "name": "block",
+      {
+        "name": "blocks",
+        "type": "blocks",
         "settings": [
-            {
-                "type": "text",
-                "id": "heading",
-                "label": "Heading"
-            },
-            {
-                "type": "richtext",
-                "id": "desc",
-                "label": "Description"
-            }
-        ],
-    }
+          {
+            "type": "text",
+            "id": "heading",
+            "label": "main heading"
+          },
+          {
+            "type": "richtext",
+            "id": "desc",
+            "label": "content"
+          }
+        ]
+      }
     ],
     "presets": [
       {
@@ -41,4 +39,5 @@
       }
     ]
   }
-{% endschema %}
+  {% endschema %}
+  
