@@ -89,12 +89,30 @@
         "heading": "Best Collection",
         "collection": "featured-products"
       }
+    },
+    "7913a741-69a1-41d3-8108-f70315124f36": {
+      "type": "graphSection1",
+      "blocks": {
+        "be681465-cd90-4380-afda-31e7b408de93": {
+          "type": "blocks",
+          "settings": {
+            "heading": "110+",
+            "desc": "<p>Active Shopify customers who are taking Taxhero support<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "be681465-cd90-4380-afda-31e7b408de93"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
     "259d47c5-adbf-4b57-aa23-2e2a4c8069ff",
     "image_banner",
     "featured_collection",
-    "a9d550b1-2b67-43cc-a1e1-29fcf2b73bfb"
+    "a9d550b1-2b67-43cc-a1e1-29fcf2b73bfb",
+    "7913a741-69a1-41d3-8108-f70315124f36"
   ]
 }
