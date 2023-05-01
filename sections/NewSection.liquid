@@ -1,6 +1,13 @@
 <section>
-    <div class="container">
-
+    <div class="new-container">
+        <h2 class="text">
+            <h2>{{section.settings.heading}}</h2>
+            <p>{{section.settings.para}}</p>
+            <a class="btn-book" href="#">{{section.settings.btn-txt}}</a>
+        </div>
+        <div class="image">
+            <img src="" alt="" />
+        </div>
     </div>
 </section>
 {% schema %}
@@ -9,7 +16,31 @@
     "tag": "section",
     "class": "section",
     "settings": [
-      
+      {
+        "type": "text",
+        "id": "heading",
+        "label": "Main Heading"
+      },
+      {
+        "type": "richtext",
+        "id": "para",
+        "label": "Description"
+      },
+      {
+        "type": "text",
+        "id": "btn-book",
+        "label": "Button Text"
+      },
+      {
+      "type": "url",
+      "id": "url",
+      "label": "Button Link"
+    },
+    {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Main Image"
+    }
     ],
     "presets": [
       {
