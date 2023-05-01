@@ -626,3 +626,33 @@
   width: 100%;
   display: block;
 }
+
+#graph-section{
+  background-color: #14059b;
+  width: 100%;
+}
+
+.graph-container{
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.graph-items h2{
+  font-size: 35px;
+  letter-spacing: normal;
+  font-style: normal;
+  font-weight: 700;
+  color: #fff;
+}
+
+.graph-items p{
+  font-size: 18px;
+  letter-spacing: normal;
+  font-style: normal;
+  font-weight: 400;
+  color: #fff;
+}
