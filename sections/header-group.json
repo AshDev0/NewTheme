@@ -157,11 +157,22 @@
             "reviewname": "Jacob Jones",
             "designation": "Co-founder"
           }
+        },
+        "82070ffe-4c09-41f1-8978-cf1fb24e89c2": {
+          "type": "review",
+          "settings": {
+            "ratings": "shopify:\/\/shop_images\/Screenshot_2023-05-02_170013.png",
+            "review": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<\/p>",
+            "reviewerimg": "shopify:\/\/shop_images\/Screenshot_2023-05-02_170224.png",
+            "reviewname": "Jenny Wilson",
+            "designation": "Chief Marketing Officer"
+          }
         }
       },
       "block_order": [
         "7fa6aafe-c53f-4d9e-a489-f426d4efe83a",
-        "6f9d10d9-4f5e-4b87-8d3e-9dc3de2cc527"
+        "6f9d10d9-4f5e-4b87-8d3e-9dc3de2cc527",
+        "82070ffe-4c09-41f1-8978-cf1fb24e89c2"
       ],
       "settings": {
         "para": "2,157 people have said how good taxhero",
