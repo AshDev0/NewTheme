@@ -845,6 +845,7 @@
   color: #1e2a21;
   font-weight: 500;
   font-style: normal;
+  text-align: center;
 }
 
 .reviewsection h2{
@@ -852,10 +853,53 @@
   color: #fff;
   font-weight: 700;
   font-style: normal;
+  text-align: center;
 }
 
 #reviewsection .reviews{
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+#reviewsection .review-list{
+  width: calc(33.33% - 20px);
+  background-color: #fff;
+  padding: 20px;
+}
+
+#reviewsection .reviewer{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#reviewsection .reviewer .reviewer-img{
+  width: 50%;
+}
+
+#reviewsection .reviewer .reviewer-img img{
+  width: 100%;
+  display: block;
+}
+
+#reviewsection .reviewer .reviewer-info{
+  width: 50%;
+}
+
+#reviewsection .reviewer .reviewer-info .name{
+  font-size: 20px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  color: #000;
+}
+
+#reviewsection .reviewer .reviewer-info .designation{
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: normal;
+  color: #999;
 }
