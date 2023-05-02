@@ -35,10 +35,21 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
+    },
+    "368500a4-c567-4ad8-99a6-e6412f9b8f94": {
+      "type": "NewSection",
+      "settings": {
+        "heading": "A Modern, Smart Approach to Sales Tax Compliance",
+        "para": "<p>We help e-commerce businesses to get them compliant with sales tax in the US.<\/p>",
+        "btn-book": "Book a Meeting",
+        "url": "",
+        "image": "shopify:\/\/shop_images\/Screenshot_2023-05-01_164922.png"
+      }
     }
   },
   "order": [
     "announcement-bar",
-    "header"
+    "header",
+    "368500a4-c567-4ad8-99a6-e6412f9b8f94"
   ]
 }
