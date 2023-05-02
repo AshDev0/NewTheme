@@ -92,10 +92,18 @@
             "heading": "110+",
             "desc": "<p>Active Shopify customers who are taking taxhero support<\/p>"
           }
+        },
+        "580ccd57-8a8a-48e7-a8a6-87affbbedff1": {
+          "type": "block",
+          "settings": {
+            "heading": "4M+",
+            "desc": "<p>Money saved every year for our valuable customers<\/p>"
+          }
         }
       },
       "block_order": [
-        "f8ad5ff7-286b-41ef-9321-f6ed908f78e6"
+        "f8ad5ff7-286b-41ef-9321-f6ed908f78e6",
+        "580ccd57-8a8a-48e7-a8a6-87affbbedff1"
       ],
       "settings": {
       }
