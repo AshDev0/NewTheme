@@ -124,6 +124,16 @@
         "subheading": "Tax specialists assist in preparing quarterly and annual tax provisions and performing tax accounting duties.",
         "desc": "<p>Tax specialists help clients with a variety of tax-related issues. Mainly, they make sure clients comply with tax rule regulations, they also help individuals and businesses pay what they owe.<\/p>"
       }
+    },
+    "196134aa-2f15-40c3-9dec-3798884c0922": {
+      "type": "reducerisk",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Screenshot_2023-05-02_154118.png",
+        "mainheading": "Reduce your risk of errors and missed deadlines",
+        "desc": "<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.<\/p>",
+        "book": "Book a Call",
+        "url": "#"
+      }
     }
   },
   "order": [
@@ -132,6 +142,7 @@
     "368500a4-c567-4ad8-99a6-e6412f9b8f94",
     "c33539a5-625f-4bde-8ad5-d4607d3aec43",
     "5083e136-89b3-42bf-bf99-cb92082051b8",
-    "a7745780-bc5e-4335-a429-6f05d5383500"
+    "a7745780-bc5e-4335-a429-6f05d5383500",
+    "196134aa-2f15-40c3-9dec-3798884c0922"
   ]
 }
