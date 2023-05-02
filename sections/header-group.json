@@ -45,11 +45,31 @@
         "url": "",
         "image": "shopify:\/\/shop_images\/Screenshot_2023-05-01_164922.png"
       }
+    },
+    "5083e136-89b3-42bf-bf99-cb92082051b8": {
+      "type": "reportDashboard",
+      "blocks": {
+        "37f153b1-8f02-4d50-8b49-0f4cf5cd5085": {
+          "type": "report",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-05-02_110858.png",
+            "title": "Book a Call",
+            "desc": "<p>Customer activity can be easily tracked with one click<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "37f153b1-8f02-4d50-8b49-0f4cf5cd5085"
+      ],
+      "settings": {
+        "heading": ""
+      }
     }
   },
   "order": [
     "announcement-bar",
     "header",
-    "368500a4-c567-4ad8-99a6-e6412f9b8f94"
+    "368500a4-c567-4ad8-99a6-e6412f9b8f94",
+    "5083e136-89b3-42bf-bf99-cb92082051b8"
   ]
 }
