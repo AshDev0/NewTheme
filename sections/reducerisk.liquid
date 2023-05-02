@@ -1,0 +1,53 @@
+<section id="reducerisk">
+<div class="reducerisk">
+    <div class="reducersik-text">
+        <h2>{{section.settings.mainheading}}</h2>
+        <p>{{section.settings.desc}}</p>
+        <a href="#">{{section.settings.book}}</a>
+    </div>
+    <div class="reducersik-img">
+        <img src="{{section.settings.image | img_url: 'master'}}" alt="" />
+    </div>
+</div>
+</section>
+{% schema %}
+  {
+    "name": "Reduce Risk",
+    "tag": "section",
+    "class": "section",
+    "settings": [
+        {
+            "type": "image_picker",
+            "id": "image",
+            "label": "main image"
+        },
+        {
+            "type": "text",
+            "id": "mainheading",
+            "label": "Main Title"
+        },
+        {
+            "type": "richtext",
+            "id": "desc",
+            "label": "Description"
+        },
+        {
+            "type": "text",
+            "id": "book",
+            "label": "Book a Call"
+        },
+        {
+            "type": "url",
+            "id": "url",
+            "label": "Button Title"
+        }
+    ],
+    "presets": [
+      {
+        "name": "Reduce Risk",
+        "settings": {
+        }
+      }
+    ]
+  }
+{% endschema %}

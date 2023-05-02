@@ -773,4 +773,56 @@
   letter-spacing: normal;
   padding: 0;
   margin: 0;
+  line-height: normal;
+}
+
+#reducerisk{
+  width: 100%;
+  margin-top: 80px;
+}
+
+.reducerisk{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.reducersik-img {
+  width: 50%;
+}
+
+.reducersik-img img {
+  width: 100%;
+  display: block;
+}
+
+.reducersik-text {
+  width: 50%;
+}
+
+.reducersik-text h2{
+  font-size: 37px;
+  font-family: ;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.reducersik-text p{
+  font-size: 15px;
+  font-family: ;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.reducersik-text a{
+  font-size: 15px;
+  font-family: ;
+  font-style: normal;
+  font-weight: 500;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: orangered;
 }
