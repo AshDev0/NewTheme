@@ -134,6 +134,28 @@
         "book": "Book a Call",
         "url": "#"
       }
+    },
+    "80394829-3f31-45e6-8958-bcb26d63f4d2": {
+      "type": "reviewSection",
+      "blocks": {
+        "7fa6aafe-c53f-4d9e-a489-f426d4efe83a": {
+          "type": "review",
+          "settings": {
+            "ratings": "shopify:\/\/shop_images\/Screenshot_2023-05-02_170013.png",
+            "review": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<\/p>",
+            "reviewerimg": "shopify:\/\/shop_images\/Screenshot_2023-05-02_170108.png",
+            "reviewname": "Leslie Alexander",
+            "designation": "Founder"
+          }
+        }
+      },
+      "block_order": [
+        "7fa6aafe-c53f-4d9e-a489-f426d4efe83a"
+      ],
+      "settings": {
+        "para": "",
+        "title": ""
+      }
     }
   },
   "order": [
@@ -143,6 +165,7 @@
     "c33539a5-625f-4bde-8ad5-d4607d3aec43",
     "5083e136-89b3-42bf-bf99-cb92082051b8",
     "a7745780-bc5e-4335-a429-6f05d5383500",
-    "196134aa-2f15-40c3-9dec-3798884c0922"
+    "196134aa-2f15-40c3-9dec-3798884c0922",
+    "80394829-3f31-45e6-8958-bcb26d63f4d2"
   ]
 }
