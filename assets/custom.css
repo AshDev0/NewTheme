@@ -800,6 +800,7 @@
 
 .reducersik-text {
   width: 50%;
+  padding: 70px;
 }
 
 .reducersik-text h2{
@@ -825,4 +826,5 @@
   padding: 10px 20px;
   color: #fff;
   background-color: orangered;
+  text-decoration: none;
 }
