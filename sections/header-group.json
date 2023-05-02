@@ -56,10 +56,19 @@
             "title": "Book a Call",
             "desc": "<p>Customer activity can be easily tracked with one click<\/p>"
           }
+        },
+        "6de5dc38-f50c-4481-99ee-a63dce28d063": {
+          "type": "report",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-05-02_110745.png",
+            "title": "Get proper tax instructions",
+            "desc": "<p>Customers can leave their own comments and feedback<\/p>"
+          }
         }
       },
       "block_order": [
-        "37f153b1-8f02-4d50-8b49-0f4cf5cd5085"
+        "37f153b1-8f02-4d50-8b49-0f4cf5cd5085",
+        "6de5dc38-f50c-4481-99ee-a63dce28d063"
       ],
       "settings": {
         "heading": "Simple interface through which tasks can be easily managed"
