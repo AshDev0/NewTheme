@@ -691,7 +691,7 @@
 }
 
 .reportdashboard-item {
-  width: 33.33%;
+  width: calc(33.33% - 40px);
 }
 
 .reportdashboard-item img {
