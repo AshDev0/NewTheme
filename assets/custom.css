@@ -568,11 +568,11 @@
   width: 100%;
 }
 
-#new-section{
+#new-section {
   width: 100%;
   background-color: #e5faf7;
 }
-.new-container{
+.new-container {
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -580,11 +580,11 @@
   padding: 100px;
 }
 
-.new-container .text{
+.new-container .text {
   width: calc(60% - 20px);
 }
 
-.new-container .text h2{
+.new-container .text h2 {
   font-size: 70px;
   width: 570px;
   font-family: ;
@@ -596,7 +596,7 @@
   margin: 0;
 }
 
-.new-container .text p{
+.new-container .text p {
   font-size: 18px;
   letter-spacing: normal;
   font-style: normal;
@@ -605,7 +605,7 @@
   width: 415px;
 }
 
-.new-container .text a{
+.new-container .text a {
   font-size: 16px;
   letter-spacing: normal;
   font-style: normal;
@@ -618,27 +618,26 @@
   text-decoration: none;
 }
 
-.new-container .image{
+.new-container .image {
   width: calc(40% - 20px);
 }
 
-.new-container .image img{
+.new-container .image img {
   width: 100%;
   display: block;
 }
 
-#graph-section{
+#graph-section {
   background-color: #14059b;
   width: 100%;
 }
 
-.graph-container{
-  width: 70%;
+.graph-container {
+  width: 80%;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
 }
 
 .graph-items {
@@ -649,7 +648,7 @@
   align-items: center;
 }
 
-.graph-items h2{
+.graph-items h2 {
   font-size: 35px;
   letter-spacing: normal;
   font-style: normal;
@@ -658,7 +657,7 @@
   text-align: center;
 }
 
-.graph-items p{
+.graph-items p {
   font-size: 18px;
   letter-spacing: normal;
   font-style: normal;
