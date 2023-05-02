@@ -4,7 +4,7 @@
     <div class="reportdashboard-items">
         {% for block in blocks.settings %}    
         <div class="reportdashboard-item">
-            <img src="{{block.settings.image | img_url:'master'}}" alt="" />
+            <img src="{{block.settings.image | img_url:'master'}}" alt="" >
             <h3>{{block.settings.title}}</h3>
             <p>{{block.settings.desc}}</p>
         </div>
