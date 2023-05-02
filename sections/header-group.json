@@ -82,12 +82,30 @@
       "settings": {
         "heading": "Simple interface through which tasks can be easily managed"
       }
+    },
+    "c33539a5-625f-4bde-8ad5-d4607d3aec43": {
+      "type": "graphSection1",
+      "blocks": {
+        "f8ad5ff7-286b-41ef-9321-f6ed908f78e6": {
+          "type": "block",
+          "settings": {
+            "heading": "110+",
+            "desc": "<p>Active Shopify customers who are taking taxhero support<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "f8ad5ff7-286b-41ef-9321-f6ed908f78e6"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
     "announcement-bar",
     "header",
     "368500a4-c567-4ad8-99a6-e6412f9b8f94",
-    "5083e136-89b3-42bf-bf99-cb92082051b8"
+    "5083e136-89b3-42bf-bf99-cb92082051b8",
+    "c33539a5-625f-4bde-8ad5-d4607d3aec43"
   ]
 }
