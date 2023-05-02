@@ -666,7 +666,7 @@
   text-align: center;
 }
 
-#reportdashboard{
+#reportdashboard {
   width: 100%;
 }
 
@@ -675,7 +675,7 @@
   margin: 0 auto;
 }
 
-.reportdashboard h2{
+.reportdashboard h2 {
   font-size: 50px;
   font-weight: 700;
   letter-spacing: normal;
@@ -691,24 +691,30 @@
 }
 
 .reportdashboard-item {
-  width: 33.33%;
+  width: calc(33.33% - 40px);
 }
 
-.reportdashboard-item img{
+.reportdashboard-item img {
   width: 100%;
   display: block;
 }
 
-.reportdashboard-item h3{
+.reportdashboard-item h3 {
   font-size: 45px;
   font-weight: 700;
   font-style: normal;
   letter-spacing: normal;
+  text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
-.reportdashboard-item p{
+.reportdashboard-item p {
   font-size: 18px;
   font-weight: 400;
   font-style: normal;
   letter-spacing: normal;
+  text-align: center;
+  margin: 0;
+  padding: 0;
 }
