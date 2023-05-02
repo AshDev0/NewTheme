@@ -1,0 +1,84 @@
+<section id="reviewsection">
+  <div class="reviewsection">
+    <p>{{ section.settings.para }}</p>
+    <h2>{{ section.settings.title }}</h2>
+    <div class="reviews">
+      <div class="review-list">
+        <div class="ratings">
+          <img src="{{block.settings.ratings}}" alt="" />
+        </div>
+        <p>{{ block.settings.review }}</p>
+
+        <div class="reviewer">
+          <div class="reviewer-img">
+            <img src="{{ block.settings.reviewerimg | img_url : 'master' }}" />
+          </div>
+
+          <div class="reviewer-info">
+            <p class="name">{{{{block.settings.reviewername}}}}</p>
+            <p class="designation">{{ block.settings.designation }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% schema %}
+  {
+    "name": "Review Section",
+    "tag": "section",
+    "class": "section",
+    "settings": [
+      {
+        "type": "text",
+        "id": "para",
+        "label": "Main para"    
+    },
+    {
+        "type": "text",
+        "id": "title",
+        "label": "Main Title"    
+    }
+    ],
+    "blocks": [
+        {
+            "name": "Review Section",
+            "type": "review",
+            "settings": [
+                {
+                "type": "image_picker",
+                "id": "ratings",
+                "label": "Ratings"
+                },
+                {
+                    "type": "richtext",
+                    "id": "review",
+                    "label": "Review"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "reviewerimg",
+                    "label": "Reviewer Image"
+                    },
+                    {
+                        "type": "text",
+                        "id": "reviewname",
+                        "label": "Reviewer Name"
+                    },
+                    {
+                        "type": "text",
+                        "id": "designation",
+                        "label": "Review Designation"
+                    }
+            ]
+        }
+    ],
+    "presets": [
+      {
+        "name": "Review Section",
+        "settings": {
+        }
+      }
+    ]
+  }
+{% endschema %}
