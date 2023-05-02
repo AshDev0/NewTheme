@@ -1,0 +1,48 @@
+<section id="meettax">
+    <div class="meettax">
+        <div class="meettax-img">
+            <img src="" alt="" />
+        </div>
+        <div class="meettax-text">
+            <h2></h2>
+            <h3></h3>
+            <p></p>
+        </div>
+    </div>
+</section>
+{% schema %}
+  {
+    "name": "Meet Tax",
+    "tag": "section",
+    "class": "section",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "main image"
+    },
+    {
+        "type": "text",
+        "id": "mainheading",
+        "label": "Main Title"
+    },
+    {
+        "type": "text",
+        "id": "subheading",
+        "label": "Sub Heading"
+    },
+    {
+        "type": "richtext",
+        "id": "desc",
+        "label": "Description"
+    }
+    ],
+    "presets": [
+      {
+        "name": "Meet Tax",
+        "settings": {
+        }
+      }
+    ]
+  }
+{% endschema %}
