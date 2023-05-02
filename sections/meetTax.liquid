@@ -1,12 +1,12 @@
 <section id="meettax">
     <div class="meettax">
         <div class="meettax-img">
-            <img src="" alt="" />
+            <img src="{{section.settings.image | img_url: 'master'}}" alt="" />
         </div>
         <div class="meettax-text">
-            <h2></h2>
-            <h3></h3>
-            <p></p>
+            <h2>{{section.settings.mainheading}}</h2>
+            <h3>{{section.settings.subheading}}</h3>
+            <p>{{section.settings.desc}}</p>
         </div>
     </div>
 </section>
