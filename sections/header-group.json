@@ -115,6 +115,15 @@
       "settings": {
         "heading": "Simple interface through which tasks can be easily managed"
       }
+    },
+    "a7745780-bc5e-4335-a429-6f05d5383500": {
+      "type": "meetTax",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Screenshot_2023-05-02_133635.png",
+        "mainheading": "Meet tax experts online & solve tax problem fast",
+        "subheading": "Tax specialists assist in preparing quarterly and annual tax provisions and performing tax accounting duties.",
+        "desc": "<p>Tax specialists help clients with a variety of tax-related issues. Mainly, they make sure clients comply with tax rule regulations, they also help individuals and businesses pay what they owe.<\/p>"
+      }
     }
   },
   "order": [
@@ -122,6 +131,7 @@
     "header",
     "368500a4-c567-4ad8-99a6-e6412f9b8f94",
     "c33539a5-625f-4bde-8ad5-d4607d3aec43",
-    "5083e136-89b3-42bf-bf99-cb92082051b8"
+    "5083e136-89b3-42bf-bf99-cb92082051b8",
+    "a7745780-bc5e-4335-a429-6f05d5383500"
   ]
 }
