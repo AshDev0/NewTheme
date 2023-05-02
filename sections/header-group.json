@@ -147,10 +147,21 @@
             "reviewname": "Leslie Alexander",
             "designation": "Founder"
           }
+        },
+        "6f9d10d9-4f5e-4b87-8d3e-9dc3de2cc527": {
+          "type": "review",
+          "settings": {
+            "ratings": "shopify:\/\/shop_images\/Screenshot_2023-05-02_170013.png",
+            "review": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<\/p>",
+            "reviewerimg": "shopify:\/\/shop_images\/Screenshot_2023-05-02_170155.png",
+            "reviewname": "Jacob Jones",
+            "designation": "Co-founder"
+          }
         }
       },
       "block_order": [
-        "7fa6aafe-c53f-4d9e-a489-f426d4efe83a"
+        "7fa6aafe-c53f-4d9e-a489-f426d4efe83a",
+        "6f9d10d9-4f5e-4b87-8d3e-9dc3de2cc527"
       ],
       "settings": {
         "para": "2,157 people have said how good taxhero",
