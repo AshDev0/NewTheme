@@ -99,11 +99,19 @@
             "heading": "4M+",
             "desc": "<p>Money saved every year for our valuable customers<\/p>"
           }
+        },
+        "5028a2b7-1f0e-490f-8b06-f90050cbf516": {
+          "type": "block",
+          "settings": {
+            "heading": "98%",
+            "desc": "<p>Success rates with all our customer business revenue<\/p>"
+          }
         }
       },
       "block_order": [
         "f8ad5ff7-286b-41ef-9321-f6ed908f78e6",
-        "580ccd57-8a8a-48e7-a8a6-87affbbedff1"
+        "580ccd57-8a8a-48e7-a8a6-87affbbedff1",
+        "5028a2b7-1f0e-490f-8b06-f90050cbf516"
       ],
       "settings": {
       }
