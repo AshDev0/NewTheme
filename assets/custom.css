@@ -803,7 +803,7 @@
 }
 
 .reducersik-text h2{
-  font-size: 37px;
+  font-size: 40px;
   font-family: ;
   font-style: normal;
   font-weight: 800;
@@ -826,4 +826,5 @@
   color: #fff;
   background-color: orangered;
   text-decoration: none;
+  border-radius: 5px;
 }
