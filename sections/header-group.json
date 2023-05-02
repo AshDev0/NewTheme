@@ -46,6 +46,39 @@
         "image": "shopify:\/\/shop_images\/Screenshot_2023-05-01_164922.png"
       }
     },
+    "c33539a5-625f-4bde-8ad5-d4607d3aec43": {
+      "type": "graphSection1",
+      "blocks": {
+        "f8ad5ff7-286b-41ef-9321-f6ed908f78e6": {
+          "type": "block",
+          "settings": {
+            "heading": "110+",
+            "desc": "<p>Active Shopify customers who are taking taxhero support<\/p>"
+          }
+        },
+        "580ccd57-8a8a-48e7-a8a6-87affbbedff1": {
+          "type": "block",
+          "settings": {
+            "heading": "4M+",
+            "desc": "<p>Money saved every year for our valuable customers<\/p>"
+          }
+        },
+        "5028a2b7-1f0e-490f-8b06-f90050cbf516": {
+          "type": "block",
+          "settings": {
+            "heading": "98%",
+            "desc": "<p>Success rates with all our customer business revenue<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "f8ad5ff7-286b-41ef-9321-f6ed908f78e6",
+        "580ccd57-8a8a-48e7-a8a6-87affbbedff1",
+        "5028a2b7-1f0e-490f-8b06-f90050cbf516"
+      ],
+      "settings": {
+      }
+    },
     "5083e136-89b3-42bf-bf99-cb92082051b8": {
       "type": "reportDashboard",
       "blocks": {
@@ -88,6 +121,7 @@
     "announcement-bar",
     "header",
     "368500a4-c567-4ad8-99a6-e6412f9b8f94",
+    "c33539a5-625f-4bde-8ad5-d4607d3aec43",
     "5083e136-89b3-42bf-bf99-cb92082051b8"
   ]
 }
