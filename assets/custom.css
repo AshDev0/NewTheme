@@ -790,7 +790,7 @@
 }
 
 .reducersik-img {
-  width: 50%;
+  width: calc(50% - 30px);
 }
 
 .reducersik-img img {
@@ -799,8 +799,7 @@
 }
 
 .reducersik-text {
-  width: 50%;
-  padding: 70px;
+  width: calc(50% - 30px);
 }
 
 .reducersik-text h2{
