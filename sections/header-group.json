@@ -209,6 +209,14 @@
         "sectionid": "Read our blog",
         "sectionDesc": "With lots of unique blocks, you can easily  build a page  without coding, Build your next landing page."
       }
+    },
+    "9af8a080-2fe7-4bd0-bd8f-65cad1363160": {
+      "type": "bookSection",
+      "settings": {
+        "heading": "Take action now to stay compliant. Grow business without tension.",
+        "bookCall": "Book A Call",
+        "url": "#"
+      }
     }
   },
   "order": [
@@ -220,6 +228,7 @@
     "a7745780-bc5e-4335-a429-6f05d5383500",
     "196134aa-2f15-40c3-9dec-3798884c0922",
     "80394829-3f31-45e6-8958-bcb26d63f4d2",
-    "26935be7-f2e7-4e34-b142-ee51c0682fc0"
+    "26935be7-f2e7-4e34-b142-ee51c0682fc0",
+    "9af8a080-2fe7-4bd0-bd8f-65cad1363160"
   ]
 }
