@@ -641,7 +641,7 @@
 }
 
 .graph-items {
-  width: 23.3%;
+  width: 28.3%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1091,12 +1091,27 @@
 
 }
 
+@media screen and (max-width:1560px){
+  .graph-items {
+    width: 28.3%;
+}
+
+
+.graph-items h2{
+  font-size: 60px;
+}
+}
+
 @media screen and (max-width: 1440px){
   .new-container .text h2{
     font-size: 75px;
     line-height: normal;
     width: 714px;
   }
+
+  .graph-items {
+    width: 28.3%;
+}
 }
 
 @media screen and (max-width: 1024px){
