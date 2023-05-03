@@ -1392,8 +1392,15 @@
   margin-top: 30px;
 }
 
+
+
 .reviewsection h2 {
   font-size: 60px;
+  line-height: normal;
+}
+
+#reviewsection .reviewer .reviewer-info .name {
+  font-size: 22px;
   line-height: normal;
 }
 
