@@ -1724,6 +1724,28 @@
   margin: 50px auto 0;
 }
 
+
+#readblog .read-container h2 {
+  font-size: 55px;
+  line-height: normal;
+}
+
+#readblog .read-container p {
+  font-size: 14px;
+  margin: 0 auto 30px;
+}
+
+#readblog .blog .blog-list .date {
+  font-size: 20px;
+  line-height: normal;
+}
+
+#readblog .blog .blog-list h3 {
+  font-size: 17px;
+  line-height: normal;
+  width: 84%;
+}
+
 }
 
 
