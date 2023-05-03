@@ -1235,6 +1235,12 @@
 .graph-items p {
   font-size: 18px;
 }
+
+.reportdashboard h2 {
+  font-size: 40px!important;
+  line-height: normal;
+}
+
 }
 
 @media screen and (max-width: 540px){
@@ -1290,4 +1296,19 @@
 .graph-items{
   width: 60%;
 }
+
+.reportdashboard h2 {
+  font-size: 35px!important;
+  line-height: normal;
+}
+
+.reportdashboard-items {
+  flex-direction: column;
+  gap: 20px;
+}
+
+.reportdashboard-item {
+  width: 100%;
+}
+
 }
