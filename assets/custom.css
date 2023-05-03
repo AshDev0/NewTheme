@@ -1166,6 +1166,32 @@
   margin-top: 50px;
 }
 
+#reviewsection .review-list p {
+  font-size: 25px;
+  line-height: normal;
+}
+
+
+#reviewsection .reviewer .reviewer-info .name {
+  font-size: 25px;
+  line-height: normal;
+}
+
+
+#reviewsection .reviewer .reviewer-info .designation {
+  font-size: 22px;
+  line-height: normal;
+}
+
+
+#reviewsection .review-links {
+  font-size: 25px;
+  line-height: normal;
+  width: 250px;
+  margin: 70px auto 0;
+}
+
+
 }
 
 @media screen and (max-width:1560px){
