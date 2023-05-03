@@ -1145,7 +1145,6 @@
     width: 28.3%;
 }
 
-
 .graph-items h2{
   font-size: 60px;
 }
@@ -1171,6 +1170,16 @@
 
 .meettax .meettax-text p {
   font-size: 20px;
+  line-height: normal;
+}
+
+.reducersik-text h2 {
+  font-size: 51px;
+  line-height: normal;
+}
+
+.reducersik-text p {
+  font-size: 18px;
   line-height: normal;
 }
 
