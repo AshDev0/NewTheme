@@ -1,0 +1,67 @@
+<section id="readblog">
+    <div class="read-container">
+        <h2>{{section.settings.bloghead}}</h2>
+        <p>{{section.settings.desc}}</p>
+
+        <div class="blog">
+            {%for block in section.blocks %}
+        <div class="blog-list">
+            <img src="{{block.settings.image}}" alt="" />
+            <p class="date">{{block.settings.date}}</p>
+            <h3>{{block.settings.heading}}</h3>
+        </div>
+        {%endfor%}
+        </div>
+    </div>
+</section>
+{% schema %}
+  {
+    "name": "Blog Section",
+    "tag": "section",
+    "class": "section",
+    "settings": [
+        {
+            "type": "text",
+            "id": "sectionid",
+            "label": "Section Title"
+        },
+        {
+            "type": "text",
+            "id": "sectionDesc",
+            "label": "Section Description"
+        }
+    ],
+    "blocks":[
+        {
+            "name": "blog",
+            "type": "blog",
+            "settings": [
+                {
+                    "type": "image_picker",
+                    "id": "image",
+                    "label": "Images"
+                },
+                {
+                    "type": "text",
+                    "id": "date",
+                    "label": "Date"
+                },
+                {
+                    "type": "text",
+                    "id": "heading",
+                    "label": "Main Heading"
+                }
+            ]
+            
+        }
+
+    ],
+    "presets": [
+      {
+        "name": "Blog Section",
+        "settings": {
+        }
+      }
+    ]
+  }
+{% endschema %}
