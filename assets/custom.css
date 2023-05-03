@@ -1237,6 +1237,10 @@
   line-height: normal;
 }
 
+#reviewsection .reviewer {
+ margin-top: 20px;
+}
+
 .reviewsection h2 {
   font-size: 70px;
   line-height: normal;
@@ -1296,6 +1300,10 @@
   margin-top: 40px;
 }
 
+#reviewsection .reviewer .reviewer-info .designation {
+  font-size: 20px;
+  line-height: normal;
+}
 
 }
 
