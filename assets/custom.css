@@ -1587,6 +1587,41 @@
   margin-top: 20px;
 }
 
+#reviewsection {
+  width: 100%;
+  padding: 50px 0;
+  margin-top: 60px;
+}
+.reviewsection {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.reviewsection p {
+  font-size: 25px;
+  line-height: normal;
+}
+
+.reviewsection h2 {
+  font-size: 50px;
+  line-height: normal;
+}
+
+#reviewsection .review-list p {
+  font-size: 15px;
+  line-height: normal;
+}
+
+#reviewsection .reviewer .reviewer-info .name {
+  font-size: 16px;
+  line-height: normal;
+}
+
+#reviewsection .reviewer .reviewer-info .designation {
+  font-size: 12px;
+  line-height: normal;
+}
+
 }
 
 
