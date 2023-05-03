@@ -1402,6 +1402,27 @@
   line-height: normal;
 }
 
+.meettax .meettax-text {
+  width: 50%;
+  padding: 30px;
+  padding-right: unset;
+}
+
+.meettax .meettax-text h2 {
+  font-size: 25px;
+  line-height: normal;
+}
+
+.meettax .meettax-text h3 {
+  font-size: 11px;
+  line-height: normal;
+}
+
+.meettax .meettax-text p {
+  font-size: 10px;
+  line-height: normal;
+}
+
 }
 
 @media screen and (max-width: 540px){
