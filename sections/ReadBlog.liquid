@@ -6,7 +6,7 @@
         <div class="blog">
             {%for block in section.blocks %}
         <div class="blog-list">
-            <img src="{{block.settings.image}}" alt="" />
+            <img src="{{block.settings.image | img_url: 'master'}}" alt="" />
             <p class="date">{{block.settings.date}}</p>
             <h3>{{block.settings.heading}}</h3>
         </div>
