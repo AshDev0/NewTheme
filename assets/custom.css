@@ -1251,6 +1251,23 @@
     font-size: 18px;
     line-height: normal;
   }
+
+
+  .reducersik-text h2 {
+    font-size: 44px;
+    line-height: normal;
+}
+
+  .reducersik-text p {
+    font-size: 15px;
+    line-height: normal;
+}
+
+  .reducersik-text a {
+    font-size: 22px;
+    width: 200px;
+    margin-top: 40px;
+}
 }
 
 
