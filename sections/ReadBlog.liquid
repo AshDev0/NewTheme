@@ -1,7 +1,7 @@
 <section id="readblog">
     <div class="read-container">
         <h2>{{section.settings.bloghead}}</h2>
-        <p>{{section.settings.desc}}</p>
+        <p>{{section.settings.sectionDesc}}</p>
 
         <div class="blog">
             {%for block in section.blocks %}
@@ -22,7 +22,7 @@
     "settings": [
         {
             "type": "text",
-            "id": "sectionid",
+            "id": "bloghead",
             "label": "Section Title"
         },
         {
