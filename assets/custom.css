@@ -1099,6 +1099,23 @@
   margin-top: 20px;
 }
 
+.meettax .meettax-text h2 {
+  font-size: 59px;
+  line-height: normal;
+}
+
+.meettax .meettax-text h3 {
+  font-size: 25px;
+  line-height: normal;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+.meettax .meettax-text p {
+  font-size: 23px;
+  line-height: normal;
+}
 }
 
 @media screen and (max-width:1560px){
