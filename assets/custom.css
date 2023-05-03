@@ -678,7 +678,7 @@
 }
 
 .reportdashboard h2 {
-  font-size: 50px;
+  font-size: 75px;
   font-weight: 700;
   letter-spacing: normal;
   text-align: center;
@@ -1127,6 +1127,11 @@
 
   .graph-items {
     width: 28.3%;
+}
+
+.reportdashboard h2 {
+  font-size: 84px;
+  line-height: normal;
 }
 }
 
