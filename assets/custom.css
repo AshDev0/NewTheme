@@ -1724,6 +1724,16 @@
   margin: 50px auto 0;
 }
 
+#readblog {
+  width: 100%;
+  margin-top: 40px;
+}
+
+#readblog .read-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
 
 #readblog .read-container h2 {
   font-size: 55px;
