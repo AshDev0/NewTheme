@@ -840,7 +840,7 @@
   width: 100%;
   background-color: #14059b;
   padding: 100px 0;
-  margin-top: 50px;
+  margin-top: 80px;
 }
 
 .reviewsection{
@@ -1136,6 +1136,24 @@
 .reducersik-text a {
   font-size: 25px;
   width: 220px;
+  margin-top: 50px;
+}
+
+.reviewsection p {
+  font-size: 30px;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+}
+
+.reviewsection h2 {
+  font-size: 75px;
+  padding: 0;
+  margin: 0;
+}
+
+#reviewsection .reviews {
+  width: 100%;
   margin-top: 50px;
 }
 
