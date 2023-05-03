@@ -903,3 +903,13 @@
   letter-spacing: normal;
   color: #999;
 }
+
+#reviewsection .review-links{
+  text-decoration: none;
+  font-size: 15px;
+  line-height: normal;
+  font-family: ;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: normal;
+}

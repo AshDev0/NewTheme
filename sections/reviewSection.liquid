@@ -21,6 +21,8 @@
         </div>
       </div>
       {%endfor%}
+
+      <a class="review-links" href="#">{{block.settings.links}}</a>
     </div>
   </div>
 </section>
@@ -70,7 +72,18 @@
                         "type": "text",
                         "id": "designation",
                         "label": "Review Designation"
-                    }
+                    },
+                    {
+                      "type": "text",
+                      "id": "links",
+                      "label": "Review Links"
+                  },
+                  {
+                    "type": "url",
+                    "id": "url",
+                    "label": "Links"
+                    
+                  }
             ]
         }
     ],
