@@ -1494,6 +1494,17 @@
     font-size: 11px;
     line-height: normal;
   }
+
+  .reducersik-text h2 {
+    font-size: 26px;
+    line-height: normal;
+}
+
+.reducersik-text a {
+  font-size: 17px;
+  width: 140px;
+  margin-top: 20px;
+}
 }
 
 
