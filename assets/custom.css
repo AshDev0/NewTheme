@@ -1089,6 +1089,16 @@
   margin: 0;
 }
 
+.reportdashboard h2 {
+  font-size: 95px;
+  line-height: normal;
+}
+
+.reportdashboard-item h3 {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
 }
 
 @media screen and (max-width:1560px){
@@ -1100,6 +1110,12 @@
 .graph-items h2{
   font-size: 60px;
 }
+
+.reportdashboard h2 {
+  font-size: 90px;
+  line-height: normal;
+}
+
 }
 
 @media screen and (max-width: 1440px){
