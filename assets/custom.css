@@ -1443,6 +1443,34 @@
   font-size: 12px;
   line-height: normal;
 }
+
+
+.reducerisk {
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+
+.reducersik-text h2 {
+  font-size: 28px;
+  line-height: normal;
+}
+
+
+.reducersik-text p {
+  font-size: 9px;
+  line-height: normal;
+}
+
+
+
+.reducersik-text a {
+  font-size: 18px;
+  width: 140px;
+  margin-top: 20px;
+}
+
 }
 
 
