@@ -877,6 +877,15 @@
   padding: 20px;
 }
 
+#reviewsection .review-list p{
+  font-size: 18px;
+  color: #999;
+  font-weight: 500;
+  font-style: normal;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
 #reviewsection .reviewer{
   display: flex;
   justify-content: flex-start;
