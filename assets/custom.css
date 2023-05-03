@@ -1139,6 +1139,11 @@
   .graph-items {
     width: 28.3%;
 }
+
+.reportdashboard h2 {
+  font-size: 70px;
+  line-height: normal;
+}
 }
 
 @media screen and (max-width: 1024px){
