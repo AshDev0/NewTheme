@@ -678,7 +678,7 @@
 }
 
 .reportdashboard h2 {
-  font-size: 75px;
+  font-size: 75px!important;
   font-weight: 700;
   letter-spacing: normal;
   text-align: center;
