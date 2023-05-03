@@ -183,6 +183,28 @@
     },
     "26935be7-f2e7-4e34-b142-ee51c0682fc0": {
       "type": "ReadBlog",
+      "blocks": {
+        "8c82ed89-6812-477e-96b7-d4b043f9ef10": {
+          "type": "blog",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-05-03_120025.png",
+            "date": "November 25, 2021",
+            "heading": "A Holiday Tradition: Tax Extenders Slated to Expire at End of 2021"
+          }
+        },
+        "6ebe37de-dd74-486d-9885-34c9c10d6412": {
+          "type": "blog",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-05-03_120058.png",
+            "date": "November 16, 2021",
+            "heading": "What Do Global Minimum Tax Rules Mean for Corporate Tax Policies?"
+          }
+        }
+      },
+      "block_order": [
+        "8c82ed89-6812-477e-96b7-d4b043f9ef10",
+        "6ebe37de-dd74-486d-9885-34c9c10d6412"
+      ],
       "settings": {
         "sectionid": "Read our blog",
         "sectionDesc": "With lots of unique blocks, you can easily  build a page  without coding, Build your next landing page."
