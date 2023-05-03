@@ -1161,9 +1161,16 @@
     font-size: 20px;
 }
 
+.reportdashboard {
+  padding: 50px 0;
+}
+
 .reportdashboard h2 {
   font-size: 55px!important;
   line-height: normal;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 30px;
 }
 
 .reportdashboard-item h3 {
