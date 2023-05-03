@@ -1107,7 +1107,7 @@
 }
 
 .reportdashboard h2 {
-  font-size: 95px;
+  font-size: 95px!important;
   line-height: normal;
 }
 
@@ -1193,6 +1193,29 @@
   margin: 70px auto 0;
 }
 
+#readblog .read-container h2 {
+  font-size: 95px;
+  line-height: normal;
+}
+
+#readblog .read-container p {
+  font-size: 25px;
+  margin: 0 auto 50px;
+}
+
+
+#readblog .blog .blog-list .date {
+  font-size: 25px;
+  line-height: normal;
+}
+
+
+#readblog .blog .blog-list h3 {
+  font-size: 24px;
+  line-height: normal;
+  width: 50%;
+}
+
 
 }
 
@@ -1206,7 +1229,7 @@
 }
 
 .reportdashboard h2 {
-  font-size: 90px;
+  font-size: 90px!important;
   line-height: normal;
 }
 
