@@ -981,12 +981,13 @@
 
 
 #readblog .blog .blog-list h3{
-  font-size: 20px;
+  font-size: 17px;
   letter-spacing: normal;
   font-family: ;
   font-weight: 600;
   font-style: normal;
   line-height: normal;
+  width: 50%;
  }
 
 
@@ -1009,12 +1010,13 @@
  }
 
  #bookCall .bookCall-content h2{
-  font-size: 50px;
+  font-size: 43px;
   font-family: ;
   font-weight: 700;
   font-style: normal;
   line-height: normal;
   letter-spacing: normal;
+  width: 61%;
  }
 
  #bookCall .bookCall-content a{
