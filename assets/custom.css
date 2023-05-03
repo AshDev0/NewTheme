@@ -1174,6 +1174,14 @@
   font-size: 14px;
   width: 300px;
 }
+
+.graph-items h2 {
+  font-size: 40px;
+}
+
+.graph-items p {
+  font-size: 18px;
+}
 }
 
 @media screen and (max-width: 540px){
@@ -1220,5 +1228,13 @@
     width: 160px;
     text-align: center;
     margin-top: 20px;
+}
+
+.graph-container{
+  flex-direction: column;
+  gap: 20px;
+}
+.graph-items{
+  width: 60%;
 }
 }
