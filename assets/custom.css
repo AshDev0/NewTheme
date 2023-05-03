@@ -1200,6 +1200,16 @@
   width: 32%;
 }
 
+.reportdashboard {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.reportdashboard h2 {
+  font-size: 47px!important;
+  line-height: normal;
+}
+
 }
 
 @media screen and (max-width: 670px){
