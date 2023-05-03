@@ -1276,6 +1276,24 @@
   line-height: normal;
 }
 
+
+#readblog .read-container h2 {
+  font-size: 90px;
+  line-height: normal;
+}
+
+
+#readblog .read-container p {
+  font-size: 22px;
+  margin: 0 auto 50px;
+}
+
+#readblog .blog .blog-list h3 {
+  font-size: 22px;
+  line-height: normal;
+  width: 56%;
+}
+
 }
 
 @media screen and (max-width: 1440px){
