@@ -840,6 +840,7 @@
   width: 100%;
   background-color: #14059b;
   padding: 100px 0;
+  margin-top: 50px;
 }
 
 .reviewsection{
@@ -1674,5 +1675,43 @@
   font-size: 17px;
   line-height: normal;
 }
+
+#reducerisk {
+  width: 100%;
+  margin-top: 0px;
+}
+
+.reducerisk {
+  flex-direction: column-reverse;
+  gap: 20px;
+}
+
+.reducersik-text {
+  width: 100%;
+}
+
+.reducersik-img {
+  width: 100%;
+}
+
+
+
+.reducersik-text h2 {
+  font-size: 40px;
+  line-height: normal;
+}
+
+.reducersik-text p {
+  font-size: 18px;
+  line-height: normal;
+}
+
+.reducersik-text a {
+  font-size: 17px;
+  width: 130px;
+  margin-top: 50px;
+  margin: auto;
+}
+
 
 }
