@@ -943,15 +943,21 @@
   font-style: normal;
   letter-spacing: normal;
   line-height: normal;
+  color: #000;
+  z-index: 5;
 }
 
 #readblog .read-container p{
-  font-size: 18px;
+  font-size: 20px;
   font-family: ;
   font-weight: 700;
   font-style: normal;
   letter-spacing: normal;
   line-height: normal;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 50px;
 }
 
 #readblog .blog{
