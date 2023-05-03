@@ -1559,6 +1559,23 @@
   line-height: normal;
 }
 
+
+.reducersik-text h2 {
+  font-size: 22px;
+  line-height: normal;
+}
+
+.reducersik-text p {
+  font-size: 10px;
+  line-height: normal;
+}
+
+.reducersik-text a {
+  font-size: 15px;
+  width: 130px;
+  margin-top: 15px;
+}
+
 }
 
 @media screen and (max-width: 540px){
