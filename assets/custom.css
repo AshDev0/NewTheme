@@ -1603,7 +1603,7 @@
 }
 
 .reviewsection h2 {
-  font-size: 50px;
+  font-size: 45px;
   line-height: normal;
 }
 
@@ -1663,6 +1663,22 @@
   width: 140px;
   margin-top: 20px;
 }
+
+#reviewsection .review-list p {
+  font-size: 14px;
+  line-height: normal;
+}
+
+#reviewsection .reviewer .reviewer-info .name {
+  font-size: 15px;
+  line-height: normal;
+}
+
+#reviewsection .reviewer .reviewer-info .designation {
+  font-size: 11px;
+  line-height: normal;
+}
+
 }
 
 
