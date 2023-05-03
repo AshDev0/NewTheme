@@ -176,7 +176,9 @@
       ],
       "settings": {
         "para": "2,157 people have said how good taxhero",
-        "title": "Our happy clients say about us"
+        "title": "Our happy clients say about us",
+        "links": "Check all 2,157 reviews",
+        "url": "#"
       }
     }
   },
