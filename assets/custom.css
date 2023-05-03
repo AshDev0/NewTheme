@@ -1114,12 +1114,26 @@
 }
 }
 
+@media screen and (max-width: 1280px){
+  .graph-items {
+    width: 28.3%;
+}
+}
+
 @media screen and (max-width: 1024px){
   .new-container .text h2{
     font-size: 55px;
     line-height: normal;
     width: 530px;
   }
+
+  .graph-items h2 {
+    font-size: 50px;
+}
+
+  .graph-items p {
+    font-size: 20px;
+}
 }
 
 @media screen and (max-width: 820px){
@@ -1138,6 +1152,11 @@
     font-size: 16px;
     width: 360px;
 }
+
+.graph-items {
+  width: 32%;
+}
+
 }
 
 @media screen and (max-width: 670px){
