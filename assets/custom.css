@@ -833,6 +833,7 @@
 #reviewsection{
   width: 100%;
   background-color: #14059b;
+  padding: 100px 0;
 }
 
 .reviewsection{
@@ -841,8 +842,8 @@
 }
 
 .reviewsection p{
-  font-size: 14px;
-  color: #1e2a21;
+  font-size: 18px;
+  color: #999;
   font-weight: 500;
   font-style: normal;
   text-align: center;
@@ -876,7 +877,7 @@
 }
 
 #reviewsection .reviewer .reviewer-img{
-  width: 50%;
+  width: 35%;
 }
 
 #reviewsection .reviewer .reviewer-img img{
@@ -885,23 +886,27 @@
 }
 
 #reviewsection .reviewer .reviewer-info{
-  width: 50%;
+  width: 65%;
 }
 
 #reviewsection .reviewer .reviewer-info .name{
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
   font-style: normal;
   letter-spacing: normal;
   color: #000;
+  padding: 0;
+  margin: 0;
 }
 
 #reviewsection .reviewer .reviewer-info .designation{
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 600;
   font-style: normal;
   letter-spacing: normal;
   color: #999;
+  padding: 0;
+  margin: 0;
 }
 
 #reviewsection .review-links{
@@ -912,4 +917,11 @@
   font-weight: 500;
   font-style: normal;
   letter-spacing: normal;
+  color: #fff;
+  text-align: center;
+  display: block;
+  border-bottom: 1px solid #fff;
+  width: 150px;
+  margin: 0 auto;
+  margin-top: 70px;
 }
