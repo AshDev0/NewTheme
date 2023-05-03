@@ -180,6 +180,43 @@
         "links": "Check all 2,157 reviews",
         "url": "#"
       }
+    },
+    "26935be7-f2e7-4e34-b142-ee51c0682fc0": {
+      "type": "ReadBlog",
+      "blocks": {
+        "8c82ed89-6812-477e-96b7-d4b043f9ef10": {
+          "type": "blog",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-05-03_120025.png",
+            "date": "November 25, 2021",
+            "heading": "A Holiday Tradition: Tax Extenders Slated to Expire at End of 2021"
+          }
+        },
+        "6ebe37de-dd74-486d-9885-34c9c10d6412": {
+          "type": "blog",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-05-03_120058.png",
+            "date": "November 16, 2021",
+            "heading": "What Do Global Minimum Tax Rules Mean for Corporate Tax Policies?"
+          }
+        }
+      },
+      "block_order": [
+        "8c82ed89-6812-477e-96b7-d4b043f9ef10",
+        "6ebe37de-dd74-486d-9885-34c9c10d6412"
+      ],
+      "settings": {
+        "sectionid": "Read our blog",
+        "sectionDesc": "With lots of unique blocks, you can easily  build a page  without coding, Build your next landing page."
+      }
+    },
+    "9af8a080-2fe7-4bd0-bd8f-65cad1363160": {
+      "type": "bookSection",
+      "settings": {
+        "heading": "Take action now to stay compliant. Grow business without tension.",
+        "bookCall": "Book A Call",
+        "url": "#"
+      }
     }
   },
   "order": [
@@ -190,6 +227,8 @@
     "5083e136-89b3-42bf-bf99-cb92082051b8",
     "a7745780-bc5e-4335-a429-6f05d5383500",
     "196134aa-2f15-40c3-9dec-3798884c0922",
-    "80394829-3f31-45e6-8958-bcb26d63f4d2"
+    "80394829-3f31-45e6-8958-bcb26d63f4d2",
+    "26935be7-f2e7-4e34-b142-ee51c0682fc0",
+    "9af8a080-2fe7-4bd0-bd8f-65cad1363160"
   ]
 }
