@@ -1493,4 +1493,33 @@
   width: 100%;
 }
 
+.meettax {
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+.meettax .meettax-img {
+  width: 100%;
+}
+
+.meettax .meettax-text {
+  width: 100%;
+}
+
+.meettax .meettax-text h2 {
+  font-size: 35px;
+  line-height: normal;
+}
+
+.meettax .meettax-text h3 {
+  font-size: 18px;
+  line-height: normal;
+}
+
+.meettax .meettax-text p {
+  font-size: 17px;
+  line-height: normal;
+}
+
 }
