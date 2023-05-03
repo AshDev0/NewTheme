@@ -1906,5 +1906,61 @@
   margin: auto;
 }
 
+#reviewsection {
+  width: 100%;
+  padding: 50px 0;
+  margin-top: 40px;
+}
+
+.reviewsection p {
+  font-size: 20px;
+  line-height: normal;
+}
+
+.reviewsection h2 {
+  font-size: 35px;
+  line-height: normal;
+}
+
+#reviewsection .reviews {
+  flex-direction: column;
+  gap: 20px;
+}
+
+#reviewsection .review-list {
+  width: 100%;
+  background-color: #fff;
+  padding: 20px;
+}
+
+#reviewsection .reviewer {
+  margin-top: 20px;
+}
+
+#reviewsection .review-list p {
+  font-size: 25px;
+  line-height: normal;
+}
+
+#reviewsection .reviewer .reviewer-img {
+  width: 20%;
+}
+
+#reviewsection .reviewer .reviewer-info {
+  width: 80%;
+}
+
+
+#reviewsection .reviewer .reviewer-info .name {
+  font-size: 20px;
+  line-height: normal;
+}
+
+
+
+#reviewsection .reviewer .reviewer-info .designation {
+  font-size: 24px;
+  line-height: normal;
+}
 
 }
