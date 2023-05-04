@@ -1068,7 +1068,7 @@
  }
 
  #scooterModel .model-container{
-  padding: 106px 142px 50px 0;
+  padding: 106px 106px 50px 106px;
  }
 
 
@@ -1112,6 +1112,7 @@
 #scooterModel .model-images .dfx-model-img img{
   width: 100%;
   display: block;
+  display: none;
 }
 
  #scooterModel .model-content .model-content-two{
