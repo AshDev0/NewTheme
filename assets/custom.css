@@ -1370,6 +1370,11 @@
 
 @media screen and (max-width: 1366px){
 
+  .reportdashboard h2 {
+    font-size: 75px!important;
+    line-height: normal;
+}
+
   .meettax .meettax-text h2 {
     font-size: 45px;
     line-height: normal;
