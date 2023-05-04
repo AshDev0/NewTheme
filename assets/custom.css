@@ -1119,12 +1119,6 @@
   display: none;
 }
 
- #scooterModel .model-content .model-content-two{
-  width: 34%;
- }
-
-
-
  #scooterModel .model-content-two .model-btn-container{
   max-width: 406px;
   margin: 0 auto;
@@ -1154,6 +1148,23 @@
   font-weight: 700;
 }
 
+
+#scooterModel .model-content .model-content-two{
+  width: 34%;
+ }
+
+
+ #scooterModel .model-content-two .feature-container {
+  max-width: 554px;
+  padding: 40px 45px 45px;
+  margin: 45px auto 0;
+  background-image: url(gradient-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+  position: relative;
+}
 
 
 
