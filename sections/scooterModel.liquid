@@ -24,9 +24,18 @@
         <div class="feature-container">
           <div class="model-price">
             <p class="first-model-price">{{ section.settings['first-model-price'] }}</p>
-            {% comment %} <p class="second-model-price">{{ section.settings['second-model-price'] }}</p> {% endcomment %}
+            <p class="first-model-price">{{ section.settings['second-model-price'] }}</p>
           </div>
           <div class="feature-info">
+          <ul class="feature-list">
+            {% for block in section.blocks %}
+              <li class="feature">
+                {{ block.settings.feature }}
+                <span class="feature-desc">{{ block.settings['feature-desc'] }}</span>
+              </li>
+            {% endfor %}
+          </ul>
+
           <ul class="feature-list">
             {% for block in section.blocks %}
               <li class="feature">
