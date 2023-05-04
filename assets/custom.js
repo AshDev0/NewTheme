@@ -100,4 +100,4 @@ $(document).on("click", ".model-btn-container .df-model", function () {
 
 //   // $(".easytabs-content-item").addClass("content-item-active");
 //   // $(this).siblings(".easytabs-content-item").removeClass("content-item-active");
-// });
+});
