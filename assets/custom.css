@@ -1165,6 +1165,7 @@
   text-align: center;
   font-family: Gotham-Book;
   cursor: pointer;
+  display: block;
  }
 
 
@@ -1254,6 +1255,26 @@
   line-height: 20px;
   width: 100%;
 }
+
+
+#scooterModel .reserve-btn button{
+    width: 262px;
+    height: 60px;
+    padding: 0;
+    position: absolute;
+    border-radius: 4px;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: -38px;
+    font-weight: 400;
+    font-size: 16.5199px;
+    line-height: 20px;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+}
+
+
+
 
 
  @media screen and (max-width: 1920px){
