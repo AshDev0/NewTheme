@@ -1140,6 +1140,7 @@
   padding: 0;
   text-transform: uppercase;
   border: none;
+  cursor: pointer;
 }
 
 #scooterModel .model-content-two .model-btn-container button.active {
@@ -1233,6 +1234,12 @@
     background-image: url(Check-Info.svg);
     background-repeat: no-repeat;
     background-position: center;
+}
+
+#scooterModel .feature-info .feature-list li span {
+  font-size: 10px;
+  line-height: 20px;
+  width: 100%;
 }
 
 
