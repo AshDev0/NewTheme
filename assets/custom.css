@@ -1108,15 +1108,17 @@
   color: rgb(158, 158, 158);
 }
 
+#scooterModel .model-images .df-model-img{
+  display: none;
+}
+
 #scooterModel .model-images .df-model-img img{
   width: 100%;
   display: block;
 }
 
-#scooterModel .model-images .dfx-model-img img{
-  width: 100%;
+.show-model-img{
   display: block;
-  display: none;
 }
 
  #scooterModel .model-content-two .model-btn-container{
