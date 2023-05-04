@@ -17,8 +17,8 @@
       </div>
       <div class="model-content-two">
         <div class="model-btn-container">
-          <button class="btn df-model active" data-tab="1">{{ section.settings['first-btn-txt'] }}</button>
-          <button class="btn df-model" data-tab="2">{{ section.settings['second-btn-txt'] }}</button>
+          <button class="btn-one df-model active" data-tab="1">{{ section.settings['first-btn-txt'] }}</button>
+          <button class="btn-two df-model" data-tab="2">{{ section.settings['second-btn-txt'] }}</button>
         </div>
         <a href="#">{{ section.settings.compare-txt }}</a>
         <div class="main-feature">
@@ -36,6 +36,9 @@
             {% endfor %}
           </ul>
         </div>
+        <div class="reserve-btn">
+            <button>{{section.settings.btn-text}}</button>
+            </div>
         </div>
         <div class="feature-container" data-tab="2">
             <div class="model-price">
@@ -51,10 +54,10 @@
               {% endfor %}
             </ul>
           </div>
+          <div class="reserve-btn">
+            <button>{{section.settings.btn-text}}</button>
+            </div>
           </div>
-        </div>
-        <div class="reserve-btn">
-        <button>{{section.settings.btn-text}}</button>
         </div>
         </div>
       </div>
