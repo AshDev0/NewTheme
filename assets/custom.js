@@ -94,7 +94,7 @@ $(document).on("click", ".model-btn-container .df-model", function () {
 $(document).on("click", ".model-btn-container .df-model", function () {
   let tabValue = $(this).data("tab");
   $(".feature-container").removeClass("feature-container-active");
-  $(".easytabs-contents")
+  $(".feature-container")
     .find("[data-tab=" + tabValue + "]")
     .addClass("feature-container-active");
 
