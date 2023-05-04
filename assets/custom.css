@@ -1121,6 +1121,33 @@
 
 
 
+ #scooterModel .model-content-two .model-btn-container{
+  max-width: 406px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#scooterModel .model-content-two .model-btn-container button {
+  width: 50%;
+  max-width: 203px;
+  height: 62px;
+  border-radius: 0;
+  color: #9e9e9e;
+  background-color: #18181c;
+  font-weight: 300;
+  font-size: 15.21px;
+  line-height: 28.3px;
+  min-width: unset;
+  padding: 0;
+}
+
+#scooterModel .model-content-two .model-btn-container button.active {
+  color: #000;
+  background-color: #00e3a5;
+  font-weight: 700;
+}
+
 
 
 
