@@ -97,7 +97,6 @@ $(document).on("click", ".model-btn-container .df-model", function () {
   $(".feature-container")
     .find("[data-tab=" + tabValue + "]")
     .addClass("feature-container-active");
-
-//   // $(".easytabs-content-item").addClass("content-item-active");
-//   // $(this).siblings(".easytabs-content-item").removeClass("content-item-active");
+  $(".feature-container").addClass("feature-container-active");
+  $(this).siblings(".feature-container").removeClass("feature-container-active");
 });
