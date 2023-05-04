@@ -1141,7 +1141,7 @@
   min-width: unset;
   padding: 0;
   text-transform: uppercase;
-  outline: unset;
+  border: none;
 }
 
 #scooterModel .model-content-two .model-btn-container button.active {
