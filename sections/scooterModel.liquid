@@ -7,7 +7,7 @@
         <p>{{ section.settings.para }}</p>
         </div>
         <div class="model-images">
-          <div class="df-model-img">
+          <div class="df-model-img df-model-img-active">
             <img src="{{section.settings.img-one | img_url:'master' }}" alt="df-model-img">
           </div>
           <div class="df-model-img">
@@ -21,10 +21,9 @@
           <button class="btn df-model">{{ section.settings['second-btn-txt'] }}</button>
         </div>
         <a href="#">{{ section.settings.compare-txt }}</a>
-        <div class="feature-container">
+        <div class="feature-container feature-container-active">
           <div class="model-price">
             <p class="first-model-price">{{ section.settings['first-model-price'] }}</p>
-            <p class="first-model-price">{{ section.settings['second-model-price'] }}</p>
           </div>
           <div class="feature-info">
           <ul class="feature-list">

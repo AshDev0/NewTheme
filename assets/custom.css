@@ -1117,7 +1117,7 @@
   display: block;
 }
 
-.show-model-img{
+.df-model-img-active{
   display: block;
 }
 
@@ -1181,6 +1181,11 @@
   background-size: cover;
   border-radius: 15px;
   position: relative;
+  display: none;
+}
+
+.feature-container-active{
+  display: block;
 }
 
 
