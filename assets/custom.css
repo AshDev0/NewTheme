@@ -1078,6 +1078,13 @@
   justify-content: space-between;
  }
 
+ #scooterModel .model-content .model-content-one{
+  width: 66%;
+ }
+
+ #scooterModel .model-content .model-content-two{
+  width: 34%;
+ }
 
 
 
