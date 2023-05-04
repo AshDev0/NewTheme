@@ -360,7 +360,11 @@
         "first-btn-txt": "df model",
         "second-btn-txt": "dfx model",
         "first-model-price": "$600",
-        "second-model-price": "$900"
+        "second-model-price": "$900",
+        "compare-txt": "How does D-fly compare to other scooters?",
+        "compare-txt-url": "#",
+        "btn-text": "Reserve Now",
+        "url": ""
       }
     }
   },
