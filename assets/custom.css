@@ -1082,9 +1082,13 @@
   width: 66%;
  }
 
+ .model-header{
+    max-width: 83%;
+ }
 
 
- #scooterModel .model-content .model-content-one h2 {
+
+ #scooterModel .model-content-one .model-header h2 {
   font-size: 2.5rem;
   line-height: 3.625rem;
   font-family: D-Fly-Light;
@@ -1095,7 +1099,7 @@
 }
 
 
-#scooterModel .model-content .model-content-one p {
+#scooterModel .model-content-one .model-header p {
   font-size: 18px;
   line-height: 19px;
   font-family: Gotham-Book;
