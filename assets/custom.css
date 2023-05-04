@@ -1155,6 +1155,19 @@
  }
 
 
+ #scooterModel .model-content-two a{
+  color: #00e3a5;
+  font-size: 18px;
+  line-height: 19.28px;
+  font-weight: 500;
+  margin-top: 20px;
+  text-decoration-line: underline;
+  text-align: center;
+  font-family: Gotham-Book;
+  cursor: pointer;
+ }
+
+
  #scooterModel .model-content-two .feature-container {
   max-width: 554px;
   padding: 40px 45px 45px;
