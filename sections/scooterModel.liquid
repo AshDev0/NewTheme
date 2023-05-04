@@ -17,11 +17,11 @@
       </div>
       <div class="model-content-two">
         <div class="model-btn-container">
-          <button class="btn df-model active">{{ section.settings['first-btn-txt'] }}</button>
-          <button class="btn df-model">{{ section.settings['second-btn-txt'] }}</button>
+          <button class="btn df-model active" data-tab="1">{{ section.settings['first-btn-txt'] }}</button>
+          <button class="btn df-model" data-tab="2">{{ section.settings['second-btn-txt'] }}</button>
         </div>
         <a href="#">{{ section.settings.compare-txt }}</a>
-        <div class="feature-container feature-container-active">
+        <div class="feature-container feature-container-active" data-tab="1">
           <div class="model-price">
             <p class="first-model-price">{{ section.settings['first-model-price'] }}</p>
           </div>
@@ -35,7 +35,7 @@
             {% endfor %}
           </ul>
         </div>
-        <div class="feature-container">
+        <div class="feature-container" data-tab="2">
             <div class="model-price">
               <p class="first-model-price">{{ section.settings['second-model-price'] }}</p>
             </div>

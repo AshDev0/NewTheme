@@ -91,12 +91,12 @@ $(document).on("click", ".model-btn-container .df-model", function () {
   $(this).siblings(".df-model").removeClass("active");
 });
 
-// $(document).on("click", ".easytabs-tabs li", function () {
-//   let tabValue = $(this).data("tab");
-//   $(".easytabs-content-item").removeClass("content-item-active");
-//   $(".easytabs-contents")
-//     .find("[data-tab=" + tabValue + "]")
-//     .addClass("content-item-active");
+$(document).on("click", ".model-btn-container .df-model", function () {
+  let tabValue = $(this).data("tab");
+  $(".feature-container").removeClass("feature-container-active");
+  $(".easytabs-contents")
+    .find("[data-tab=" + tabValue + "]")
+    .addClass("feature-container-active");
 
 //   // $(".easytabs-content-item").addClass("content-item-active");
 //   // $(this).siblings(".easytabs-content-item").removeClass("content-item-active");
