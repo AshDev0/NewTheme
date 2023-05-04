@@ -206,7 +206,7 @@
         "6ebe37de-dd74-486d-9885-34c9c10d6412"
       ],
       "settings": {
-        "sectionid": "Read our blog",
+        "bloghead": "",
         "sectionDesc": "With lots of unique blocks, you can easily  build a page  without coding, Build your next landing page."
       }
     },
@@ -216,6 +216,151 @@
         "heading": "Take action now to stay compliant. Grow business without tension.",
         "bookCall": "Book A Call",
         "url": "#"
+      }
+    },
+    "da7d6cda-6e63-4fc0-b432-50ed99e5f300": {
+      "type": "scooterModel",
+      "blocks": {
+        "c6f99496-9278-456a-b2af-b2ba3e151fcf": {
+          "type": "model",
+          "settings": {
+            "feature": "25MP\/H Top Speed",
+            "feature-desc": ""
+          }
+        },
+        "398d3d0d-10ad-4f08-90c3-46a0b6455ff2": {
+          "type": "model",
+          "settings": {
+            "feature": "50 Mile Max Range",
+            "feature-desc": "(subject to riding conditions)"
+          }
+        },
+        "5068aaa2-7708-4296-bfb8-9634027fc27b": {
+          "type": "model",
+          "settings": {
+            "feature": "48V Charge Input",
+            "feature-desc": ""
+          }
+        },
+        "08109273-dc86-4686-be3c-79938aead583": {
+          "type": "model",
+          "settings": {
+            "feature": "Dual Wishbone",
+            "feature-desc": "(Fully Independent & Adjustable, Hydraulic Damped Sprung Suspension)"
+          }
+        },
+        "2ffb2107-a13b-4577-a5eb-fbb124b4f6f2": {
+          "type": "model",
+          "settings": {
+            "feature": "Electric Front Brakes",
+            "feature-desc": ""
+          }
+        },
+        "255e7298-dbba-4053-9807-06fe0ad35158": {
+          "type": "model",
+          "settings": {
+            "feature": "Dual Drum Rear Brakes",
+            "feature-desc": ""
+          }
+        },
+        "1f114f13-e688-477c-a34f-673f9523af47": {
+          "type": "model",
+          "settings": {
+            "feature": "Automotive Grade Twin Headlights",
+            "feature-desc": ""
+          }
+        },
+        "c375fb29-1dd5-4644-8190-14fdb02bcf47": {
+          "type": "model",
+          "settings": {
+            "feature": "Rear LED Light Bar",
+            "feature-desc": "w. tail light, turn signals, brake light"
+          }
+        },
+        "9e041fa7-b472-41a9-b121-77155ca9e746": {
+          "type": "model",
+          "settings": {
+            "feature": "10\" Pneumatic City Tires",
+            "feature-desc": ""
+          }
+        },
+        "79416c5a-acbf-4ffe-a768-99ebcd80dac9": {
+          "type": "model",
+          "settings": {
+            "feature": "4 Ride Modes",
+            "feature-desc": ""
+          }
+        },
+        "806fe765-8f09-47aa-9ab8-919219483e43": {
+          "type": "model",
+          "settings": {
+            "feature": "5\" Digital Display",
+            "feature-desc": ""
+          }
+        },
+        "2980cda6-25cb-4021-864b-e1a759c1c205": {
+          "type": "model",
+          "settings": {
+            "feature": "Mobile App",
+            "feature-desc": ""
+          }
+        },
+        "c5cf8b7d-a3dc-4580-9d0a-679261d37cfc": {
+          "type": "model",
+          "settings": {
+            "feature": "Security: Pin Lock Mechanism",
+            "feature-desc": ""
+          }
+        },
+        "2f6dfe0e-8e92-4063-a081-e0ef9a87a8c8": {
+          "type": "model",
+          "settings": {
+            "feature": "Horn",
+            "feature-desc": ""
+          }
+        },
+        "ae6fa88a-e11b-4a49-84a1-0ad0d17c2ddc": {
+          "type": "model",
+          "settings": {
+            "feature": "Accessories",
+            "feature-desc": ""
+          }
+        },
+        "a5750355-170a-494b-a2df-df8acdd8fcb9": {
+          "type": "model",
+          "settings": {
+            "feature": "Patented Full-Tilt",
+            "feature-desc": ""
+          }
+        }
+      },
+      "block_order": [
+        "c6f99496-9278-456a-b2af-b2ba3e151fcf",
+        "398d3d0d-10ad-4f08-90c3-46a0b6455ff2",
+        "5068aaa2-7708-4296-bfb8-9634027fc27b",
+        "08109273-dc86-4686-be3c-79938aead583",
+        "2ffb2107-a13b-4577-a5eb-fbb124b4f6f2",
+        "255e7298-dbba-4053-9807-06fe0ad35158",
+        "1f114f13-e688-477c-a34f-673f9523af47",
+        "c375fb29-1dd5-4644-8190-14fdb02bcf47",
+        "9e041fa7-b472-41a9-b121-77155ca9e746",
+        "79416c5a-acbf-4ffe-a768-99ebcd80dac9",
+        "806fe765-8f09-47aa-9ab8-919219483e43",
+        "2980cda6-25cb-4021-864b-e1a759c1c205",
+        "c5cf8b7d-a3dc-4580-9d0a-679261d37cfc",
+        "2f6dfe0e-8e92-4063-a081-e0ef9a87a8c8",
+        "ae6fa88a-e11b-4a49-84a1-0ad0d17c2ddc",
+        "a5750355-170a-494b-a2df-df8acdd8fcb9"
+      ],
+      "settings": {
+        "heading": "choose your model",
+        "para": "From city streets to off-road trails, Dragonfly was precision engineered to make every ride epic.",
+        "img-one": "shopify:\/\/shop_images\/mockup-2_e44ee848-4014-45d8-8fd0-f436ca1e64f7.png",
+        "img-two": "shopify:\/\/shop_images\/PurpleMockup_e28165c7-7e18-43bb-83e3-67896191f63e.png",
+        "first-btn-txt": "df model",
+        "second-btn-txt": "dfx model",
+        "first-model-price": "$600",
+        "second-model-price": "$900"
       }
     }
   },
@@ -229,6 +374,7 @@
     "196134aa-2f15-40c3-9dec-3798884c0922",
     "80394829-3f31-45e6-8958-bcb26d63f4d2",
     "26935be7-f2e7-4e34-b142-ee51c0682fc0",
-    "9af8a080-2fe7-4bd0-bd8f-65cad1363160"
+    "9af8a080-2fe7-4bd0-bd8f-65cad1363160",
+    "da7d6cda-6e63-4fc0-b432-50ed99e5f300"
   ]
 }
