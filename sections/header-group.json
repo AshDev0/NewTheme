@@ -206,7 +206,7 @@
         "6ebe37de-dd74-486d-9885-34c9c10d6412"
       ],
       "settings": {
-        "sectionid": "Read our blog",
+        "bloghead": "",
         "sectionDesc": "With lots of unique blocks, you can easily  build a page  without coding, Build your next landing page."
       }
     },
@@ -216,6 +216,19 @@
         "heading": "Take action now to stay compliant. Grow business without tension.",
         "bookCall": "Book A Call",
         "url": "#"
+      }
+    },
+    "da7d6cda-6e63-4fc0-b432-50ed99e5f300": {
+      "type": "scooterModel",
+      "settings": {
+        "heading": "choose your model",
+        "para": "From city streets to off-road trails, Dragonfly was precision engineered to make every ride epic.",
+        "img-one": "shopify:\/\/shop_images\/mockup-2_e44ee848-4014-45d8-8fd0-f436ca1e64f7.png",
+        "img-two": "shopify:\/\/shop_images\/PurpleMockup_e28165c7-7e18-43bb-83e3-67896191f63e.png",
+        "first-btn-txt": "df model",
+        "second-btn-txt": "dfx model",
+        "first-model-price": "$600",
+        "second-model-price": "$900"
       }
     }
   },
@@ -229,6 +242,7 @@
     "196134aa-2f15-40c3-9dec-3798884c0922",
     "80394829-3f31-45e6-8958-bcb26d63f4d2",
     "26935be7-f2e7-4e34-b142-ee51c0682fc0",
-    "9af8a080-2fe7-4bd0-bd8f-65cad1363160"
+    "9af8a080-2fe7-4bd0-bd8f-65cad1363160",
+    "da7d6cda-6e63-4fc0-b432-50ed99e5f300"
   ]
 }
