@@ -84,3 +84,20 @@ $(".accordion-content-head").click(function (e) {
   $(".accordion-content-head").toggleClass("active");
   $(this).siblings(".accordion-content-head").removeClass("active");
 });*/
+
+
+$(document).on("click", ".model-btn-container .df-model", function () {
+  $(this).toggleClass("active");
+  $(this).siblings(".df-model").removeClass("active");
+});
+
+// $(document).on("click", ".easytabs-tabs li", function () {
+//   let tabValue = $(this).data("tab");
+//   $(".easytabs-content-item").removeClass("content-item-active");
+//   $(".easytabs-contents")
+//     .find("[data-tab=" + tabValue + "]")
+//     .addClass("content-item-active");
+
+//   // $(".easytabs-content-item").addClass("content-item-active");
+//   // $(this).siblings(".easytabs-content-item").removeClass("content-item-active");
+// });
