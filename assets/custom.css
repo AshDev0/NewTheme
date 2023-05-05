@@ -2215,6 +2215,11 @@
   margin-top: -60px;
 }
 
+#scooterModel .model-content-one .model-header h2 {
+  font-size: 4.5rem;
+  line-height: 5.625rem;
+}
+
 .blackbgreview {
   width: 100%;
   padding: 70px 20px;
