@@ -1435,6 +1435,7 @@
   height: 44px;
   transition: unset !important;
   background: #000;
+  width: 450px;
 }
 
 .reserve-form .logo_klarna {
