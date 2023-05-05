@@ -1295,7 +1295,7 @@
   padding: 70px 100px;
 }
 
-.blackbgreview .content{
+.blackbgreview .black-content{
   width: 100%;
   background: #16161d;
   padding: 80px;
@@ -1308,7 +1308,7 @@
 }
 
 
-.blackbgreview .content .heading h2 {
+.blackbgreview .black-content .heading h2 {
   margin: 0;
   color: #fff;
   font-size: 22px;
@@ -1318,7 +1318,7 @@
   text-transform: uppercase;
 }
 
-.blackbgreview .content .desc p {
+.blackbgreview .black-content .desc p {
   font-size: 38px;
   color: #fff;
   line-height: 62px;
