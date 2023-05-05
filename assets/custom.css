@@ -1470,6 +1470,21 @@
   position: relative;
 }
 
+#reservenow .producrtion_text {
+  margin-top: 12px;
+}
+
+#reservenow .producrtion_text p {
+  margin: 0;
+  font-family: Gotham-Book;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #778cac;
+  position: relative;
+}
+
 .newsletter-checkbox input:checked + .inputLabel:before {
   background-image: url(Check-Icon.svg);
 }
@@ -1486,21 +1501,6 @@
   border-image-width: auto;
   background-repeat: no-repeat;
   background-position: center;
-}
-
-#reservenow .producrtion_text {
-  margin-top: 12px;
-}
-
-#reservenow .producrtion_text p {
-  margin: 0;
-  font-family: Gotham-Book;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 18px;
-  color: #778cac;
-  position: relative;
 }
 
 @media screen and (max-width: 1920px) {
