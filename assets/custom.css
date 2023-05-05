@@ -2570,6 +2570,11 @@
     padding: 50px;
   }
 
+  .close-btn {
+    right: 90px;
+    top: 130px;
+  }
+
   .reservenow .reserve-wrapper {
     padding: 50px 50px 56px;
     box-shadow: 0 0 20px #000;
