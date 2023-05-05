@@ -2195,6 +2195,13 @@
     line-height: normal;
     width: 84%;
   }
+
+  .reserve-container .contact_form input {
+    font-size: 14px;
+    line-height: 18px;
+    padding: 15px 10px;
+    width: unset;
+  }
 }
 
 @media screen and (max-width: 768px) {
