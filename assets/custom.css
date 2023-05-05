@@ -1876,6 +1876,23 @@
   width: 70%;
 }
 
+#scooterModel .model-content {
+  flex-direction: column;
+}
+
+#scooterModel .model-content .model-content-one {
+  width: auto;
+}
+
+.model-header {
+  max-width: 100%;
+}
+
+#scooterModel .model-content .model-content-two {
+  width: auto;
+  margin-top: -100px;
+}
+
 }
 
 @media screen and (max-width: 820px){
@@ -2193,6 +2210,10 @@
   width: 84%;
 }
 
+#scooterModel .model-content .model-content-two {
+  width: auto;
+  margin-top: -60px;
+}
 
 
 }
