@@ -1412,6 +1412,7 @@
   flex-wrap: wrap;
   gap: 21px;
   align-items: center;
+  justify-content: space-between;
 }
 
 .reserve-container .contact_form input {
@@ -1427,6 +1428,7 @@
   padding: 13px 23px;
   height: 44px;
   transition: unset !important;
+  background: #000;
 }
 
 .reserve-form .logo_klarna {
