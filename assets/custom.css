@@ -1685,6 +1685,16 @@
     margin-left: 19px;
     display: inherit;
   }
+
+  .newsletter-checkbox .inputLabel {
+    font-family: Gotham-Book;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    color: #778cac;
+    position: relative;
+  }
 }
 
 @media screen and (max-width: 1560px) {
