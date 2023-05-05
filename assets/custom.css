@@ -1660,6 +1660,12 @@
     line-height: normal;
     width: 50%;
   }
+
+  .close-btn {
+    position: absolute;
+    right: 290px;
+    top: 130px;
+  }
 }
 
 @media screen and (max-width: 1560px) {
