@@ -1429,6 +1429,13 @@
   transition: unset !important;
 }
 
+.reserve-form .field-four {
+  max-width: 101px;
+  max-height: 20px;
+  margin-left: 19px;
+  display: inherit;
+}
+
 .newsletter-checkbox {
   display: flex;
   flex-wrap: wrap;
