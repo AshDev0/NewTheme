@@ -1694,6 +1694,10 @@
     line-height: 20px;
   }
 
+  .newsletter-checkbox {
+    margin-top: 20px;
+  }
+
   #reservenow .product_text p {
     font-size: 20px;
     line-height: 22px;
