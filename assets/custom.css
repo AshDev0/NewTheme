@@ -1414,6 +1414,18 @@
   align-items: center;
 }
 
+.newsletter-checkbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 7px;
+}
+
+.producrtion_text {
+  margin-top: 12px;
+}
+
 @media screen and (max-width: 1920px) {
   .new-container .text h2 {
     font-size: 90px;
