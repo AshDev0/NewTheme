@@ -1666,6 +1666,10 @@
     right: 290px;
     top: 130px;
   }
+
+  .reserve-container .reserve-form {
+    padding: 100px 50px 100px;
+  }
 }
 
 @media screen and (max-width: 1560px) {
