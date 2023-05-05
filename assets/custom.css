@@ -2369,6 +2369,13 @@
     box-shadow: 0 0 20px #000;
     width: 100%;
   }
+
+  .reserve-container .contact_form input {
+    font-size: 14px;
+    line-height: 18px;
+    padding: 15px 10px;
+    width: unset;
+  }
 }
 
 @media screen and (max-width: 540px) {
