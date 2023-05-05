@@ -96,3 +96,11 @@ $(document).on("click", ".model-btn-container button", function () {
   $('.df-model-img').removeClass("df-model-img-active");
   $('.df-model-img[data-tab="'+tabValue+'"]').addClass("df-model-img-active");
 });
+
+
+
+$('#blackbgreview .content').slick({
+  infinite: true,
+  slidesToShow: 1,
+  slidesToScroll: 1
+});
