@@ -99,7 +99,7 @@ $(document).on("click", ".model-btn-container button", function () {
 
 
 
-$('#blackbgreview .content').slick({
+$('.content').slick({
   infinite: true,
   slidesToShow: 1,
   slidesToScroll: 1
