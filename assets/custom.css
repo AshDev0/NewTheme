@@ -1470,11 +1470,11 @@
   position: relative;
 }
 
-#reservenow .production_text {
+#reservenow .product_text {
   margin-top: 12px;
 }
 
-#reservenow .production_text p {
+#reservenow .product_text p {
   margin: 0;
   font-family: Gotham-Book;
   font-style: normal;
