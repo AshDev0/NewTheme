@@ -2360,6 +2360,11 @@
     width: 100%;
     padding: 70px 20px;
   }
+
+  .close-btn {
+    right: 160px;
+    top: 80px;
+  }
 }
 
 @media screen and (max-width: 540px) {
