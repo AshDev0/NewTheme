@@ -1470,6 +1470,10 @@
   position: relative;
 }
 
+.newsletter-checkbox input:checked + .inputLabel:before {
+  background-image: url(Check-Icon.svg);
+}
+
 .newsletter-checkbox .inputLabel:before {
   content: "";
   position: absolute;
