@@ -1682,8 +1682,11 @@
   .reserve-form .logo_klarna {
     max-width: 150px;
     max-height: 40px;
-    margin-left: 19px;
-    display: inherit;
+  }
+
+  .newsletter-checkbox input {
+    width: 20px;
+    height: 20px;
   }
 
   .newsletter-checkbox .inputLabel {
