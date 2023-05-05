@@ -103,8 +103,8 @@ $(window).on("load", function () {
   $(".content").slick({
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true,
+    autoplay: false,
     arrows: false,
-    autoplaySpeed: 2000,
+    // autoplaySpeed: 2000,
   });
 });
