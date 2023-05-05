@@ -99,8 +99,12 @@ $(document).on("click", ".model-btn-container button", function () {
 
 
 
-$('.content').slick({
-  infinite: true,
-  slidesToShow: 1,
-  slidesToScroll: 1
+$(window).on("load", function () {
+  $(".content").slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    arrows: false,
+    autoplaySpeed: 2000,
+  });
 });
