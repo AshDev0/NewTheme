@@ -366,6 +366,31 @@
         "btn-text": "Reserve Now",
         "url": ""
       }
+    },
+    "218575aa-7211-4d60-9ce9-99c02f30eb00": {
+      "type": "blackbgReview",
+      "blocks": {
+        "229bee6c-e798-47d5-a316-f1763fd2a6a2": {
+          "type": "reviews",
+          "settings": {
+            "heading": "the future is here",
+            "desc": "We envision a world where clean, sustainable electric mobility is part of everyday life, no matter who you are or where you live."
+          }
+        },
+        "b316fa0e-1d9f-4705-810d-d2a2865e54c4": {
+          "type": "reviews",
+          "settings": {
+            "heading": "The Future is Here",
+            "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+          }
+        }
+      },
+      "block_order": [
+        "229bee6c-e798-47d5-a316-f1763fd2a6a2",
+        "b316fa0e-1d9f-4705-810d-d2a2865e54c4"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -379,6 +404,7 @@
     "80394829-3f31-45e6-8958-bcb26d63f4d2",
     "26935be7-f2e7-4e34-b142-ee51c0682fc0",
     "9af8a080-2fe7-4bd0-bd8f-65cad1363160",
-    "da7d6cda-6e63-4fc0-b432-50ed99e5f300"
+    "da7d6cda-6e63-4fc0-b432-50ed99e5f300",
+    "218575aa-7211-4d60-9ce9-99c02f30eb00"
   ]
 }
