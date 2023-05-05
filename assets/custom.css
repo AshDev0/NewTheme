@@ -1332,7 +1332,7 @@
 .reservenow {
   position: fixed;
   top: 0;
-  z-index: -1;
+  z-index: 1;
   left: 0;
   background: rgba(0, 0, 0, 0.7);
   width: 100%;
