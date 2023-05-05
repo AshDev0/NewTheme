@@ -1302,6 +1302,11 @@
   overflow: hidden;
 }
 
+.blackbgreview .main-content{
+  width: 100%;
+  overflow: hidden;
+}
+
 
 .blackbgreview .content .heading h2 {
   margin: 0;
