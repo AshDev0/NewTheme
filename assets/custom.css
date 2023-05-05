@@ -1488,11 +1488,11 @@
   background-position: center;
 }
 
-.producrtion_text {
+#reservenow .producrtion_text {
   margin-top: 12px;
 }
 
-.producrtion_text p {
+#reservenow .producrtion_text p {
   margin: 0;
   font-family: Gotham-Book;
   font-style: normal;
