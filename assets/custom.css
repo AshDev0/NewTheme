@@ -1285,6 +1285,45 @@
     cursor: pointer;
 }
 
+#blackbgreview{
+  width: 100%;
+  background-color: #000;
+}
+
+.blackbgreview{
+  width: 100%;
+}
+
+.blackbgreview .content{
+  width: 90%;
+  margin: 0 auto;
+  background: #16161d;
+}
+
+
+.blackbgreview .content .heading h2 {
+  margin: 0;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 106px;
+  font-family: D-Fly-Light;
+  text-transform: uppercase;
+}
+
+.blackbgreview .content .desc p {
+  font-size: 38px;
+  color: #fff;
+  line-height: 62px;
+  font-weight: 350;
+  font-family: Gotham;
+  letter-spacing: -.02em;
+  background: linear-gradient(90.17deg,rgba(255,255,255,.9) 2.49%,rgba(95,70,255,.9) 31.87%,rgba(255,255,255,.586523) 67.72%,rgba(255,255,255,.9) 98.09%),#FFFFFF;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  margin: 0;
+}
+
 
 
 
