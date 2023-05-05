@@ -108,3 +108,12 @@ $(window).on("load", function () {
     autoplaySpeed: 2000,
   });
 });
+
+
+$(document).on("click", ".reserve-btn button", function () {
+$(".reservenow").addClass(res-active);
+
+  
+});
+
+
