@@ -3,10 +3,10 @@
     {%for block in section.blocks%}
     <div class="content">
       <div class="heading">
-        <h2>{{ section.settings.heading }}</h2>
+        <h2>{{ block.settings.heading }}</h2>
       </div>
       <div class="desc">
-        <p>{{ section.settings.desc }}</p>
+        <p>{{ block.settings.desc }}</p>
       </div>
     </div>
     {%endfor%}
