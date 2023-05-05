@@ -100,7 +100,7 @@ $(document).on("click", ".model-btn-container button", function () {
 
 
 $(window).on("load", function () {
-  $("").slick({
+  $(".content").slick({
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
