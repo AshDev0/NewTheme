@@ -1671,6 +1671,14 @@
     padding: 100px 50px 100px;
   }
 
+  .reserve-container .contact_form input {
+    font-size: 20px;
+    line-height: 34px;
+    padding: 30px 20px;
+    height: 50px;
+    width: 540px;
+  }
+
   .reserve-form .logo_klarna {
     max-width: 150px;
     max-height: 40px;
