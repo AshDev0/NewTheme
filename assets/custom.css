@@ -2043,6 +2043,13 @@
     width: auto;
     margin-top: -100px;
   }
+
+  .reserve-container .contact_form input {
+    font-size: 14px;
+    line-height: 18px;
+    padding: 15px 10px;
+    width: 370px;
+  }
 }
 
 @media screen and (max-width: 820px) {
