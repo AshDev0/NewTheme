@@ -1,7 +1,8 @@
 <section id="blackbgreview">
   <div class="blackbgreview">
-    {%for block in section.blocks%}
     <div class="content">
+    {%for block in section.blocks%}
+    <div class="main-content">
       <div class="heading">
         <h2>{{ block.settings.heading }}</h2>
       </div>
@@ -10,6 +11,7 @@
       </div>
     </div>
     {%endfor%}
+</div>
   </div>
 </section>
 {% schema %}
