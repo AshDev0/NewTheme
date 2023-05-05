@@ -2576,6 +2576,7 @@
   }
 
   .reservenow .reserve-wrapper {
+    max-width: calc(100% - 100px);
     padding: 50px 50px 56px;
     box-shadow: 0 0 20px #000;
     width: 80%;
