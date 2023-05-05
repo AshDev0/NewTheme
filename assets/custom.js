@@ -111,9 +111,7 @@ $(window).on("load", function () {
 
 
 $(document).on("click", ".reserve-btn button", function () {
-$(".reservenow").addClass(res-active);
-
-  
+$(".reservenow").addClass("res-active");
 });
 
 
