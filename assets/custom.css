@@ -2361,11 +2361,6 @@
     padding: 70px 20px;
   }
 
-  .close-btn {
-    right: 160px;
-    top: 80px;
-  }
-
   .reservenow .reserve-wrapper {
     max-width: calc(100% - 250px);
     background: #000;
