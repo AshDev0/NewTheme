@@ -2561,4 +2561,10 @@
     width: 100%;
     padding: 50px;
   }
+
+  .reserve-container .contact_form input {
+    font-size: 14px;
+    line-height: 18px;
+    padding: 15px 10px;
+  }
 }
