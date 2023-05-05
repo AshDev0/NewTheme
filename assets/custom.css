@@ -1349,6 +1349,12 @@
   transition: all 0.3s ease-in-out;
 }
 
+.reservenow.res-active {
+  z-index: 99999;
+  visibility: visible;
+  opacity: 1;
+}
+
 .close-btn {
   background: transparent;
   padding: 0;
