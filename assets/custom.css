@@ -1470,6 +1470,20 @@
   position: relative;
 }
 
+.newsletter-checkbox .inputLabel:before {
+  content: "";
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  left: -27px;
+  top: 1px;
+  border: 2px solid transparent;
+  border-image: url(Checkbox-gradient-border.png) 2 round;
+  border-image-width: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .producrtion_text {
   margin-top: 12px;
 }
