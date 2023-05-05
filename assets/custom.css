@@ -1429,14 +1429,14 @@
   transition: unset !important;
 }
 
-.reserve-form .field-four {
+.reserve-form .logo_klarna {
   max-width: 101px;
   max-height: 20px;
   margin-left: 19px;
   display: inherit;
 }
 
-.reserve-form .field-four img {
+.reserve-form .logo_klarna img {
   width: 100%;
   object-fit: cover;
 }
