@@ -1449,6 +1449,17 @@
   margin-top: 7px;
 }
 
+.newsletter-checkbox input {
+  width: 17px;
+  height: 17px;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  margin-left: 0;
+  margin-right: 12px;
+  opacity: 0;
+}
+
 .producrtion_text {
   margin-top: 12px;
 }
