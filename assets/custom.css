@@ -2243,6 +2243,13 @@
     font-size: 11px;
     line-height: normal;
   }
+
+  .reserve-container .contact_form input {
+    font-size: 14px;
+    line-height: 18px;
+    padding: 15px 10px;
+    width: unset;
+  }
 }
 
 @media screen and (max-width: 670px) {
