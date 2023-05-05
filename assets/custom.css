@@ -2562,6 +2562,12 @@
     padding: 50px;
   }
 
+  .reservenow .reserve-wrapper {
+    padding: 50px 50px 56px;
+    box-shadow: 0 0 20px #000;
+    width: 80%;
+  }
+
   .reserve-container .contact_form input {
     font-size: 14px;
     line-height: 18px;
