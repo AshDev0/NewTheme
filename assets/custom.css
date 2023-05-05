@@ -1324,6 +1324,7 @@
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   margin: 0;
+  width: 100%;
 }
 
 
