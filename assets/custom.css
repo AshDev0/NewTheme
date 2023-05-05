@@ -1358,6 +1358,25 @@
   transition: all .3s ease-in-out;
 }
 
+.close-btn {
+  background: transparent;
+  padding: 0;
+  border: unset;
+  cursor: pointer;
+  position: absolute;
+  right: 180px;
+  top: 130px;
+  font-family: D-Fly;
+}
+
+.reservenow .reserve-wrapper {
+  max-width: calc(100% - 300px);
+  background: #000;
+  padding: 50px 50px 100px;
+  box-shadow: 0 0 20px #000;
+  width: 100%;
+}
+
 
 
 
