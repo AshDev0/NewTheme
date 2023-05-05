@@ -99,12 +99,12 @@ $(document).on("click", ".model-btn-container button", function () {
 
 
 
-$(window).on("load", function () {
-  $(".content").slick({
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: false,
-    arrows: false,
-    // autoplaySpeed: 2000,
-  });
-});
+// $(window).on("load", function () {
+//   $(".content").slick({
+//     slidesToShow: 1,
+//     slidesToScroll: 1,
+//     autoplay: false,
+//     arrows: false,
+//     // autoplaySpeed: 2000,
+//   });
+// });
