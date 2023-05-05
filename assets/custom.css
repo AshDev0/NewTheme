@@ -1693,6 +1693,11 @@
     font-size: 20px;
     line-height: 20px;
   }
+
+  #reservenow .product_text p {
+    font-size: 20px;
+    line-height: 22px;
+  }
 }
 
 @media screen and (max-width: 1560px) {
