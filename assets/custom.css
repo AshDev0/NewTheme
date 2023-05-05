@@ -1381,6 +1381,21 @@
   text-align: center;
 }
 
+.reservenow .reserve-header img {
+  max-width: 70px;
+}
+
+.reservenow .reserve-header h2 {
+  font-family: D-Fly-Bold;
+  font-weight: 400;
+  font-size: 2.803rem;
+  line-height: 3.375rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 20px auto 30px;
+}
+
 
 
 
