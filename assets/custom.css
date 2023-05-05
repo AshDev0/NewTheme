@@ -1436,6 +1436,11 @@
   display: inherit;
 }
 
+.reserve-form .field-four img {
+  width: 100%;
+  object-fit: cover;
+}
+
 .newsletter-checkbox {
   display: flex;
   flex-wrap: wrap;
