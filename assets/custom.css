@@ -1400,6 +1400,20 @@
   position: relative;
 }
 
+.reserve-container .reserve-form {
+  background: #16161d;
+  border-radius: 12px;
+  padding: 61px 55px 30px;
+  position: relative;
+}
+
+.reserve-container .contact_form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 21px;
+  align-items: center;
+}
+
 @media screen and (max-width: 1920px) {
   .new-container .text h2 {
     font-size: 90px;
