@@ -1670,6 +1670,13 @@
   .reserve-container .reserve-form {
     padding: 100px 50px 100px;
   }
+
+  .reserve-form .logo_klarna {
+    max-width: 150px;
+    max-height: 40px;
+    margin-left: 19px;
+    display: inherit;
+  }
 }
 
 @media screen and (max-width: 1560px) {
