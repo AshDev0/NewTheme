@@ -28,19 +28,7 @@
               </select>
             </div>
             <div class="dragon-btn">
-              <form
-                action="/cart/add"
-                method="post"
-                class="variants"
-                id="product-actions-{{ product.id }}"
-                enctype="multipart/form-data"
-              >
-                <input type="hidden" name="variantId" value="{{ product.variants[0].id }}">
-                <button class="button btn-cart btn_theme" title="reserve dragonfly" onClick="instantBuy()">
-                  <span>reserve dragonfly</span>
-                </button>
-              </form>
-
+              <a href="/cart/{{  product.selected_or_first_available_variant.id}}:1">Buy know</a>
               <!-- <button>reserve dragonfly</button> -->
             </div>
             <div class="logo_klarna">
