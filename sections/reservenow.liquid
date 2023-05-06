@@ -24,6 +24,9 @@
               </select>
             </div>
             <div class="dragon-btn">
+              {% form 'checkout' %}
+                {{ form | payment_button }}
+              {% endform %}
               <button>reserve dragonfly</button>
             </div>
             <div class="logo_klarna">
