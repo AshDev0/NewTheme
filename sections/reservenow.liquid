@@ -18,10 +18,6 @@
               <input class="email-input-field" type="email" name="email" placeholder="Your Email">
             </div>
             <div class="select-model">
-              <form action="/cart" method="post" id="addToCart">
-                <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
-                <input type="submit" value="GO" name="checkout" style="display: none;">
-              </form>
               <select name="" class="" id="select_model">
                 {% assign product = collections[section.settings.collection] %}
                 {% for variant in product.products %}
@@ -32,7 +28,11 @@
               </select>
             </div>
             <div class="dragon-btn">
-              <a class="add-btn" href="#">reserve dragonfly</a>
+              <form action="/cart" method="post" id="addToCart">
+                <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
+                <input type="submit" value="GO" name="checkout" style="display: none;">
+                <a class="add-btn" href="#">reserve dragonfly</a>
+              </form>
             </div>
             <div class="logo_klarna">
               <img
