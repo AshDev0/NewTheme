@@ -118,21 +118,3 @@ $(document).on("click", ".reservenow .close-btn", function () {
 $(".reservenow").removeClass("res-active");
 });
 
-    
-    $('body').on('click', '.add-btn', function(e) {
-        var form = $('#addToCart');
-        e.preventDefault()
-
-        $.ajax({
-            type: 'POST',                             
-            url: '/cart/add.js',
-            dataType: 'json',                               
-            data: form.serialize(),
-            success: function(data) {
-                form.find('input[name="checkout"]').trigger('click');
-            }
-        });
-    })
-
-
-
