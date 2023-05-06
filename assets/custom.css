@@ -1952,6 +1952,24 @@ select {
     line-height: normal;
     width: 65%;
   }
+
+  .reserve-container .contact_form input,
+  select {
+    font-size: 13px;
+    line-height: 34px;
+    padding: 10px;
+    height: 50px;
+    width: 170px;
+    background: #000;
+    color: #fff;
+  }
+
+  .reserve-form .logo_klarna {
+    max-width: 101px;
+    max-height: 20px;
+    margin-left: 0px;
+    display: inherit;
+  }
 }
 
 @media screen and (max-width: 1280px) {
