@@ -396,13 +396,6 @@
       "type": "reservenow",
       "settings": {
       }
-    },
-    "839dee86-1f74-4237-bf91-1823b67306a1": {
-      "type": "featured-slider",
-      "settings": {
-        "heading": "New Products",
-        "collection": "featured-products"
-      }
     }
   },
   "order": [
@@ -418,7 +411,6 @@
     "9af8a080-2fe7-4bd0-bd8f-65cad1363160",
     "da7d6cda-6e63-4fc0-b432-50ed99e5f300",
     "218575aa-7211-4d60-9ce9-99c02f30eb00",
-    "c5c9355a-f9ec-4845-ad59-902752683480",
-    "839dee86-1f74-4237-bf91-1823b67306a1"
+    "c5c9355a-f9ec-4845-ad59-902752683480"
   ]
 }
