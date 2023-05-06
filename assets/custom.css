@@ -1439,6 +1439,23 @@ select {
   width: 450px;
 }
 
+.reserve-container .contact_form .dragon-btn button {
+  width: 100%;
+  height: 44px;
+  background-color: #00e3a5;
+  color: #181818;
+  border-radius: 3.21px;
+  position: relative;
+  font-family: Gotham;
+  font-weight: 400;
+  font-size: 12.8571px;
+  line-height: 15px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  min-height: unset;
+  padding: 0 15px;
+}
+
 .reserve-form .logo_klarna {
   max-width: 101px;
   max-height: 20px;
