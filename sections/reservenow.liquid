@@ -21,7 +21,7 @@
               <select name="" class="" id="select_model">
                 {% for variant in product.variants -%}
                   }
-                  <option value="{{ variant.id }}">{{ variant.title }}</option>
+                  <option value="{{ variant.id }}">{{ variant.title }} - {{ variant.price }}</option>
                 {% endfor %}
               </select>
             </div>
