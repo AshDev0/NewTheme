@@ -25,14 +25,16 @@
             </div>
             <div class="dragon-btn">
               <form
-                action="/checkout"
+                action="/cart/add"
                 method="post"
                 class="variants"
                 id="product-actions-{{ product.id }}"
                 enctype="multipart/form-data"
               >
                 <input type="hidden" name="variantId" value="{{ product.variants[0].id }}">
-                <button class="button btn-cart btn_theme" title="Buy" onClick="instantBuy()"><span>Buy</span></button>
+                <button class="button btn-cart btn_theme" title="Buy" onClick="instantBuy()">
+                  <span>reserve dragonfly</span>
+                </button>
               </form>
 
               <!-- <button>reserve dragonfly</button> -->
