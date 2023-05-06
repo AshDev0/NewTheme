@@ -29,10 +29,26 @@
             </div>
             <div class="dragon-btn">
               <form action="/cart" method="post" id="addToCart">
-                <input type="hidden" name="id" value="8417203224881">
+                <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
                 <input type="submit" value="GO" name="checkout" style="display: none;">
-                <a class="add-btn" href="#">reserve dragonfly</a>
+                <a href="#" class="add-btn">Add Product</a>
               </form>
+              <script type="text/javascript">
+                $('.add-btn').on('click', function(e) {
+                    var form = $('#addToCart');
+                    e.preventDefault()
+
+                    $.ajax({
+                        type: 'POST',
+                        url: '/cart/add.js',
+                        dataType: 'json',
+                        data: form.serialize(),
+                        success: function(data) {
+                            form.find('input[name="checkout"]').trigger('click');
+                        }
+                    });
+                })
+              </script>
             </div>
             <div class="logo_klarna">
               <img
