@@ -24,10 +24,18 @@
               </select>
             </div>
             <div class="dragon-btn">
-              {% form 'checkout' %}
-                {{ form | payment_button }}
-              {% endform %}
-              <button>reserve dragonfly</button>
+              <form
+                action="/cart/add"
+                method="post"
+                class="variants"
+                id="product-actions-{{ product.id }}"
+                enctype="multipart/form-data"
+              >
+                <input type="hidden" name="variantId" value="{{ product.variants[0].id }}">
+                <button class="button btn-cart btn_theme" title="Buy" onClick="instantBuy()"><span>Buy</span></button>
+              </form>
+
+              <!-- <button>reserve dragonfly</button> -->
             </div>
             <div class="logo_klarna">
               <img
