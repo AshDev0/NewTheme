@@ -24,49 +24,20 @@
               </select>
             </div>
             <div class="dragon-btn">
-              {%- form 'product',
-                model_product,
-                id: product_form_id,
-                class: product_form_class,
-                novalidate: 'novalidate',
-                data-type: 'add-to-cart-form',
-                data-title: product_title,
-                data-price: product_price,
-                data-id: product_id,
-                data-quantity: product_qty,
-                data-currency: currency,
-                data-vendor: product_vendor
-              -%}
-                <input
-                  type="hidden"
-                  name="id"
-                  value="{{ model_product.selected_or_first_available_variant.id }}"
-                  disabled
-                >
-                <input
-                  type="hidden"
-                  name="properties[Please note]"
-                  value="This is a partial payment to reserve your scooter. You’ll receive an email to pay the remaining balance prior to delivery."
-                >
+              <form
+                action="/cart/add"
+                method="post"
+                class="variants"
+                id="product-actions-{{ product.id }}"
+                enctype="multipart/form-data"
+              >
+                <input type="hidden" name="variantId" value="{{ product.variants[0].id }}">
+                <button class="button btn-cart btn_theme" title="Buy" onClick="instantBuy()">
+                  <span>reserve dragonfly</span>
+                </button>
+              </form>
 
-                {{ form | payment_button }}
-              {% endform %}
-              {% comment %}
-                <form
-                  action="/cart/add"
-                  method="post"
-                  class="variants"
-                  id="product-actions-{{ product.id }}"
-                  enctype="multipart/form-data"
-                >
-                  <input type="hidden" name="variantId" value="{{ product.variants[0].id }}">
-                  <button class="button btn-cart btn_theme" title="Buy" onClick="instantBuy()">
-                    <span>reserve dragonfly</span>
-                  </button>
-                </form>
-
-                <button>reserve dragonfly</button>
-              {% endcomment %}
+              <!-- <button>reserve dragonfly</button> -->
             </div>
             <div class="logo_klarna">
               <img
