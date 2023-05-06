@@ -19,8 +19,10 @@
             </div>
             <div class="select-model">
               <select name="" class="" id="select_model">
-                <option id="{{ product.variants.first.id }}" value="DF Model - $600 USD">DF Model - $600 USD</option>
-                <option id="{{ product.variants.first.id }}" value="DFX Model - $900 USD">DFX Model - $900 USD</option>
+                {% for variant in product.variants -%}
+                  }
+                  <option id="{{ product.variants.first.id }}" value="DF Model - $600 USD">DF Model - $600 USD</option>
+                {% endfor %}
               </select>
             </div>
             <div class="dragon-btn">
