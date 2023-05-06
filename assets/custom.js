@@ -119,3 +119,23 @@ $(".reservenow").removeClass("res-active");
 });
 
 
+function instantBuy(){
+     var $ = jQuery;
+     var formParams = $('form.cart').serialize();
+     $.ajax({
+      url: "/cart/add",
+      type: "post",
+      data: formParams,
+      success: function(){
+       window.location.href = "/checkout";
+      },
+      error: function(){
+      }
+     })
+    }
+
+    function addToCart(){
+     $('form.cart').submit();
+    }
+
+
