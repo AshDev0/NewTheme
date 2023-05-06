@@ -1,5 +1,10 @@
 <section id="reservenow">
   <div class="reservenow">
+    <form method="post" action="/cart/add">
+      <input type="hidden" name="return_to" value="/checkout/">
+      <input type="hidden" name="id" value="{{ product.variants.first.id }}">
+      <input type="submit" value="Buy" class="btn btn--primary buybuttonRuta btnmyodrers">
+    </form>
     <button class="close-btn">
       <img
         src="https://cdn.shopify.com/s/files/1/0741/7161/3489/t/10/assets/modal-close.svg?v=1683281033"
