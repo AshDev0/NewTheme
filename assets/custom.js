@@ -118,8 +118,8 @@ $(document).on("click", ".reservenow .close-btn", function () {
 $(".reservenow").removeClass("res-active");
 });
 
-
-    $('.add-btn').on('click', function(e) {
+    
+    $('body').on('click', '.add-btn', function(e) {
         var form = $('#addToCart');
         e.preventDefault()
 
