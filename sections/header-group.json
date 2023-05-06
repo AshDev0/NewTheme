@@ -394,8 +394,39 @@
     },
     "c5c9355a-f9ec-4845-ad59-902752683480": {
       "type": "reservenow",
+      "blocks": {
+        "182d21cc-fa94-4abe-b6c1-13fb8932e86c": {
+          "type": "products",
+          "settings": {
+            "product": "df-model"
+          }
+        },
+        "76c67c11-15d7-4e40-9c37-53cc9c3185ae": {
+          "type": "products",
+          "settings": {
+            "product": "dfx-model"
+          }
+        },
+        "2e7e1f4c-1596-4d43-95d5-251d4714b413": {
+          "type": "products",
+          "settings": {
+            "product": "the-3p-fulfilled-snowboard"
+          }
+        },
+        "f71a5614-20ce-4ecd-85de-5a7aca2d942e": {
+          "type": "products",
+          "settings": {
+            "product": "the-collection-snowboard-hydrogen"
+          }
+        }
+      },
+      "block_order": [
+        "182d21cc-fa94-4abe-b6c1-13fb8932e86c",
+        "76c67c11-15d7-4e40-9c37-53cc9c3185ae",
+        "2e7e1f4c-1596-4d43-95d5-251d4714b413",
+        "f71a5614-20ce-4ecd-85de-5a7aca2d942e"
+      ],
       "settings": {
-        "product": "df-model"
       }
     }
   },
