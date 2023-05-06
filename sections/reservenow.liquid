@@ -20,8 +20,9 @@
             <div class="select-model">
               <select name="" class="" id="select_model">
                 {% for variant in product.variants -%}
-                  }
-                  <option value="{{ variant.id }}">{{ variant.title }} - {{ variant.price }}</option>
+                  <option value="{{ variant.id }}">
+                    {{ variant.title }} - {{ variant.price | money_with_currency }}
+                  </option>
                 {% endfor %}
               </select>
             </div>
