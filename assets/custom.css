@@ -1812,6 +1812,17 @@ select {
     line-height: normal;
     width: 56%;
   }
+
+  .reserve-container .contact_form input,
+  select {
+    font-size: 20px;
+    line-height: 34px;
+    padding: 10px 20px;
+    height: 50px;
+    width: 258px;
+    background: #000;
+    color: #fff;
+  }
 }
 
 @media screen and (max-width: 1440px) {
