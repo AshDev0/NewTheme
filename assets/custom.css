@@ -2173,7 +2173,8 @@ select {
     margin-top: -100px;
   }
 
-  .reserve-container .contact_form input {
+  .reserve-container .contact_form input,
+  select {
     font-size: 14px;
     line-height: 18px;
     padding: 15px 10px;
