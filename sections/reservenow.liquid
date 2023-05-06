@@ -20,7 +20,7 @@
             <div class="select-model">
               <select name="" class="" id="select_model">
                 {% assign product = all_products[blocks.settings.product] %}
-                {% for variant in product.variants -%}
+                {% for variant in product.variants %}
                   <option value="{{ variant.id }}">
                     {{ variant.title }} - {{ variant.price | money_with_currency }}
                   </option>
