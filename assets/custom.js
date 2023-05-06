@@ -119,23 +119,20 @@ $(".reservenow").removeClass("res-active");
 });
 
 
-function instantBuy(){
-     var $ = jQuery;
-     var formParams = $('form.cart').serialize();
-     $.ajax({
-      url: "/cart/add",
-      type: "post",
-      data: formParams,
-      success: function(){
-       window.location.href = "/checkout";
-      },
-      error: function(){
-      }
-     })
-    }
+    $('.add-btn').on('click', function(e) {
+        var form = $('#addToCart');
+        e.preventDefault()
 
-    function addToCart(){
-     $('form.cart').submit();
-    }
+        $.ajax({
+            type: 'POST',                             
+            url: '/cart/add.js',
+            dataType: 'json',                               
+            data: form.serialize(),
+            success: function(data) {
+                form.find('input[name="checkout"]').trigger('click');
+            }
+        });
+    })
+
 
 
