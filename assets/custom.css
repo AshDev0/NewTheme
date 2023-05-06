@@ -1672,7 +1672,8 @@ select {
     padding: 100px 50px 100px;
   }
 
-  .reserve-container .contact_form input {
+  .reserve-container .contact_form input,
+  select {
     font-size: 20px;
     line-height: 34px;
     padding: 30px 20px;
