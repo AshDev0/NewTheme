@@ -395,6 +395,7 @@
     "c5c9355a-f9ec-4845-ad59-902752683480": {
       "type": "reservenow",
       "settings": {
+        "product": "df-model"
       }
     }
   },
