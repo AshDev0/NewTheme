@@ -1454,6 +1454,7 @@ select {
   text-transform: uppercase;
   min-height: unset;
   padding: 0 15px;
+  text-decoration: none;
 }
 
 .reserve-form .logo_klarna {
