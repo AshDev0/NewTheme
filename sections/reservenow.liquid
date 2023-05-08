@@ -28,38 +28,26 @@
               </select>
             </div>
             <div class="dragon-btn">
-              <form
-                action="/cart/checkout"
-                method="post"
-                class="variants"
-                id="product-actions-{{ variant.id }}"
-                enctype="multipart/form-data"
-              >
-                <input type="hidden" name="variantId" value="{{ variants.id }}">
-                <button class="button btn-cart btn_theme" title="Reserve Dragonfly" onClick="instantBuy()">
-                  <span>Reserve Dragonfly</span>
-                </button>
+              <form action="/cart" method="post" id="addToCart">
+                <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
+                <input type="submit" value="GO" name="checkout" style="display: none;">
+                <a href="#" class="add-btn">Add Product</a>
               </form>
               <script type="text/javascript">
-                function instantBuy(){
-                     var $ = jQuery;
-                     var formParams = $('form.cart').serialize();
-                     $.ajax({
-                      url: "/cart/checkout",
-                      type: "post",
-                      data: formParams,
-                      success: function(){
-                       window.location.href = "/checkout";
-                      },
-                      error: function(){
-                      }
-                     })
-                    }
+                $('.add-btn').on('click', function(e) {
+                    var form = $('#addToCart');
+                    e.preventDefault()
 
-                    function addToCart(){
-                     $('form.cart').submit();
-                    }
-                                })
+                    $.ajax({
+                        type: 'POST',
+                        url: '/cart/add.js',
+                        dataType: 'json',
+                        data: form.serialize(),
+                        success: function(data) {
+                            form.find('input[name="checkout"]').trigger('click');
+                        }
+                    });
+                })
               </script>
             </div>
             <div class="logo_klarna">
