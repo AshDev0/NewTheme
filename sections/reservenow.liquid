@@ -37,10 +37,6 @@
               <a href="/cart/{{ product_reserve.selected_or_first_available_variant.id }}:1" class="add-btn"
                 >Reserve DragonFly</a
               >
-              <form action="/cart" method="post" id="addToCart">
-                <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
-                <input type="submit" value="GO" name="checkout" style="display: none;">
-              </form>
               <script type="text/javascript">
                 $('#select_model').on('change', function(e){
                   var id = $(this).val();
