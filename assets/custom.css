@@ -2061,6 +2061,12 @@ select {
   }
 }
 
+@media screen and (max-width: 1253px) {
+  .reserve-container .contact_form {
+    flex-direction: column;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .new-container .text h2 {
     font-size: 55px;
