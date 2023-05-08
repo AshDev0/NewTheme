@@ -2214,6 +2214,12 @@ select {
 }
 
 @media screen and (max-width: 930px) {
+  .close-btn {
+    position: absolute;
+    right: 235px;
+    top: 185px;
+  }
+
   .reserve-container .contact_form {
     flex-direction: column;
     gap: 30px;
