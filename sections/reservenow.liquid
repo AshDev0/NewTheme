@@ -22,7 +22,7 @@
                 {% assign collection = collections[section.settings.collection] %}
                 {{ collection.title }}
                 {% for product in collection.products %}
-                  {% for variant in product.products %}
+                  {% for variant in product.variants %}
                     <option value="{{ variant.id }}">
                       {{ variant.title }} - {{ variant.price | money_with_currency }}
                     </option>
