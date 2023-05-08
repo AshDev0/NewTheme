@@ -20,8 +20,11 @@
             <div class="select-model">
               <select name="" class="" id="select_model">
                 {% assign collection = collections[section.settings.collection] %}
-
+                {% assign product_reserve = '' %}
                 {% for product in collection.products %}
+                  {% if forloop.first %}
+                    {% assign product_reserve = product %}
+                  {% endif %}
                   {% for variant in product.variants %}
                     <option value="{{ variant.id }}">
                       {{ variant.title }} - {{ variant.price | money_with_currency }}
@@ -44,6 +47,7 @@
                   var id = $(this).val();
                   $('.add-btn').attr('href', '/cart/'+id+':1');
                 });
+
 
                 // $('.add-btn').on('click', function(e) {
                 //     var form = $('#addToCart');
