@@ -28,10 +28,12 @@
               </select>
             </div>
             <div class="dragon-btn">
+              <a href="/cart/{{ product.selected_or_first_available_variant.id }}:1" class="add-btn"
+                >Reserve DragonFly</a
+              >
               <form action="/cart" method="post" id="addToCart">
                 <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
                 <input type="submit" value="GO" name="checkout" style="display: none;">
-                <a href="#" class="add-btn">Reserve DragonFly</a>
               </form>
               <script type="text/javascript">
                 $('.add-btn').on('click', function(e) {
