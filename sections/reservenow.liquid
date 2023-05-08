@@ -35,7 +35,7 @@
                 id="product-actions-{{ variant.id }}"
                 enctype="multipart/form-data"
               >
-                <input type="hidden" name="variantId" value="{{ product.variants[0].id }}">
+                <input type="hidden" name="variantId" value="{{ product.variants.id }}">
                 <button class="button btn-cart btn_theme" title="Reserve Dragonfly" onClick="instantBuy()">
                   <span>Reserve Dragonfly</span>
                 </button>
