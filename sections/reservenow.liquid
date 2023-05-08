@@ -32,7 +32,7 @@
                 action="/cart/checkout"
                 method="post"
                 class="variants"
-                id="product-actions-{{ product.id }}"
+                id="product-actions-{{ variant.id }}"
                 enctype="multipart/form-data"
               >
                 <input type="hidden" name="variantId" value="{{ product.variants[0].id }}">
