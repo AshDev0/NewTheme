@@ -1439,11 +1439,7 @@ select {
   width: 450px;
 }
 
-.reserve-container .contact_form .dragon-btn button.button {
-  padding: unset;
-}
-
-.reserve-container .contact_form .dragon-btn span {
+.reserve-container .contact_form .dragon-btn a {
   width: 100%;
   height: 50px;
   background-color: #00e3a5;
