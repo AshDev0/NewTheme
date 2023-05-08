@@ -1453,7 +1453,7 @@ select {
   letter-spacing: 0.05em;
   text-transform: uppercase;
   min-height: unset;
-  padding: 0 15px;
+  padding: 18px 30px !important;
   text-decoration: none;
 }
 
