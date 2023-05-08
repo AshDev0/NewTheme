@@ -2045,6 +2045,13 @@ select {
     background: #000;
     color: #fff;
   }
+  .reserve-container .contact_form {
+    display: flex;
+    flex-wrap: unset;
+    gap: unset;
+    align-items: center;
+    justify-content: space-between;
+  }
 
   .reserve-container .contact_form .dragon-btn a {
     width: 100%;
