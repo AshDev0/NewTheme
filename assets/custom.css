@@ -2048,7 +2048,7 @@ select {
   .reserve-container .contact_form {
     display: flex;
     flex-wrap: unset;
-    gap: unset;
+    gap: 21px;
     align-items: center;
     justify-content: space-between;
   }
