@@ -1709,7 +1709,7 @@ select {
     color: #fff;
   }
 
-  .reserve-container .contact_form .dragon-btn button {
+  .reserve-container .contact_form .dragon-btn a {
     width: 100%;
     height: 50px;
     padding: 0px 30px;
