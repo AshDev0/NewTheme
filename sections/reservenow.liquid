@@ -43,22 +43,22 @@
 
                   var id = $(this).val();
                   $('.add-btn').attr('href', '/cart/'+id+':1');
-                })
+                });
 
-                $('.add-btn').on('click', function(e) {
-                    var form = $('#addToCart');
-                    e.preventDefault()
+                // $('.add-btn').on('click', function(e) {
+                //     var form = $('#addToCart');
+                //     e.preventDefault()
 
-                    $.ajax({
-                        type: 'POST',
-                        url: '/cart/add.js',
-                        dataType: 'json',
-                        data: form.serialize(),
-                        success: function(data) {
-                            form.find('input[name="checkout"]').trigger('click');
-                        }
-                    });
-                })
+                //     $.ajax({
+                //         type: 'POST',
+                //         url: '/cart/add.js',
+                //         dataType: 'json',
+                //         data: form.serialize(),
+                //         success: function(data) {
+                //             form.find('input[name="checkout"]').trigger('click');
+                //         }
+                //     });
+                // })
               </script>
             </div>
             <div class="logo_klarna">
