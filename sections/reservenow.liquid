@@ -19,7 +19,7 @@
             </div>
             <div class="select-model">
               <select name="" class="" id="select_model">
-                {% assign product = collections[section.settings.collection] %}
+                {% assign collection = collections[section.settings.collection] %}
                 {% for product in collection.products %}
                   {% for variant in product.products %}
                     <option value="{{ variant.id }}">
