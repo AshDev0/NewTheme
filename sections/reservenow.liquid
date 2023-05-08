@@ -39,6 +39,11 @@
                 <input type="submit" value="GO" name="checkout" style="display: none;">
               </form>
               <script type="text/javascript">
+                $('#select_model').on('change', function(e){
+
+                  var id = $(this).val();
+                  $('.add-btn').attr('href', '/cart/'+id+':1');
+                })
 
                 $('.add-btn').on('click', function(e) {
                     var form = $('#addToCart');
