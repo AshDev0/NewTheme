@@ -1646,6 +1646,7 @@ select {
 
 #counter .counter-content .counter-image-img img {
   width: 100%;
+  max-height: 607px;
 }
 
 #counter .counter-content .counter-image .counter-image-head {
