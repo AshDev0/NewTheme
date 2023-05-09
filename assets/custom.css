@@ -1697,6 +1697,8 @@ select {
   font-weight: 600;
   font-style: normal;
   color: #fff;
+  padding: 0;
+  margin: 0;
 }
 
 #counter .des-section .des-section-items .des-section-item p {
@@ -1705,6 +1707,8 @@ select {
   font-weight: 400;
   font-style: normal;
   color: #fff;
+  padding: 0;
+  margin: 0;
 }
 
 @media screen and (max-width: 1920px) {
