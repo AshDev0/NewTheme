@@ -1531,6 +1531,150 @@ select {
   background-position: center;
 }
 
+#counter {
+  width: 100%;
+}
+#counter .counter-section {
+  width: 100%;
+}
+
+#counter .counter-section .counter-content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#counter .counter-content .counter-counter {
+  width: 50%;
+  background: #16161d;
+  padding: 150px;
+}
+
+#counter .counter-content .counter-counter h3 {
+  font-size: 18px;
+  line-height: normal;
+  font-family: "D-fly";
+  font-style: normal;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+#counter .counter-content .counter-counter h2 {
+  font-size: 25px;
+  line-height: normal;
+  font-family: "D-fly";
+  font-style: normal;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+#counter .counter-content .counter-counter .timer {
+  text-align: center;
+}
+
+#counter .counter-counter .timer .timer-content {
+  display: flex;
+  color: #fff;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 30px;
+}
+
+#counter .counter-counter .timer .timer-content span {
+  font-size: 50px;
+  font-weight: 800;
+  padding: 10px;
+  background: ;
+  border: 1px solid;
+  box-shadow: ;
+}
+
+#counter .counter-counter .hours-btn {
+  text-align: center;
+}
+
+#counter .counter-counter .hours-btn button {
+  margin-top: 50px;
+  text-align: center;
+  padding: 18px 30px;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-radius: 8px;
+  border: none;
+  background: #00e3a5;
+  cursor: pointer;
+  width: 200px;
+}
+
+#counter .counter-counter .hours-btn p {
+  font-size: 15px;
+  line-height: normal;
+  font-family: "D-fly";
+  font-style: normal;
+  font-weight: 500;
+  color: #fff;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  margin-top: 15px;
+}
+
+#counter .counter-content .counter-image {
+  width: 50%;
+  position: relative;
+}
+
+#counter .counter-content .counter-image-img {
+  width: 100%;
+}
+
+#counter .counter-content .counter-image-img img {
+  width: 100%;
+}
+
+#counter .counter-content .counter-image .counter-image-head {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#counter .counter-content .counter-image .des-section {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+}
+
+#counter .counter-content .counter-image-img .counter-image-head h2 {
+  font-size: 35px;
+  line-height: normal;
+  font-family: "D-fly";
+  font-style: normal;
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
 @media screen and (max-width: 1920px) {
   .new-container .text h2 {
     font-size: 90px;

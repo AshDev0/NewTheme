@@ -397,6 +397,11 @@
       "settings": {
         "collection": "dragonfly-scooter"
       }
+    },
+    "c150655b-0ddd-40af-bd7e-3a2964e58856": {
+      "type": "counterSection",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -412,6 +417,7 @@
     "9af8a080-2fe7-4bd0-bd8f-65cad1363160",
     "da7d6cda-6e63-4fc0-b432-50ed99e5f300",
     "218575aa-7211-4d60-9ce9-99c02f30eb00",
-    "c5c9355a-f9ec-4845-ad59-902752683480"
+    "c5c9355a-f9ec-4845-ad59-902752683480",
+    "c150655b-0ddd-40af-bd7e-3a2964e58856"
   ]
 }
