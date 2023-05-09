@@ -1658,7 +1658,8 @@ select {
 #counter .counter-content .counter-image .des-section {
   position: absolute;
   bottom: 0;
-  left: 50%;
+  left: 0;
+  width: 100%;
 }
 
 #counter .counter-content .counter-image-img .counter-image-head h2 {
