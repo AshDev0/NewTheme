@@ -1592,11 +1592,33 @@ select {
   margin-top: 30px;
 }
 
-#counter .timer .timer-content .days {
+#counter .timer .timer-content .days,
+.min,
+.sec {
   position: relative;
 }
 
 #counter .timer .timer-content .days:after {
+  position: absolute;
+  content: "Days";
+  text-transform: uppercase;
+  text-align: center;
+  bottom: -35px;
+  left: 32%;
+  font-size: 15px;
+}
+
+#counter .timer .timer-content .min:after {
+  position: absolute;
+  content: "Days";
+  text-transform: uppercase;
+  text-align: center;
+  bottom: -35px;
+  left: 32%;
+  font-size: 15px;
+}
+
+#counter .timer .timer-content .sec:after {
   position: absolute;
   content: "Days";
   text-transform: uppercase;
