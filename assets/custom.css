@@ -1544,11 +1544,11 @@ select {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  background: #16161d;
 }
 
 #counter .counter-content .counter-counter {
   width: 50%;
-  background: #16161d;
   padding: 150px;
 }
 
