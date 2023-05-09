@@ -1671,7 +1671,7 @@ select {
 
 #counter .counter-content .counter-image .des-section {
   position: absolute;
-  bottom: 0;
+  bottom: 40px;
   left: 0;
   width: 100%;
 }
