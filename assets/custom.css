@@ -1680,7 +1680,7 @@ select {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -1692,7 +1692,7 @@ select {
 }
 
 #counter .des-section .des-section-items .des-section-item h6 {
-  font-size: 14px;
+  font-size: 16px;
   font-family: "D-fly";
   font-weight: 600;
   font-style: normal;
@@ -1702,7 +1702,7 @@ select {
 }
 
 #counter .des-section .des-section-items .des-section-item p {
-  font-size: 10px;
+  font-size: 12px;
   font-family: "D-fly";
   font-weight: 400;
   font-style: normal;
