@@ -1700,6 +1700,11 @@ select {
 }
 
 #counter .des-section .des-section-items .des-section-item p {
+  font-size: 10px;
+  font-family: "D-fly";
+  font-weight: 400;
+  font-style: normal;
+  color: #fff;
 }
 
 @media screen and (max-width: 1920px) {
