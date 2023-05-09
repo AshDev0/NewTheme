@@ -1656,7 +1656,7 @@ select {
   transform: translate(-50%, -50%);
 }
 
-#counter .counter-content .counter-image-img .counter-image-head h2 {
+#counter .counter-image-img .counter-image-head h2 {
   font-size: 35px;
   line-height: normal;
   font-family: "D-fly";
