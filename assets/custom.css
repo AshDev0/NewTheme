@@ -1684,6 +1684,24 @@ select {
   margin: 0 auto;
 }
 
+#counter .des-section .des-section-items .des-section-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#counter .des-section .des-section-items .des-section-item h6 {
+  font-size: 14px;
+  font-family: "D-fly";
+  font-weight: normal;
+  font-style: normal;
+  color: #fff;
+}
+
+#counter .des-section .des-section-items .des-section-item p {
+}
+
 @media screen and (max-width: 1920px) {
   .new-container .text h2 {
     font-size: 90px;
