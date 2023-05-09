@@ -1676,6 +1676,14 @@ select {
   width: 100%;
 }
 
+#counter .counter-image .des-section .des-section-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
 @media screen and (max-width: 1920px) {
   .new-container .text h2 {
     font-size: 90px;
