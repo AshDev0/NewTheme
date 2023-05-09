@@ -1694,7 +1694,7 @@ select {
 #counter .des-section .des-section-items .des-section-item h6 {
   font-size: 14px;
   font-family: "D-fly";
-  font-weight: normal;
+  font-weight: 600;
   font-style: normal;
   color: #fff;
 }
