@@ -1610,7 +1610,7 @@ select {
 
 #counter .timer .timer-content .min:after {
   position: absolute;
-  content: "Days";
+  content: "hours";
   text-transform: uppercase;
   text-align: center;
   bottom: -35px;
@@ -1620,7 +1620,7 @@ select {
 
 #counter .timer .timer-content .sec:after {
   position: absolute;
-  content: "Days";
+  content: "minutes";
   text-transform: uppercase;
   text-align: center;
   bottom: -35px;
