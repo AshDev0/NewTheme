@@ -3046,6 +3046,10 @@ select {
     width: 100%;
   }
 
+  #scooterModel .model-container {
+    padding: 50px 30px 50px;
+  }
+
   .blackbgreview .black-content {
     width: 100%;
     padding: 50px;
