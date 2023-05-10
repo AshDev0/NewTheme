@@ -1652,6 +1652,7 @@ select {
 
 #counter .counter-counter .timer .timer-content span {
   font-size: 50px;
+  line-height: normal;
   font-weight: 800;
   padding: 10px;
   background: #000;
