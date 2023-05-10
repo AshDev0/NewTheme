@@ -3065,6 +3065,10 @@ select {
     margin-top: 0px;
   }
 
+  #counter .counter-section .counter-content {
+    flex-direction: column-reverse;
+  }
+
   .blackbgreview .black-content {
     width: 100%;
     padding: 30px;
