@@ -2565,19 +2565,19 @@ select {
   }
 
   #counter .timer .timer-content .days:after {
-    bottom: -55px;
+    bottom: -40px;
     left: 32%;
-    font-size: 25px;
+    font-size: 18px;
   }
   #counter .timer .timer-content .hours:after {
-    bottom: -55px;
+    bottom: -40px;
     left: 22%;
-    font-size: 25px;
+    font-size: 18px;
   }
   #counter .timer .timer-content .mins:after {
-    bottom: -55px;
+    bottom: -40px;
     left: 18%;
-    font-size: 25px;
+    font-size: 18px;
   }
 }
 
