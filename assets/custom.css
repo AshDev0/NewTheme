@@ -2548,6 +2548,21 @@ select {
     padding: 15px 10px;
     width: 370px;
   }
+
+  #counter .counter-content .counter-counter h3 {
+    font-size: 22px;
+    line-height: normal;
+  }
+
+  #counter .counter-content .counter-counter h2 {
+    font-size: 35px;
+    line-height: normal;
+  }
+
+  #counter .counter-counter .timer .timer-content span {
+    font-size: 50px;
+    font-weight: 800;
+  }
 }
 
 @media screen and (max-width: 930px) {
