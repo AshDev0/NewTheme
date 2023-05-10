@@ -3012,14 +3012,18 @@ select {
 
   #readblog .read-container p {
     font-size: 15px;
-    margin: 0 auto 20px;
-    width: 70%;
+    margin: 20px auto 20px;
+    width: 75%;
   }
 
   #readblog .blog {
     width: 100%;
     flex-direction: column;
     gap: 20px;
+  }
+
+  #readblog .blog .blog-list {
+    width: 100%;
   }
 
   .blackbgreview .black-content {
