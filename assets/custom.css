@@ -3085,6 +3085,11 @@ select {
     font-size: 9px;
   }
 
+  #counter .counter-content .counter-counter h2 {
+    font-size: 25px;
+    margin-top: 15px;
+  }
+
   .blackbgreview .black-content {
     width: 100%;
     padding: 30px;
