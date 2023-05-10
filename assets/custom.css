@@ -1554,7 +1554,7 @@ select {
 
 #counter .counter-content .counter-counter {
   width: 50%;
-  padding: 150px;
+  background: radial-gradient(#e66465, #9198e5);
 }
 
 #counter .counter-content .counter-counter h3 {
