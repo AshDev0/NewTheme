@@ -1554,6 +1554,7 @@ select {
 
 #counter .counter-content .counter-counter {
   width: 50%;
+  background-image: radial-gradient(#192f48, #152537, #0e0e16);
 }
 
 #counter .counter-content .counter-counter h3 {
@@ -1586,7 +1587,6 @@ select {
 
 #counter .counter-content .counter-counter .timer {
   text-align: center;
-  background-image: radial-gradient(circle, #192f48, #152537, #0e0e16);
 }
 
 #counter .counter-counter .timer .timer-content {
