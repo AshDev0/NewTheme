@@ -136,8 +136,8 @@ const countdownfunc = setInterval(function() {
   if(days < 10){
    days = pad(days); 
   }
-  document.getElementById("day1a").innerHTML = days.split("")[0];
-  document.getElementById("day1b").innerHTML = days.split("")[1];
+  document.getElementById("day1a").innerHTML = days.toString().split("")[0];
+  document.getElementById("day1b").innerHTML = days.toString().split("")[1];
   document.getElementById("hours").innerHTML = hours;
   document.getElementById("mins").innerHTML = minutes;
   document.getElementById("sec").innerHTML = seconds;
