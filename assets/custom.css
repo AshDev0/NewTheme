@@ -1990,6 +1990,11 @@ select {
     font-size: 60px;
     line-height: normal;
   }
+
+  #counter .counter-counter .timer .timer-content span {
+    font-size: 90px;
+    font-weight: 800;
+  }
 }
 
 @media screen and (max-width: 1560px) {
