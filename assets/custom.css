@@ -3072,6 +3072,10 @@ select {
   #counter .counter-content .counter-image {
     width: 100%;
   }
+  #counter .counter-content .counter-counter {
+    width: 100%;
+    padding: 20px;
+  }
 
   #counter .des-section .des-section-items .des-section-item h6 {
     font-size: 14px;
