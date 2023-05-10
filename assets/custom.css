@@ -3083,6 +3083,18 @@ select {
     left: 18%;
     font-size: 13px;
   }
+
+  #counter .counter-counter .hours-btn button {
+    margin-top: 40px;
+    padding: 12px 15px;
+    font-size: 14px;
+    line-height: 16px;
+    width: 150px;
+  }
+  #counter .counter-counter .hours-btn p {
+    font-size: 9px;
+    margin: 10px 0 0;
+  }
 }
 
 @media screen and (max-width: 540px) {
