@@ -1995,6 +1995,11 @@ select {
     font-size: 90px;
     font-weight: 800;
   }
+  #counter .timer .timer-content .days:after {
+    bottom: -55px;
+    left: 32%;
+    font-size: 30px;
+  }
 }
 
 @media screen and (max-width: 1560px) {
