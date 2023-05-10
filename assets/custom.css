@@ -3409,6 +3409,11 @@ select {
     padding: 30px 30px;
   }
 
+  .newsletter-checkbox .inputLabel {
+    font-size: 13px;
+    line-height: 20px;
+  }
+
   .newsletter-checkbox .inputLabel:before {
     content: "";
     position: absolute;
