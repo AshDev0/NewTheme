@@ -131,5 +131,5 @@ const countdownfunc = new setInterval(function() {
   document.getElementById("days").innerHTML = days;
   document.getElementById("hours").innerHTML = hours;
   document.getElementById("mins").innerHTML = minutes;
-});
+}, 1000);
 
