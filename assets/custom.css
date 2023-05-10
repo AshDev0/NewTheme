@@ -2600,6 +2600,13 @@ select {
     width: 90%;
     margin: 0 auto;
   }
+
+  #counter .des-section .des-section-items .des-section-item h6 {
+    font-size: 17px;
+  }
+  #counter .des-section .des-section-items .des-section-item p {
+    font-size: 10px;
+  }
 }
 
 @media screen and (max-width: 930px) {
