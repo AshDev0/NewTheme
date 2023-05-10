@@ -122,7 +122,7 @@ $(".reservenow").removeClass("res-active");
 function pad(d) {
     return (d < 10) ? '0' + d.toString() : d.toString();
 }
-const countDownDate = new Date("May 25, 2023 00:00:00").getTime();
+const countDownDate = new Date("May 17, 2023 00:00:00").getTime();
 const countdownfunc = setInterval(function() {
   const now = new Date().getTime();
   const distance = countDownDate - now;
