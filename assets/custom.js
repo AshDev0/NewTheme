@@ -126,6 +126,10 @@ const countdownfunc = new setInterval(function () {
   const days = Math.floor(distance / (1000 * 60 * 60 * 24));
   const hours = Math.floor((distance % (1000 * 60 * 60 * 24
 )) / (1000 * 60 * 60));
-  
+  const minutes = Math.floor((distance % (1000 * 60 * 60 * 24
+)) / (1000 * 60 * 60));
+  document.getElementById("days").innerHTML = days;
+  document.getElementById("hours").innerHTML = hours;
+  document.getElementById("mins").innerHTML = minutes;
 })
 
