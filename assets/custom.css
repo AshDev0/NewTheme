@@ -3067,7 +3067,12 @@ select {
 
   .blackbgreview .black-content {
     width: 100%;
-    padding: 50px;
+    padding: 30px;
+  }
+
+  .blackbgreview .black-content .desc p {
+    font-size: 25px;
+    line-height: 62px;
   }
 
   .close-btn {
