@@ -1593,7 +1593,8 @@ select {
 }
 
 #counter .timer .timer-content .days,
-.min,
+.hours,
+.mins,
 .sec {
   position: relative;
 }
