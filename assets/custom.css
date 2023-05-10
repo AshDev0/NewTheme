@@ -1554,12 +1554,7 @@ select {
 
 #counter .counter-content .counter-counter {
   width: 50%;
-  background-image: radial-gradient(
-    circle,
-    #192f48 25%,
-    #152537 40%,
-    #0e0e16 75%
-  );
+  background-image: radial-gradient(#192f48 25%, #152537 40%, #0e0e16 75%);
 }
 
 #counter .counter-content .counter-counter h3 {
