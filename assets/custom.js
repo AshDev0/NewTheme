@@ -134,7 +134,7 @@ const countdownfunc = setInterval(function() {
   let minutes = Math.floor((distance % (1000 * 60 * 60
 )) / (1000 * 60 * 60));
   let x = minutes.toString().split("")[1];
-  console.log(x);
+  console.log(minutes);
   let seconds = Math.floor((distance % (1000 * 60)) / 1000);
   days = pad(days);
   hours = pad(hours);
