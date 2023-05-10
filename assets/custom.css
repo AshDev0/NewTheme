@@ -2797,6 +2797,15 @@ select {
     border: none;
   }
 
+  #counter .counter-content .counter-counter h3 {
+    font-size: 20px;
+    line-height: normal;
+  }
+  #counter .counter-content .counter-counter h2 {
+    font-size: 30px;
+    line-height: normal;
+  }
+
   #counter .counter-counter .hours-btn button {
     margin-top: 50px;
     padding: 15px 24px;
