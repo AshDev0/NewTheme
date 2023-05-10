@@ -1550,12 +1550,10 @@ select {
   align-items: center;
   flex-wrap: wrap;
   background: #0e0e16;
-  background-image: radial-gradient(circle, #192f48, #152537, #0e0e16);
 }
 
 #counter .counter-content .counter-counter {
   width: 50%;
-  background-color: #0e0e16;
   background-image: radial-gradient(circle, #192f48, #152537, #0e0e16);
 }
 
