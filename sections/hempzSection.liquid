@@ -9,15 +9,17 @@
 
     <div class="product-section-one">
       {% assign collectionone = collections[blocks.settings.collectionOne] %}
-      <div class="product-item">
-        <div class="product-img">
-          <img src="" alt=" ">
+      {% for coll-one in collection.products %}
+        <div class="product-item">
+          <div class="product-img">
+            <img src="" alt=" ">
+          </div>
+          <div class="product-desc">
+            <p class="prod-title">{{ product.title }}</p>
+            <p class="prod-price">{{ product.price }}</p>
+          </div>
         </div>
-        <div class="product-desc">
-          <p class="prod-title">Pride Love Passion</p>
-          <p class="prod-price">Pride Love Passion</p>
-        </div>
-      </div>
+      {% endfor %}
     </div>
     <div class="product-section-two">
       <div class="product-item">
