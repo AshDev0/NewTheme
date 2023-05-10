@@ -3099,6 +3099,14 @@ select {
   #counter .counter-content .counter-image-head h2 {
     font-size: 30px;
   }
+
+  #counter .des-section .des-section-items .des-section-item h6 {
+    font-size: 12px;
+  }
+
+  #counter .des-section .des-section-items .des-section-item p {
+    font-size: 8px;
+  }
 }
 
 @media screen and (max-width: 540px) {
