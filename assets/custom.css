@@ -2200,6 +2200,26 @@ select {
     background: #000;
     color: #fff;
   }
+
+  #counter .counter-counter .timer .timer-content span {
+    font-size: 80px;
+    font-weight: 800;
+  }
+  #counter .timer .timer-content .days:after {
+    bottom: -55px;
+    left: 32%;
+    font-size: 25px;
+  }
+  #counter .timer .timer-content .hours:after {
+    bottom: -55px;
+    left: 22%;
+    font-size: 25px;
+  }
+  #counter .timer .timer-content .mins:after {
+    bottom: -55px;
+    left: 18%;
+    font-size: 25px;
+  }
 }
 
 @media screen and (max-width: 1366px) {
