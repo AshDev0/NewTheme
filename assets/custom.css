@@ -3069,6 +3069,10 @@ select {
     flex-direction: column-reverse;
   }
 
+  #counter .counter-content .counter-image {
+    width: 100%;
+  }
+
   .blackbgreview .black-content {
     width: 100%;
     padding: 30px;
