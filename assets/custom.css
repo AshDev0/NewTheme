@@ -3048,6 +3048,41 @@ select {
     padding: 15px 10px;
     width: unset;
   }
+
+  #counter .counter-content .counter-counter h3 {
+    font-size: 17px;
+    line-height: normal;
+  }
+
+  #counter .counter-content .counter-counter h3 {
+    font-size: 17px;
+    line-height: normal;
+  }
+
+  #counter .counter-counter .timer .timer-content {
+    margin-top: 15px;
+  }
+
+  #counter .counter-counter .timer .timer-content span {
+    font-size: 22px;
+    font-weight: 800;
+  }
+
+  #counter .timer .timer-content .days:after {
+    bottom: -27px;
+    left: 32%;
+    font-size: 13px;
+  }
+  #counter .timer .timer-content .hours:after {
+    bottom: -27px;
+    left: 22%;
+    font-size: 13px;
+  }
+  #counter .timer .timer-content .mins:after {
+    bottom: -27px;
+    left: 18%;
+    font-size: 13px;
+  }
 }
 
 @media screen and (max-width: 540px) {
