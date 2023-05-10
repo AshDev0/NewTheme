@@ -3095,6 +3095,10 @@ select {
     font-size: 9px;
     margin: 10px 0 0;
   }
+
+  #counter .counter-content .counter-image-head h2 {
+    font-size: 30px;
+  }
 }
 
 @media screen and (max-width: 540px) {
