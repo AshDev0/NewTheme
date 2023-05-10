@@ -1654,11 +1654,12 @@ select {
   font-size: 50px;
   line-height: normal;
   font-weight: 800;
-  padding: 0 5px;
+  margin: 0;
   background: #000;
   border: 1px solid;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   display: block;
+  padding: 0 5px;
 }
 
 #counter .counter-counter .hours-btn {
