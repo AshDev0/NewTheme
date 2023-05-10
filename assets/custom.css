@@ -3035,6 +3035,11 @@ select {
     flex-direction: column;
   }
 
+  #bookCall .bookCall-content h2 {
+    font-size: 43px;
+    width: 100%;
+  }
+
   .blackbgreview .black-content {
     width: 100%;
     padding: 50px;
