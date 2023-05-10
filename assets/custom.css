@@ -2806,6 +2806,11 @@ select {
     line-height: normal;
   }
 
+  #counter .counter-counter .timer .timer-content span {
+    font-size: 40px;
+    font-weight: 800;
+  }
+
   #counter .counter-counter .hours-btn button {
     margin-top: 50px;
     padding: 15px 24px;
