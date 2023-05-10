@@ -1556,9 +1556,9 @@ select {
   width: 50%;
   background-image: radial-gradient(
     circle,
-    #192f48 0%,
-    #152537 20%,
-    #0e0e16 40%
+    #192f48 25%,
+    #152537 40%,
+    #0e0e16 75%
   );
 }
 
