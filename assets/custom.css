@@ -3055,6 +3055,11 @@ select {
     line-height: 3.625rem;
   }
 
+  #scooterModel .model-content-one .model-header p {
+    font-size: 16px;
+    line-height: 19px;
+  }
+
   .blackbgreview .black-content {
     width: 100%;
     padding: 50px;
