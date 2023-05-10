@@ -3404,4 +3404,8 @@ select {
     padding: 15px 10px;
     width: unset;
   }
+
+  .reserve-container .reserve-form {
+    padding: 30px 30px;
+  }
 }
