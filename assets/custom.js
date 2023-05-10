@@ -117,6 +117,7 @@ $(".reservenow").addClass("res-active");
 
 $(document).on("click", ".reservenow .close-btn", function () {
 $(".reservenow").removeClass("res-active");
+  $("#reservenow").removeClass("res-block");
 });
 
 
