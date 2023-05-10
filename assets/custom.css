@@ -1596,6 +1596,8 @@ select {
 .hours,
 .mins {
   position: relative;
+  display: flex;
+  gap: 10px;
 }
 
 #counter .timer .timer-content .sec {
