@@ -1608,7 +1608,7 @@ select {
   font-size: 15px;
 }
 
-#counter .timer .timer-content .min:after {
+#counter .timer .timer-content .hours:after {
   position: absolute;
   content: "hours";
   text-transform: uppercase;
