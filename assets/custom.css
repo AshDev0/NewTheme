@@ -2804,6 +2804,11 @@ select {
     line-height: 16px;
     width: 190px;
   }
+
+  #counter .counter-counter .hours-btn p {
+    font-size: 10px;
+    margin: 10px 0 0;
+  }
 }
 
 @media screen and (max-width: 768px) {
