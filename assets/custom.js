@@ -119,7 +119,9 @@ $(".reservenow").removeClass("res-active");
 });
 
 
-
+function pad(d) {
+    return (d < 10) ? '0' + d.toString() : d.toString();
+}
 const countDownDate = new Date("May 25, 2023 00:00:00").getTime();
 const countdownfunc = setInterval(function() {
   const now = new Date().getTime();
@@ -130,6 +132,10 @@ const countdownfunc = setInterval(function() {
   const minutes = Math.floor((distance % (1000 * 60 * 60 * 24
 )) / (1000 * 60 * 60));
   const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  
+  if(days < 10){
+   days = pad(days); 
+  }
   document.getElementById("day1a").innerHTML = days.toString().split("")[0];
   document.getElementById("day1b").innerHTML = days.toString().split("")[1];
   document.getElementById("hours").innerHTML = hours;
