@@ -3427,4 +3427,9 @@ select {
     background-repeat: no-repeat;
     background-position: center;
   }
+
+  #reservenow .product_text p {
+    font-size: 15px;
+    line-height: 22px;
+  }
 }
