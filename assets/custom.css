@@ -1984,6 +1984,11 @@ select {
     font-size: 35px;
     line-height: normal;
   }
+
+  #counter .counter-content .counter-counter h2 {
+    font-size: 60px;
+    line-height: normal;
+  }
 }
 
 @media screen and (max-width: 1560px) {
