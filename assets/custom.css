@@ -2018,6 +2018,12 @@ select {
     line-height: 28px;
     width: 240px;
   }
+
+  #counter .counter-counter .hours-btn p {
+    font-size: 15px;
+
+    margin: 22px 0 0;
+  }
 }
 
 @media screen and (max-width: 1560px) {
