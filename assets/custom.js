@@ -111,10 +111,39 @@ $(window).on("load", function () {
 
 
 $(document).on("click", ".reserve-btn button", function () {
+$("#reservenow").addClass("res-block");
 $(".reservenow").addClass("res-active");
 });
 
 $(document).on("click", ".reservenow .close-btn", function () {
 $(".reservenow").removeClass("res-active");
+  $("#reservenow").removeClass("res-block");
 });
+
+
+function pad(d) {
+    return (d < 10) ? '0' + d.toString() : d.toString();
+}
+const countDownDate = new Date("May 17, 2023 00:00:00").getTime();
+const countdownfunc = setInterval(function() {
+  const now = new Date().getTime();
+  const distance = countDownDate - now;
+  let days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  let hours = Math.floor((distance % (1000 * 60 * 60 * 24
+)) / (1000 * 60 * 60));
+  let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  let seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  days = pad(days);
+  hours = pad(hours);
+  minutes = pad(minutes);
+  seconds = pad(seconds);
+  document.getElementById("days1a").innerHTML = days.split("")[0];
+  document.getElementById("days1b").innerHTML = days.split("")[1];
+  document.getElementById("hours1a").innerHTML = hours.split("")[0];
+  document.getElementById("hours1b").innerHTML = hours.split("")[1];
+  document.getElementById("mins1a").innerHTML = minutes.split("")[0];
+  document.getElementById("mins1b").innerHTML = minutes.split("")[1];
+  document.getElementById("sec1a").innerHTML = seconds.split("")[0];
+  document.getElementById("sec1b").innerHTML = seconds.split("")[1];
+}, 1000);
 

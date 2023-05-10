@@ -1,0 +1,84 @@
+<section id="hempzSection">
+  <div class="hempzSection">
+    <h3>FIND YOUR NEXT FAVORITE</h3>
+
+    <div class="tabs-section">
+      <p>New & Limited Editions</p>
+      <p>Best Sellers</p>
+    </div>
+
+    <div class="product-section-one">
+      {% assign collectionone = collections[section.settings.collectionOne] %}
+      {% for collect in collectionone.products %}
+        <div class="product-item">
+          <div class="product-img">
+            <img src="{{ collect | img_url:"master" }}" alt=" ">
+          </div>
+          <div class="product-desc">
+            <p class="prod-title">{{ collect.title }}</p>
+            <p class="prod-price">{{ collect.price }}</p>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+    <div class="product-section-two">
+      <div class="product-item">
+        <div class="product-img">
+          <img src="" alt=" ">
+        </div>
+        <div class="product-desc">
+          <p class="prod-title">Pride Love Passion</p>
+          <p class="prod-price">Pride Love Passion</p>
+        </div>
+      </div>
+    </div>
+    <div class="shopall-btn">
+      <a href="#" class="shopallnew">Shop All New</a>
+    </div>
+  </div>
+</section>
+{% schema %}
+{
+  "name": "Hempz Section",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+         {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Product Collection One",
+      "type": "ProductCollectionOne",
+      "settings": [
+                 {
+      "type": "collection",
+      "id": "collectionOne",
+      "label": "Collection One"
+    }
+      ]
+    },
+    {
+      "name": "Product Collection Two",
+      "type": "ProductCollectionTwo",
+      "settings": [
+                 {
+      "type": "collection",
+      "id": "collectionTwo",
+      "label": "Collection Two"
+    }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Hempz Section",
+      "settings": {
+      }
+    }
+  ]
+}
+{% endschema %}

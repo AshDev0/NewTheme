@@ -1327,6 +1327,11 @@
 #reservenow {
   background: #000;
   padding: 60px 0 132px;
+  display: none;
+}
+
+#reservenow.res-block {
+  display: block;
 }
 
 .reservenow {
@@ -1544,12 +1549,12 @@ select {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  background: #16161d;
+  background: #0e0e16;
 }
 
 #counter .counter-content .counter-counter {
   width: 50%;
-  padding: 150px;
+  background-image: radial-gradient(#192f48 25%, #152537 40%, #0e0e16 75%);
 }
 
 #counter .counter-content .counter-counter h3 {
@@ -1587,15 +1592,22 @@ select {
 #counter .counter-counter .timer .timer-content {
   display: flex;
   color: #fff;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
+  gap: 25px;
   margin-top: 30px;
 }
 
 #counter .timer .timer-content .days,
-.min,
-.sec {
+.hours,
+.mins {
   position: relative;
+  display: flex;
+  gap: 10px;
+}
+
+#counter .timer .timer-content .sec {
+  display: none;
 }
 
 #counter .timer .timer-content .days:after {
@@ -1608,7 +1620,7 @@ select {
   font-size: 15px;
 }
 
-#counter .timer .timer-content .min:after {
+#counter .timer .timer-content .hours:after {
   position: absolute;
   content: "hours";
   text-transform: uppercase;
@@ -1618,7 +1630,7 @@ select {
   font-size: 15px;
 }
 
-#counter .timer .timer-content .sec:after {
+#counter .timer .timer-content .mins:after {
   position: absolute;
   content: "minutes";
   text-transform: uppercase;
@@ -1628,13 +1640,27 @@ select {
   font-size: 15px;
 }
 
+#counter .timer .timer-content .sec:after {
+  position: absolute;
+  content: "Seconds";
+  text-transform: uppercase;
+  text-align: center;
+  bottom: -35px;
+  left: 18%;
+  font-size: 15px;
+}
+
 #counter .counter-counter .timer .timer-content span {
   font-size: 50px;
+  line-height: normal;
   font-weight: 800;
-  padding: 10px;
-  background: ;
-  border: 1px solid;
-  box-shadow: ;
+  margin: 0;
+  background: #131c2f;
+  border: 2px solid #0e0e17;
+  border-radius: 5px;
+  box-shadow: #00000059 0 5px 15px;
+  display: block;
+  padding: 0 7px;
 }
 
 #counter .counter-counter .hours-btn {
@@ -1957,6 +1983,66 @@ select {
     font-size: 20px;
     line-height: 22px;
   }
+
+  #counter .counter-content .counter-counter {
+    width: 50%;
+    padding: unset;
+  }
+
+  #counter .counter-content .counter-counter h3 {
+    font-size: 35px;
+    line-height: normal;
+  }
+
+  #counter .counter-content .counter-counter h2 {
+    font-size: 60px;
+    line-height: normal;
+  }
+
+  #counter .counter-counter .timer .timer-content span {
+    font-size: 90px;
+    font-weight: 800;
+  }
+  #counter .timer .timer-content .days:after {
+    bottom: -55px;
+    left: 32%;
+    font-size: 30px;
+  }
+  #counter .timer .timer-content .hours:after {
+    bottom: -55px;
+    left: 22%;
+    font-size: 30px;
+  }
+  #counter .timer .timer-content .mins:after {
+    bottom: -55px;
+    left: 18%;
+    font-size: 30px;
+  }
+
+  #counter .counter-counter .hours-btn button {
+    margin-top: 90px;
+    padding: 22px 30px;
+    font-size: 22px;
+    line-height: 28px;
+    width: 240px;
+  }
+
+  #counter .counter-counter .hours-btn p {
+    font-size: 15px;
+    margin: 22px 0 0;
+  }
+
+  #counter .counter-content .counter-image-head h2 {
+    font-size: 60px;
+  }
+
+  #counter .des-section .des-section-items .des-section-item h6 {
+    font-size: 20px;
+  }
+
+  #counter .des-section .des-section-items .des-section-item p {
+    font-size: 14px;
+  }
 }
 
 @media screen and (max-width: 1560px) {
@@ -2122,6 +2208,26 @@ select {
     background: #000;
     color: #fff;
   }
+
+  #counter .counter-counter .timer .timer-content span {
+    font-size: 80px;
+    font-weight: 800;
+  }
+  #counter .timer .timer-content .days:after {
+    bottom: -55px;
+    left: 32%;
+    font-size: 25px;
+  }
+  #counter .timer .timer-content .hours:after {
+    bottom: -55px;
+    left: 22%;
+    font-size: 25px;
+  }
+  #counter .timer .timer-content .mins:after {
+    bottom: -55px;
+    left: 18%;
+    font-size: 25px;
+  }
 }
 
 @media screen and (max-width: 1366px) {
@@ -2188,6 +2294,27 @@ select {
     max-height: 20px;
     margin-left: 0px;
     display: inherit;
+  }
+
+  #counter .counter-content .counter-counter h3 {
+    font-size: 30px;
+    line-height: normal;
+  }
+  #counter .counter-content .counter-counter h2 {
+    font-size: 55px;
+    line-height: normal;
+  }
+
+  #counter .counter-content .counter-image-head h2 {
+    font-size: 50px;
+  }
+
+  #counter .des-section .des-section-items .des-section-item h6 {
+    font-size: 18px;
+  }
+
+  #counter .des-section .des-section-items .des-section-item p {
+    font-size: 12px;
   }
 }
 
@@ -2429,6 +2556,65 @@ select {
     padding: 15px 10px;
     width: 370px;
   }
+
+  #counter .counter-content .counter-counter h3 {
+    font-size: 22px;
+    line-height: normal;
+  }
+
+  #counter .counter-content .counter-counter h2 {
+    font-size: 35px;
+    line-height: normal;
+  }
+
+  #counter .counter-counter .timer .timer-content span {
+    font-size: 50px;
+    font-weight: 800;
+  }
+
+  #counter .timer .timer-content .days:after {
+    bottom: -40px;
+    left: 32%;
+    font-size: 18px;
+  }
+  #counter .timer .timer-content .hours:after {
+    bottom: -40px;
+    left: 22%;
+    font-size: 18px;
+  }
+  #counter .timer .timer-content .mins:after {
+    bottom: -40px;
+    left: 18%;
+    font-size: 18px;
+  }
+
+  #counter .counter-counter .hours-btn button {
+    margin-top: 60px;
+    padding: 18px 30px;
+    font-size: 20px;
+    line-height: 22px;
+    width: 220px;
+  }
+  #counter .counter-counter .hours-btn p {
+    font-size: 12px;
+    margin: 12px 0 0;
+  }
+
+  #counter .counter-content .counter-image-head h2 {
+    font-size: 45px;
+  }
+
+  #counter .counter-image .des-section .des-section-items {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  #counter .des-section .des-section-items .des-section-item h6 {
+    font-size: 17px;
+  }
+  #counter .des-section .des-section-items .des-section-item p {
+    font-size: 10px;
+  }
 }
 
 @media screen and (max-width: 930px) {
@@ -2617,6 +2803,68 @@ select {
     height: 50px;
     padding: 0 20px;
     border: none;
+  }
+
+  #counter .counter-content .counter-counter h3 {
+    font-size: 20px;
+    line-height: normal;
+  }
+  #counter .counter-content .counter-counter h2 {
+    font-size: 30px;
+    line-height: normal;
+  }
+
+  #counter .timer .timer-content .days:after {
+    bottom: -30px;
+    left: 32%;
+    font-size: 15px;
+  }
+  #counter .timer .timer-content .hours:after {
+    bottom: -30px;
+    left: 22%;
+    font-size: 15px;
+  }
+  #counter .timer .timer-content .mins:after {
+    bottom: -30px;
+    left: 18%;
+    font-size: 15px;
+  }
+
+  #counter .counter-counter .timer .timer-content span {
+    font-size: 40px;
+    font-weight: 800;
+  }
+
+  #counter .counter-counter .hours-btn button {
+    margin-top: 50px;
+    padding: 15px 24px;
+    font-size: 18px;
+    line-height: 16px;
+    width: 190px;
+  }
+
+  #counter .counter-counter .hours-btn p {
+    font-size: 10px;
+    margin: 10px 0 0;
+  }
+
+  #counter .counter-content .counter-image-head h2 {
+    font-size: 40px;
+  }
+
+  #counter .counter-content .counter-image .des-section {
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    width: 100%;
+  }
+
+  #counter .des-section .des-section-items .des-section-item h6 {
+    font-size: 15px;
+  }
+
+  #counter .des-section .des-section-items .des-section-item p {
+    font-size: 9px;
   }
 }
 
@@ -2808,6 +3056,65 @@ select {
     padding: 15px 10px;
     width: unset;
   }
+
+  #counter .counter-content .counter-counter h3 {
+    font-size: 17px;
+    line-height: normal;
+  }
+
+  #counter .counter-content .counter-counter h3 {
+    font-size: 17px;
+    line-height: normal;
+  }
+
+  #counter .counter-counter .timer .timer-content {
+    margin-top: 15px;
+  }
+
+  #counter .counter-counter .timer .timer-content span {
+    font-size: 22px;
+    font-weight: 800;
+  }
+
+  #counter .timer .timer-content .days:after {
+    bottom: -27px;
+    left: 32%;
+    font-size: 13px;
+  }
+  #counter .timer .timer-content .hours:after {
+    bottom: -27px;
+    left: 22%;
+    font-size: 13px;
+  }
+  #counter .timer .timer-content .mins:after {
+    bottom: -27px;
+    left: 18%;
+    font-size: 13px;
+  }
+
+  #counter .counter-counter .hours-btn button {
+    margin-top: 40px;
+    padding: 12px 15px;
+    font-size: 14px;
+    line-height: 16px;
+    width: 150px;
+  }
+  #counter .counter-counter .hours-btn p {
+    font-size: 9px;
+    margin: 10px 0 0;
+  }
+
+  #counter .counter-content .counter-image-head h2 {
+    font-size: 30px;
+  }
+
+  #counter .des-section .des-section-items .des-section-item h6 {
+    font-size: 12px;
+  }
+
+  #counter .des-section .des-section-items .des-section-item p {
+    font-size: 8px;
+  }
 }
 
 @media screen and (max-width: 540px) {
@@ -2995,8 +3302,8 @@ select {
 
   #readblog .read-container p {
     font-size: 15px;
-    margin: 0 auto 20px;
-    width: 70%;
+    margin: 20px auto 20px;
+    width: 75%;
   }
 
   #readblog .blog {
@@ -3005,9 +3312,86 @@ select {
     gap: 20px;
   }
 
+  #readblog .blog .blog-list {
+    width: 100%;
+  }
+
+  #bookCall {
+    width: 100%;
+    margin: 30px 0;
+  }
+
+  #bookCall .bookCall-container {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  #bookCall .bookCall-content {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  #bookCall .bookCall-content h2 {
+    font-size: 43px;
+    width: 100%;
+  }
+
+  #scooterModel .model-container {
+    padding: 50px 30px 50px;
+  }
+
+  #scooterModel .model-content-one .model-header h2 {
+    font-size: 2.9rem;
+    line-height: 3.625rem;
+  }
+
+  #scooterModel .model-content-one .model-header p {
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  #scooterModel .model-content .model-content-two {
+    width: auto;
+    margin-top: 0px;
+  }
+
+  #counter .counter-section .counter-content {
+    flex-direction: column-reverse;
+  }
+
+  #counter .counter-content .counter-image {
+    width: 100%;
+  }
+  #counter .counter-image .des-section .des-section-items {
+    width: 90%;
+    margin: 0 auto;
+  }
+  #counter .counter-content .counter-counter {
+    width: 100%;
+    padding: 20px;
+  }
+
+  #counter .des-section .des-section-items .des-section-item h6 {
+    font-size: 14px;
+  }
+
+  #counter .des-section .des-section-items .des-section-item p {
+    font-size: 9px;
+  }
+
+  #counter .counter-content .counter-counter h2 {
+    font-size: 25px;
+    margin-top: 15px;
+  }
+
   .blackbgreview .black-content {
     width: 100%;
-    padding: 50px;
+    padding: 30px;
+  }
+
+  .blackbgreview .black-content .desc p {
+    font-size: 25px;
+    line-height: 62px;
   }
 
   .close-btn {
@@ -3023,9 +3407,37 @@ select {
 
   .reserve-container .contact_form input,
   select {
-    font-size: 14px;
+    font-size: 15px;
     line-height: 18px;
     padding: 15px 10px;
     width: unset;
+  }
+
+  .reserve-container .reserve-form {
+    padding: 30px 30px;
+  }
+
+  .newsletter-checkbox .inputLabel {
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  .newsletter-checkbox .inputLabel:before {
+    content: "";
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    left: -20px;
+    top: 1px;
+    border: 2px solid transparent;
+    border-image: url(Checkbox-gradient-border.png) 2 round;
+    border-image-width: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  #reservenow .product_text p {
+    font-size: 15px;
+    line-height: 22px;
   }
 }
