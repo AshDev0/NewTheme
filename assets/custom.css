@@ -3038,6 +3038,7 @@ select {
 
   #bookCall .bookCall-content {
     flex-direction: column;
+    gap: 20px;
   }
 
   #bookCall .bookCall-content h2 {
