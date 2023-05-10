@@ -129,8 +129,10 @@ const countdownfunc = setInterval(function() {
 )) / (1000 * 60 * 60));
   const minutes = Math.floor((distance % (1000 * 60 * 60 * 24
 )) / (1000 * 60 * 60));
+  const seconds = Math.floor((distance % (1000 * 60)) / 1000);
   document.getElementById("days").innerHTML = days;
   document.getElementById("hours").innerHTML = hours;
   document.getElementById("mins").innerHTML = minutes;
+  document.getElementById("sec").innerHTML = seconds;
 }, 1000);
 
