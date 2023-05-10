@@ -132,14 +132,18 @@ const countdownfunc = setInterval(function() {
   let minutes = Math.floor((distance % (1000 * 60 * 60 * 24
 )) / (1000 * 60 * 60));
   let seconds = Math.floor((distance % (1000 * 60)) / 1000);
-  
-  
-   days = pad(days); 
+   days = pad(days);
+  hours = pad(hours);
+  minutes = pad(minutes);
+  seconds = pad(seconds);
   
   document.getElementById("day1a").innerHTML = days.split("")[0];
   document.getElementById("day1b").innerHTML = days.split("")[1];
-  document.getElementById("hours").innerHTML = hours;
-  document.getElementById("mins").innerHTML = minutes;
-  document.getElementById("sec").innerHTML = seconds;
+  document.getElementById("hours1a").innerHTML = hours.split("")[0];
+  document.getElementById("hours1b").innerHTML = hours.split("")[1];
+  document.getElementById("mins1a").innerHTML = minutes.split("")[0];
+  document.getElementById("mins1b").innerHTML = minutes.split("")[1];
+  document.getElementById("sec1a").innerHTML = seconds.split("")[0];
+  document.getElementById("sec1b").innerHTML = seconds.split("")[1];
 }, 1000);
 
