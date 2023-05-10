@@ -120,7 +120,7 @@ $(".reservenow").removeClass("res-active");
 
 
 const countDownDate = new Date("May 17, 2023").getTime();
-const countdownfunc = new setInterval(function () {
+const countdownfunc = new setInterval(function() {
   const now = new Date().getTime();
   const distance = countDownDate - now;
   const days = Math.floor(distance / (1000 * 60 * 60 * 24));
@@ -131,5 +131,5 @@ const countdownfunc = new setInterval(function () {
   document.getElementById("days").innerHTML = days;
   document.getElementById("hours").innerHTML = hours;
   document.getElementById("mins").innerHTML = minutes;
-})
+});
 
