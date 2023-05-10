@@ -2297,6 +2297,10 @@ select {
     line-height: normal;
   }
 
+  #counter .counter-content .counter-image-head h2 {
+    font-size: 50px;
+  }
+
   #counter .des-section .des-section-items .des-section-item h6 {
     font-size: 18px;
   }
