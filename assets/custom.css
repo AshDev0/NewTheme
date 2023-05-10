@@ -1645,7 +1645,7 @@ select {
   padding: 10px;
   background: ;
   border: 1px solid;
-  box-shadow: ;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 #counter .counter-counter .hours-btn {
