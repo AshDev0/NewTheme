@@ -3408,4 +3408,18 @@ select {
   .reserve-container .reserve-form {
     padding: 30px 30px;
   }
+
+  .newsletter-checkbox .inputLabel:before {
+    content: "";
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    left: -20px;
+    top: 1px;
+    border: 2px solid transparent;
+    border-image: url(Checkbox-gradient-border.png) 2 round;
+    border-image-width: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 }
