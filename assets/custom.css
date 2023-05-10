@@ -3073,6 +3073,14 @@ select {
     width: 100%;
   }
 
+  #counter .des-section .des-section-items .des-section-item h6 {
+    font-size: 14px;
+  }
+
+  #counter .des-section .des-section-items .des-section-item p {
+    font-size: 9px;
+  }
+
   .blackbgreview .black-content {
     width: 100%;
     padding: 30px;
