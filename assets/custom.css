@@ -3060,6 +3060,11 @@ select {
     line-height: 19px;
   }
 
+  #scooterModel .model-content .model-content-two {
+    width: auto;
+    margin-top: 0px;
+  }
+
   .blackbgreview .black-content {
     width: 100%;
     padding: 50px;
