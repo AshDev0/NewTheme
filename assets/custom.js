@@ -118,3 +118,14 @@ $(document).on("click", ".reservenow .close-btn", function () {
 $(".reservenow").removeClass("res-active");
 });
 
+
+const countDownDate = new Date("").getTime();
+const countdownfunc = new setInterval(function () {
+  const now = new Date().getTime();
+  const distance = countDownDate - now;
+  const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  const hours = Math.floor((distance % (1000 * 60 * 60 * 24
+)) / (1000 * 60 * 60));
+  
+})
+
