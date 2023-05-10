@@ -2027,6 +2027,10 @@ select {
   #counter .counter-content .counter-image-head h2 {
     font-size: 60px;
   }
+
+  #counter .des-section .des-section-items .des-section-item h6 {
+    font-size: 20px;
+  }
 }
 
 @media screen and (max-width: 1560px) {
