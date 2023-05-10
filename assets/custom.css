@@ -3026,6 +3026,15 @@ select {
     width: 100%;
   }
 
+  #bookCall .bookCall-container {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  #bookCall .bookCall-content {
+    flex-direction: column;
+  }
+
   .blackbgreview .black-content {
     width: 100%;
     padding: 50px;
