@@ -2806,6 +2806,22 @@ select {
     line-height: normal;
   }
 
+  #counter .timer .timer-content .days:after {
+    bottom: -30px;
+    left: 32%;
+    font-size: 15px;
+  }
+  #counter .timer .timer-content .hours:after {
+    bottom: -30px;
+    left: 22%;
+    font-size: 15px;
+  }
+  #counter .timer .timer-content .mins:after {
+    bottom: -30px;
+    left: 18%;
+    font-size: 15px;
+  }
+
   #counter .counter-counter .timer .timer-content span {
     font-size: 40px;
     font-weight: 800;
