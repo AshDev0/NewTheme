@@ -1979,6 +1979,11 @@ select {
     width: 50%;
     padding: unset;
   }
+
+  #counter .counter-content .counter-counter h3 {
+    font-size: 35px;
+    line-height: normal;
+  }
 }
 
 @media screen and (max-width: 1560px) {
