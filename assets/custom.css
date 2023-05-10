@@ -1618,9 +1618,19 @@ select {
   font-size: 15px;
 }
 
-#counter .timer .timer-content .sec:after {
+#counter .timer .timer-content .mins:after {
   position: absolute;
   content: "minutes";
+  text-transform: uppercase;
+  text-align: center;
+  bottom: -35px;
+  left: 18%;
+  font-size: 15px;
+}
+
+#counter .timer .timer-content .sec:after {
+  position: absolute;
+  content: "Seconds";
   text-transform: uppercase;
   text-align: center;
   bottom: -35px;
