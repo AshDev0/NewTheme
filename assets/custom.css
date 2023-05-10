@@ -1656,10 +1656,11 @@ select {
   font-weight: 800;
   margin: 0;
   background: #131c2f;
-  border: 1px solid #131c2f;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: 2px solid #0e0e17;
+  border-radius: 5px;
+  box-shadow: #00000059 0 5px 15px;
   display: block;
-  padding: 0 10px;
+  padding: 0 7px;
 }
 
 #counter .counter-counter .hours-btn {
