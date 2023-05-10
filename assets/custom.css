@@ -2591,6 +2591,15 @@ select {
     font-size: 12px;
     margin: 12px 0 0;
   }
+
+  #counter .counter-content .counter-image-head h2 {
+    font-size: 45px;
+  }
+
+  #counter .counter-image .des-section .des-section-items {
+    width: 90%;
+    margin: 0 auto;
+  }
 }
 
 @media screen and (max-width: 930px) {
