@@ -2287,6 +2287,15 @@ select {
     margin-left: 0px;
     display: inherit;
   }
+
+  #counter .counter-content .counter-counter h3 {
+    font-size: 30px;
+    line-height: normal;
+  }
+  #counter .counter-content .counter-counter h2 {
+    font-size: 55px;
+    line-height: normal;
+  }
 }
 
 @media screen and (max-width: 1280px) {
