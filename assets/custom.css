@@ -1594,9 +1594,12 @@ select {
 
 #counter .timer .timer-content .days,
 .hours,
-.mins,
-.sec {
+.mins {
   position: relative;
+}
+
+#counter .timer .timer-content .sec {
+  display: none;
 }
 
 #counter .timer .timer-content .days:after {
