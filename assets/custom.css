@@ -2010,6 +2010,14 @@ select {
     left: 18%;
     font-size: 30px;
   }
+
+  #counter .counter-counter .hours-btn button {
+    margin-top: 90px;
+    padding: 22px 30px;
+    font-size: 22px;
+    line-height: 28px;
+    width: 240px;
+  }
 }
 
 @media screen and (max-width: 1560px) {
