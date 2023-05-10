@@ -1327,6 +1327,11 @@
 #reservenow {
   background: #000;
   padding: 60px 0 132px;
+  display: none;
+}
+
+#reservenow.res-block {
+  display: block;
 }
 
 .reservenow {
