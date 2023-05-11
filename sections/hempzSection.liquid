@@ -3,10 +3,10 @@
     <h3>FIND YOUR NEXT FAVORITE</h3>
 
     <div class="tabs-section">
-      <p class="active-tab">New & Limited Editions</p>
-      <p class="">Best Sellers</p>
+      <p class="active-tab" data-tab="1">New & Limited Editions</p>
+      <p class="" data-tab="2">Best Sellers</p>
     </div>
-    <div class="product-section product-section-active">
+    <div class="product-section product-section-active" data-tab="1">
       {% assign collection_one = collections[section.settings.collectionOne] %}
       {% for collectionOne in collection_one.products %}
         <div class="product-item">
@@ -20,7 +20,7 @@
         </div>
       {% endfor %}
     </div>
-    <div class="product-section">
+    <div class="product-section" data-tab="2">
       {% assign collection_two = collections[section.settings.collectionTwo] %}
       {% for product in collection_two.products %}
         <div class="product-item">
