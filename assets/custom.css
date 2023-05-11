@@ -1896,7 +1896,7 @@ select {
   content: "Compare Price:";
   position: absolute;
   top: 0;
-  left: 45px;
+  left: -25px;
   font-weight: 600;
   color: #000;
 }
