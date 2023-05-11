@@ -1961,7 +1961,7 @@ select {
 
 /* Change image on hover effect */
 
-.has-secondary.grid-view-item__link img.secondary {
+.grid-view-item__link.has-secondary img.secondary {
   display: none;
 }
 
