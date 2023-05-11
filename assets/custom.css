@@ -1827,7 +1827,7 @@ select {
 }
 
 #hempzSection .hempzSection .product-section.product-section-active {
-  display: block;
+  display: flex;
 }
 
 #hempzSection .hempzSection .product-section .product-item {
