@@ -16,6 +16,7 @@
           <div class="product-desc">
             <p class="prod-title">{{ collectionOne.title }}</p>
             <p class="prod-price">{{ collectionOne.price | money_with_currency }}</p>
+            <p class="prod-price">{{ collectionOne.compare_at_price | money_with_currency }}</p>
           </div>
         </div>
       {% endfor %}
@@ -30,6 +31,7 @@
           <div class="product-desc">
             <p class="prod-title">{{ product.title }}</p>
             <p class="prod-price">{{ product.price | money_with_currency }}</p>
+            <p class="prod-price">{{ collectionOne.compare_at_price | money_with_currency }}</p>
           </div>
         </div>
       {% endfor %}
