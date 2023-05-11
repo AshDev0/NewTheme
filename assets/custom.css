@@ -1947,6 +1947,7 @@ select {
   color: #fff;
   background: #f85695;
   text-align: center;
+  text-transform: uppercase;
   border-radius: 2px;
   border: none;
   width: 150px;
