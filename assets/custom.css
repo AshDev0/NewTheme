@@ -1961,15 +1961,15 @@ select {
 
 /* Change image on hover effect */
 
-.grid-view-item__link.has-secondary img.secondary {
+.has-secondary.grid-view-item__link img.secondary {
   display: none;
 }
 
-.grid-view-item__link.has-secondary:hover img.secondary {
+.has-secondary.grid-view-item__link:hover img.secondary {
   display: block;
 }
 
-.grid-view-item__link.has-secondary:hover img.grid-view-item__image {
+.has-secondary.grid-view-item__link:hover img.grid-view-item__image {
   display: none;
 }
 
