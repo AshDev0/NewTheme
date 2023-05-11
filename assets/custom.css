@@ -1798,6 +1798,7 @@ select {
   justify-content: center;
   align-items: center;
   gap: 50px;
+  margin-top: 20px;
 }
 
 #hempzSection .hempzSection .tabs-section p {
