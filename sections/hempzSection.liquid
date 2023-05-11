@@ -22,15 +22,18 @@
       {% endfor %}
     </div>
     <div class="product-section-two">
-      <div class="product-item">
-        <div class="product-img">
-          <img src="" alt=" ">
+      {% assign collection_main = collections[section.settings.collection] %}
+      {% for product in collection_main.products %}
+        <div class="product-item">
+          <div class="product-img">
+            <img src="{{ product | img_url:"master" }}" alt=" ">
+          </div>
+          <div class="product-desc">
+            <p class="prod-title">{{ product.title }}</p>
+            <p class="prod-price">{{ product.price | money_with_currency }}</p>
+          </div>
         </div>
-        <div class="product-desc">
-          <p class="prod-title">Pride Love Passion</p>
-          <p class="prod-price">Pride Love Passion</p>
-        </div>
-      </div>
+      {% endfor %}
     </div>
     <div class="shopall-btn">
       <a href="#" class="shopallnew">Shop All New</a>
