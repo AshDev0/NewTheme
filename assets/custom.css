@@ -2565,6 +2565,14 @@ select {
     height: 50px;
     width: 400px;
   }
+
+  #hempzSection
+    .product-section
+    .product-item
+    .product-desc
+    .prod-price:before {
+    left: 37px;
+  }
 }
 
 @media screen and (max-width: 1024px) {
