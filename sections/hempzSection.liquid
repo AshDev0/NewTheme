@@ -26,7 +26,9 @@
               | times: 100.0
               | divided_by: compare_at_price
             %}
-            <p class="prod-title">{{ collectionOne.title }}</p>
+            <p>
+              <a class="prod-title" href="{{ collectionOne.url | within: collectionTwo }}">{{ collectionOne.title }}</a>
+            </p>
             <p class="prod-price">{{ collectionOne.price | money_with_currency }}</p>
             <p class="prod-compare-price">{{ collectionOne.compare_at_price | money_with_currency }}</p>
             <p class="percent-count">{{ discount_percentage | round: 0 }}% off</p>
