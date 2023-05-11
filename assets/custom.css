@@ -1799,6 +1799,17 @@ select {
   align-items: center;
   gap: 50px;
 }
+
+#hempzSection .hempzSection .tabs-section p {
+  font-size: 24px;
+  font-weight: 500;
+  font-style: normal;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  transition: 0.2s ease-in-out;
+}
+
 @media screen and (max-width: 1920px) {
   .new-container .text h2 {
     font-size: 90px;
