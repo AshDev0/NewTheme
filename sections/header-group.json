@@ -395,7 +395,6 @@
     "c5c9355a-f9ec-4845-ad59-902752683480": {
       "type": "reservenow",
       "settings": {
-        "collection": "dragonfly-scooter"
       }
     },
     "c150655b-0ddd-40af-bd7e-3a2964e58856": {
@@ -415,7 +414,7 @@
         "4be617ae-7012-49e6-9ab8-3c83abbcdc46": {
           "type": "ProductCollectionTwo",
           "settings": {
-            "collectionTwo": "collection-two"
+            "collectionTwooo": ""
           }
         }
       },
@@ -424,7 +423,8 @@
         "4be617ae-7012-49e6-9ab8-3c83abbcdc46"
       ],
       "settings": {
-        "heading": ""
+        "heading": "",
+        "collectionTwo": "collection-two"
       }
     }
   },
