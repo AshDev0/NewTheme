@@ -1816,6 +1816,12 @@ select {
   border-bottom: 3px solid #6cc24a;
 }
 
+#hempzSection .hempzSection .product-section-one {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 @media screen and (max-width: 1920px) {
   .new-container .text h2 {
     font-size: 90px;
