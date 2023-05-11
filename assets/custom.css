@@ -1839,7 +1839,7 @@ select {
   position: relative;
 }
 
-#hempzSection .product-section .product-item .product-img: {
+#hempzSection .product-section .product-item .product-img {
   content: "sale!";
   position: absolute;
   top: 0;
