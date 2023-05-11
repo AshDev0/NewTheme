@@ -7,16 +7,15 @@
       <p>Best Sellers</p>
     </div>
     <div class="product-section-one">
-      {% assign block = section.blocks %}
-      {% assign collection = collections[block.settings.collectionOne] %}
-      {% for collect in collection %}
+      {% assign collection_one = collections[section.settings.collectionOne] %}
+      {% for collectionOne in collection_one.products %}
         <div class="product-item">
           <div class="product-img">
-            <img src="{{ collect | img_url:"master" }}" alt=" ">
+            <img src="{{ collectionOne | img_url:"master" }}" alt=" ">
           </div>
           <div class="product-desc">
-            <p class="prod-title">{{ collections.title }}</p>
-            <p class="prod-price">{{ collections.price }}</p>
+            <p class="prod-title">{{ collectionOne.title }}</p>
+            <p class="prod-price">{{ collectionOne.price }}</p>
           </div>
         </div>
       {% endfor %}
