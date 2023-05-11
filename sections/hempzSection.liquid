@@ -15,7 +15,7 @@
           </div>
           <div class="product-desc">
             <p class="prod-title">{{ collectionOne.title }}</p>
-            <p class="prod-price">{{ collectionOne.price }}</p>
+            <p class="prod-price">{{ collectionOne.price | money_with_currency }}</p>
           </div>
         </div>
       {% endfor %}
