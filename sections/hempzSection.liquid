@@ -13,11 +13,11 @@
       {% for collect in collectionone.products %}
         <div class="product-item">
           <div class="product-img">
-            <img src="{{ collect | img_url:"master" }}" alt=" ">
+            <img src="{{ collectionone | img_url:"master" }}" alt=" ">
           </div>
           <div class="product-desc">
-            <p class="prod-title">{{ collect.title }}</p>
-            <p class="prod-price">{{ collect.price }}</p>
+            <p class="prod-title">{{ collectionone.title }}</p>
+            <p class="prod-price">{{ collectionone.price }}</p>
           </div>
         </div>
       {% endfor %}
