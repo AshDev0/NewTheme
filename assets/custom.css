@@ -1858,6 +1858,21 @@ select {
   margin: 0;
 }
 
+#hempzSection .hempzSection .shopall-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+#hempzSection .hempzSection .shopall-btn .shopallnew {
+  font-size: 14px;
+  color: #000;
+  background-color: #fff;
+  border-color: #000;
+  font-weight: 700;
+}
+
 @media screen and (max-width: 1920px) {
   .new-container .text h2 {
     font-size: 90px;
