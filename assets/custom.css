@@ -1959,6 +1959,13 @@ select {
   cursor: pointer;
 }
 
+.product-grid a:hover img:last-child {
+  display: block !important;
+}
+.product-grid a:hover img:first-child {
+  display: none;
+}
+
 @media screen and (max-width: 1920px) {
   .new-container .text h2 {
     font-size: 90px;
