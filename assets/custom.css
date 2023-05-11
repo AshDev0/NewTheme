@@ -3691,4 +3691,11 @@ select {
     .prod-price:before {
     left: 95px;
   }
+  #hempzSection
+    .product-section
+    .product-item
+    .product-desc
+    .prod-compare-price:before {
+    left: 24px;
+  }
 }
