@@ -1961,9 +1961,6 @@ select {
 
 /* Change image on hover effect */
 
-/* ===============================================
-// Reveal module
-// =============================================== */
 .has-secondary.grid-view-item__link img.secondary {
   display: none;
 }
