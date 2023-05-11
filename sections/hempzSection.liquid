@@ -37,8 +37,8 @@
             <img src="{{ product | img_url:"master" }}" alt=" ">
           </div>
           <div class="product-desc">
-            {% assign price = collectionOne.selected_or_first_available_variant.price %}
-            {% assign compare_at_price = collectionOne.selected_or_first_available_variant.compare_at_price %}
+            {% assign price = product.selected_or_first_available_variant.price %}
+            {% assign compare_at_price = product.selected_or_first_available_variant.compare_at_price %}
             {% assign discount_percentage = compare_at_price
               | minus: price
               | times: 100.0
