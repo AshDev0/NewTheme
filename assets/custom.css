@@ -1839,7 +1839,7 @@ select {
   position: relative;
 }
 
-#hempzSection .product-section .product-item .product-img:before {
+#hempzSection .product-section .product-item .product-img: {
   content: "sale!";
   position: absolute;
   top: 0;
@@ -1858,6 +1858,21 @@ select {
 #hempzSection .product-section .product-item .product-img img {
   width: 100%;
   display: block;
+}
+
+#hempzSection .product-section .product-item .product-desc .sale-badge {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 20px;
+  line-height: 40px;
+  font-weight: 800;
+  font-style: normal;
+  color: #fff;
+  background: #f85695;
+  padding: 12px;
+  border-radius: 50%;
+  text-align: center;
 }
 
 #hempzSection .product-section .product-item .product-desc .prod-title {
