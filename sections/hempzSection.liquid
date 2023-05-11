@@ -12,8 +12,19 @@
         <div class="product-item">
           <a href="{{ collectionOne.url | within: collectionOne }}">
             <div class="product-img">
-              <a class="grid-view-item__link {% if product.images.size > 1 %} has-secondary{% endif %}" href="{{ product.url | within: collection }}">
-              <img src="{{ collectionOne | img_url:"master" }}" alt=" ">
+              <a
+                class="grid-view-item__link {% if product.images.size > 1 %} has-secondary{% endif %}"
+                href="{{ product.url | within: collection }}"
+              >
+                <img class="grid-view-item__image" src="{{ collectionOne | img_url:"master" }}" alt=" ">
+                {% if product.images.size > 1 %}
+                  <img
+                    class="secondary"
+                    src="{{ product.images.last | img_url: grid_image_width }}"
+                    alt="{{ product.images.last.alt | escape }}"
+                  >
+                {% endif %}
+              </a>
               {% if collectionOne.compare_at_price %}
                 {% if collectionOne.price < collectionOne.compare_at_price %}
                   <span class="sale-badge">sale!</span>
