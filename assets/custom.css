@@ -1880,11 +1880,12 @@ select {
 }
 
 #hempzSection .product-section .product-item .product-desc .prod-price:before {
-  content: "Price";
+  content: "Price:";
   position: absolute;
   top: 0;
   left: 0;
   font-weight: 600;
+  color: #000;
 }
 
 #hempzSection .hempzSection .shopall-btn {
