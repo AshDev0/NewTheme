@@ -1834,6 +1834,19 @@ select {
 }
 #hempzSection .product-section .product-item .product-img {
   width: 100%;
+  position: relative;
+}
+
+#hempzSection .product-section .product-item .product-img:before {
+  content: "sale!";
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  color: #fff;
+  background: #f85695;
 }
 #hempzSection .product-section .product-item .product-img img {
   width: 100%;
