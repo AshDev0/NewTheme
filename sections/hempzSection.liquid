@@ -38,14 +38,16 @@
       {% assign collection_two = collections[section.settings.collectionTwo] %}
       {% for product in collection_two.products %}
         <div class="product-item">
-          <div class="product-img">
-            <img src="{{ product | img_url:"master" }}" alt=" ">
-            {% if product.compare_at_price %}
-              {% if product.price < product.compare_at_price %}
-                <span class="sale-badge">sale!</span>
+          <a href="{{ product.url }}">
+            <div class="product-img">
+              <img src="{{ product | img_url:"master" }}" alt=" ">
+              {% if product.compare_at_price %}
+                {% if product.price < product.compare_at_price %}
+                  <span class="sale-badge">sale!</span>
+                {% endif %}
               {% endif %}
-            {% endif %}
-          </div>
+            </div>
+          </a>
 
           <div class="product-desc">
             {% assign price = product.selected_or_first_available_variant.price %}
