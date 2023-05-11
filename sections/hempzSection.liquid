@@ -22,9 +22,9 @@
               | divided_by: compare_at_price
             %}
 
-            {% if product.compare_at_price %}
-              {% if product.price < product.compare_at_price %}
-                Sale badge goes here
+            {% if collectionOne.compare_at_price %}
+              {% if collectionOne.price < collectionOne.compare_at_price %}
+                <span class="sale-badge">sale!</span>
               {% endif %}
             {% endif %}
             <p class="prod-title">{{ collectionOne.title }}</p>
