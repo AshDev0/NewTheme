@@ -57,8 +57,8 @@
               | times: 100.0
               | divided_by: compare_at_price
             %}
-            <p class="prod-title">
-              <a href="{{ product.url | within: collectionTwo }}">{{ product.title }}</a>
+            <p>
+              <a class="prod-title" href="{{ product.url | within: collectionTwo }}">{{ product.title }}</a>
             </p>
             <p class="prod-price">{{ product.price | money_with_currency }}</p>
             <p class="prod-compare-price">{{ product.compare_at_price | money_with_currency }}</p>
