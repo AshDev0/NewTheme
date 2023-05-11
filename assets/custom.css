@@ -3683,4 +3683,12 @@ select {
   #hempzSection .hempzSection .product-section .product-item {
     width: 100%;
   }
+
+  #hempzSection
+    .product-section
+    .product-item
+    .product-desc
+    .prod-price:before {
+    left: 95px;
+  }
 }
