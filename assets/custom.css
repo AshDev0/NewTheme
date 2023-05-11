@@ -1939,6 +1939,19 @@ select {
   text-transform: uppercase;
 }
 
+#hempzSection .hempzSection .product-section .product-item form .addtocart {
+  font-size: 14px;
+  line-height: 25px;
+  font-weight: 600;
+  font-style: normal;
+  color: #fff;
+  background: #f85695;
+  text-align: center;
+  border-radius: 2px;
+  width: 80px;
+  margin: 0 auto;
+}
+
 @media screen and (max-width: 1920px) {
   .new-container .text h2 {
     font-size: 90px;
