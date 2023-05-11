@@ -1969,7 +1969,7 @@ select {
   display: block;
 }
 
-.has-secondary.grid-view-item__link:hover img.grid-view-item__image {
+.grid-view-item__link.has-secondary:hover img.grid-view-item__image {
   display: none;
 }
 
