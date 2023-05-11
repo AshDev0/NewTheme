@@ -3338,6 +3338,22 @@ select {
   #counter .des-section .des-section-items .des-section-item p {
     font-size: 8px;
   }
+
+  #hempzSection
+    .product-section
+    .product-item
+    .product-desc
+    .prod-price:before {
+    left: 45px;
+  }
+
+  #hempzSection
+    .product-section
+    .product-item
+    .product-desc
+    .prod-compare-price:before {
+    left: -22px;
+  }
 }
 
 @media screen and (max-width: 540px) {
