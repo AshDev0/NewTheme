@@ -1788,6 +1788,8 @@ select {
   font-weight: 400;
   text-transform: uppercase;
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 @media screen and (max-width: 1920px) {
   .new-container .text h2 {
