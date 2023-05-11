@@ -1842,12 +1842,16 @@ select {
   position: absolute;
   top: 0;
   left: 0;
-  font-size: 14px;
-  font-weight: 500;
+  font-size: 19px;
+  font-weight: 800;
   font-style: normal;
   color: #fff;
   background: #f85695;
+  padding: 15px;
+  border-radius: 50%;
+  text-align: center;
 }
+
 #hempzSection .product-section .product-item .product-img img {
   width: 100%;
   display: block;
