@@ -3679,4 +3679,8 @@ select {
     font-size: 15px;
     line-height: 22px;
   }
+
+  #hempzSection .hempzSection .product-section .product-item {
+    width: 100%;
+  }
 }
