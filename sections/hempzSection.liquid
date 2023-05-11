@@ -13,15 +13,15 @@
           <a href="{{ collectionOne.url | within: collectionOne }}">
             <div class="product-img">
               <a
-                class="grid-view-item__link {% if product.images.size > 1 %} has-secondary{% endif %}"
-                href="{{ product.url | within: collection }}"
+                class="grid-view-item__link {% if collectionOne.images.size > 1 %} has-secondary{% endif %}"
+                href="{{ collectionOne.url | within: collectionOne }}"
               >
                 <img class="grid-view-item__image" src="{{ collectionOne | img_url:"master" }}" alt=" ">
-                {% if product.images.size > 1 %}
+                {% if collectionOne.images.size > 1 %}
                   <img
                     class="secondary"
-                    src="{{ product.images.last | img_url: grid_image_width }}"
-                    alt="{{ product.images.last.alt | escape }}"
+                    src="{{ collectionOne.images.last | img_url: grid_image_width }}"
+                    alt=""
                   >
                 {% endif %}
               </a>
