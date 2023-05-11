@@ -1830,7 +1830,7 @@ select {
 #hempzSection .product-section-one .product-item .product-img {
   width: 100%;
 }
-#hempzSection .hempzSection .product-section-one .product-item img {
+#hempzSection .product-section-one .product-item .product-img img {
   width: 100%;
   display: block;
 }
