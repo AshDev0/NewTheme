@@ -8,16 +8,16 @@
     </div>
 
     <div class="product-section-one">
-      {% assign block = %}
-      {% assign collectionone = collections[blocks.settings.collectionOne] %}
-      {% for collect in collectionone.products %}
+      {% assign block = section.blocks %}
+      {% assign collection = collections[block.settings.collection] %}
+      {% for collect in collection %}
         <div class="product-item">
           <div class="product-img">
-            <img src="{{ collectionone | img_url:"master" }}" alt=" ">
+            <img src="{{ collect | img_url:"master" }}" alt=" ">
           </div>
           <div class="product-desc">
-            <p class="prod-title">{{ collectionone.title }}</p>
-            <p class="prod-price">{{ collectionone.price }}</p>
+            <p class="prod-title">{{ collect.title }}</p>
+            <p class="prod-price">{{ collect.price }}</p>
           </div>
         </div>
       {% endfor %}
