@@ -1827,6 +1827,9 @@ select {
 #hempzSection .hempzSection .product-section-one .product-item {
   width: 22.5%;
 }
+#hempzSection .product-section-one .product-item .product-img {
+  width: 100%;
+}
 #hempzSection .hempzSection .product-section-one .product-item img {
   width: 100%;
   display: block;
