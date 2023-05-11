@@ -1783,6 +1783,12 @@ select {
   width: 100%;
 }
 
+#hempzSection .hempzSection h3 {
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+}
 @media screen and (max-width: 1920px) {
   .new-container .text h2 {
     font-size: 90px;
