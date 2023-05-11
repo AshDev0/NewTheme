@@ -1842,12 +1842,13 @@ select {
   position: absolute;
   top: 0;
   left: 0;
-  font-size: 19px;
+  font-size: 20px;
+  line-height: 40px;
   font-weight: 800;
   font-style: normal;
   color: #fff;
   background: #f85695;
-  padding: 15px;
+  padding: 12px;
   border-radius: 50%;
   text-align: center;
 }
