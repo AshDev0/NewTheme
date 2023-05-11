@@ -1959,6 +1959,45 @@ select {
   cursor: pointer;
 }
 
+/* Change image on hover effect */
+
+/* ===============================================
+// Reveal module
+// =============================================== */
+.has-secondary.grid-view-item__link img.secondary {
+  display: none;
+}
+
+.has-secondary.grid-view-item__link:hover img.secondary {
+  display: block;
+}
+
+.has-secondary.grid-view-item__link:hover img.grid-view-item__image {
+  display: none;
+}
+
+@media screen and (min-width: 767px) {
+  .has-secondary.grid-view-item__link img.secondary {
+    display: none;
+  }
+
+  .has-secondary.grid-view-item__link:hover img.secondary {
+    display: block;
+  }
+
+  .has-secondary.grid-view-item__link:hover img.grid-view-item__image {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .has-secondary.grid-view-item__link img.secondary {
+    display: none;
+  }
+}
+
+/* End Code */
+
 @media screen and (max-width: 1920px) {
   .new-container .text h2 {
     font-size: 90px;
