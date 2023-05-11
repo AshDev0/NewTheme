@@ -36,7 +36,7 @@
             <p class="percent-count">{{ discount_percentage | round: 0 }}% off</p>
           </div>
           <form method="post" action="/cart/add">
-            <input name="id" value="{{ product.variants.first.id }}" type="hidden">
+            <input name="id" value="{{ collectionOne.variants.first.id }}" type="hidden">
             <input name="add" value="ADD TO CART" type="submit">
           </form>
         </div>
