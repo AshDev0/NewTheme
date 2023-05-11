@@ -22,7 +22,8 @@
       {% endfor %}
     </div>
     <div class="product-section-two">
-      {% assign collection_main = collections[blocks.settings.collectionTwooo] %}
+      {% assign block = section.blocks %}
+      {% assign collection_main = collections[block.settings.collectionTwooo] %}
       {% for product in collection_main.products %}
         <div class="product-item">
           <div class="product-img">
