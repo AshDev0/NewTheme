@@ -1879,6 +1879,10 @@ select {
   position: relative;
 }
 
+#hempzSection .product-section .product-item .product-desc .prod-compare-price {
+  display: none;
+}
+
 #hempzSection .product-section .product-item .product-desc .percent-count {
   font-size: 14px;
   line-height: 25px;
