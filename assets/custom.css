@@ -1868,13 +1868,23 @@ select {
   margin: 0;
 }
 
-#hempzSection .product-section .product-item .product-desc .prod-price {
+#hempzSection .product-section .product-item .product-desc .prod-price,
+.prod-compare-price {
   font-size: 16px;
   font-weight: 400;
   color: #9d9d9d;
   text-align: center;
   padding: 0;
   margin: 0;
+  position: relative;
+}
+
+#hempzSection .product-section .product-item .product-desc .prod-price:before {
+  content: "Price";
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 600;
 }
 
 #hempzSection .hempzSection .shopall-btn {
