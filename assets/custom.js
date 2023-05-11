@@ -147,3 +147,11 @@ const countdownfunc = setInterval(function() {
   document.getElementById("sec1b").innerHTML = seconds.split("")[1];
 }, 1000);
 
+$(document).on("click", ".tabs-section p", function () {
+  let tabValue = $(this).data("tab");
+  $(".product-section").removeClass("product-section-active");
+  $(this).addClass("active-tab");
+  $(this).siblings(".tabs-section p").removeClass("active-tab");
+  $('.product-section[data-tab="'+tabValue+'"]').addClass("product-section-active");
+});
+
