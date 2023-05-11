@@ -35,6 +35,10 @@
             <p class="prod-compare-price">{{ collectionOne.compare_at_price | money_with_currency }}</p>
             <p class="percent-count">{{ discount_percentage | round: 0 }}% off</p>
           </div>
+          <form method="post" action="/cart/add">
+            <input name="id" value="{{ product.variants.first.id }}" type="hidden">
+            <input name="add" value="ORDER NOW" type="submit">
+          </form>
         </div>
       {% endfor %}
     </div>
