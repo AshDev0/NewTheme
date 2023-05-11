@@ -1813,7 +1813,7 @@ select {
 
 #hempzSection .hempzSection .tabs-section p.active-tab {
   font-weight: 600;
-  border-bottom: 3x solid #6cc24a;
+  border-bottom: 3px solid #6cc24a;
 }
 
 @media screen and (max-width: 1920px) {
