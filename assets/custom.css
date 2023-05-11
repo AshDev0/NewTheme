@@ -1817,6 +1817,8 @@ select {
 }
 
 #hempzSection .hempzSection .product-section-one {
+  width: 90%;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
