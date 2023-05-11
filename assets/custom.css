@@ -3687,19 +3687,25 @@ select {
   #hempzSection .hempzSection .product-section .product-item {
     width: 100%;
   }
+}
+
+@media screen and (max-width: 375px) {
+  #hempzSection .hempzSection .tabs-section p {
+    font-size: 18px;
+  }
 
   #hempzSection
     .product-section
     .product-item
     .product-desc
     .prod-price:before {
-    left: 95px;
+    left: 85px;
   }
   #hempzSection
     .product-section
     .product-item
     .product-desc
     .prod-compare-price:before {
-    left: 24px;
+    left: 15px;
   }
 }
