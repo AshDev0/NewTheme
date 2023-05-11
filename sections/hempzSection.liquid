@@ -35,7 +35,9 @@
         <div class="product-item">
           <div class="product-img">
             <img src="{{ product | img_url:"master" }}" alt=" ">
+            <span class="sale-badge">sale!</span>
           </div>
+
           <div class="product-desc">
             {% assign price = product.selected_or_first_available_variant.price %}
             {% assign compare_at_price = product.selected_or_first_available_variant.compare_at_price %}
