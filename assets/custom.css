@@ -3680,6 +3680,10 @@ select {
     line-height: 22px;
   }
 
+  #hempzSection .hempzSection .tabs-section p {
+    font-size: 20px;
+  }
+
   #hempzSection .hempzSection .product-section .product-item {
     width: 100%;
   }
