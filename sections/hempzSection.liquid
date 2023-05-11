@@ -40,6 +40,11 @@
         <div class="product-item">
           <div class="product-img">
             <img src="{{ product | img_url:"master" }}" alt=" ">
+            {% if product.compare_at_price %}
+              {% if product.price < product.compare_at_price %}
+                <span class="sale-badge">sale!</span>
+              {% endif %}
+            {% endif %}
           </div>
 
           <div class="product-desc">
