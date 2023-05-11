@@ -10,14 +10,16 @@
       {% assign collection_one = collections[section.settings.collectionOne] %}
       {% for collectionOne in collection_one.products %}
         <div class="product-item">
-          <div class="product-img">
-            <img src="{{ collectionOne | img_url:"master" }}" alt=" ">
-            {% if collectionOne.compare_at_price %}
-              {% if collectionOne.price < collectionOne.compare_at_price %}
-                <span class="sale-badge">sale!</span>
+          <a href="{{ collectionOne.url | within: collectionOne }}">
+            <div class="product-img">
+              <img src="{{ collectionOne | img_url:"master" }}" alt=" ">
+              {% if collectionOne.compare_at_price %}
+                {% if collectionOne.price < collectionOne.compare_at_price %}
+                  <span class="sale-badge">sale!</span>
+                {% endif %}
               {% endif %}
-            {% endif %}
-          </div>
+            </div>
+          </a>
           <div class="product-desc">
             {% assign price = collectionOne.selected_or_first_available_variant.price %}
             {% assign compare_at_price = collectionOne.selected_or_first_available_variant.compare_at_price %}
