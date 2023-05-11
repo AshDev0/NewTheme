@@ -20,7 +20,7 @@
                 {% if collectionOne.images.size > 1 %}
                   <img
                     class="secondary"
-                    src="{{ collectionOne.images.last | img_url: grid_image_width }}"
+                    src="{{ collectionOne.images.last | img_url: "master" }}"
                     alt=""
                   >
                 {% endif %}
