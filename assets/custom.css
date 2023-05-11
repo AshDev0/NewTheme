@@ -3130,6 +3130,21 @@ select {
     padding: 15px 10px;
     width: unset;
   }
+
+  #hempzSection
+    .product-section
+    .product-item
+    .product-desc
+    .prod-price:before {
+    left: 65px;
+  }
+  #hempzSection
+    .product-section
+    .product-item
+    .product-desc
+    .prod-compare-price:before {
+    left: -5px;
+  }
 }
 
 @media screen and (max-width: 670px) {
