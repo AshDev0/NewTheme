@@ -1832,6 +1832,7 @@ select {
 
 #hempzSection .hempzSection .product-section .product-item {
   width: 22.5%;
+  position: relative;
 }
 #hempzSection .product-section .product-item .product-img {
   width: 100%;
