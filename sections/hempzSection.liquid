@@ -13,6 +13,13 @@
           <div class="product-img">
             <img src="{{ collectionOne | img_url:"master" }}" alt=" ">
           </div>
+          <div class="sale-badge">
+            {% if collectionOne.compare_at_price %}
+              {% if collectionOne.price < collectionOne.compare_at_price %}
+                <span class="sale-badge">sale!</span>
+              {% endif %}
+            {% endif %}
+          </div>
           <div class="product-desc">
             {% assign price = collectionOne.selected_or_first_available_variant.price %}
             {% assign compare_at_price = collectionOne.selected_or_first_available_variant.compare_at_price %}
@@ -21,12 +28,6 @@
               | times: 100.0
               | divided_by: compare_at_price
             %}
-
-            {% if collectionOne.compare_at_price %}
-              {% if collectionOne.price < collectionOne.compare_at_price %}
-                <span class="sale-badge">sale!</span>
-              {% endif %}
-            {% endif %}
             <p class="prod-title">{{ collectionOne.title }}</p>
             <p class="prod-price">{{ collectionOne.price | money_with_currency }}</p>
             <p class="prod-compare-price">{{ collectionOne.compare_at_price | money_with_currency }}</p>
