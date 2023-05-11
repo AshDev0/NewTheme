@@ -1860,7 +1860,7 @@ select {
   display: block;
 }
 
-#hempzSection .product-section .product-item .product-desc .sale-badge {
+#hempzSection .product-section .product-item .sale-badge {
   position: absolute;
   top: 0;
   left: 0;
