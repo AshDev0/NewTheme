@@ -37,9 +37,17 @@
             <img src="{{ product | img_url:"master" }}" alt=" ">
           </div>
           <div class="product-desc">
+            {% assign price = collectionOne.selected_or_first_available_variant.price %}
+            {% assign compare_at_price = collectionOne.selected_or_first_available_variant.compare_at_price %}
+            {% assign discount_percentage = compare_at_price
+              | minus: price
+              | times: 100.0
+              | divided_by: compare_at_price
+            %}
             <p class="prod-title">{{ product.title }}</p>
             <p class="prod-price">{{ product.price | money_with_currency }}</p>
             <p class="prod-compare-price">{{ product.compare_at_price | money_with_currency }}</p>
+            <p class="percent-count">-{{ discount_percentage | round: 0 }}% off</p>
           </div>
         </div>
       {% endfor %}
