@@ -1965,7 +1965,7 @@ select {
   display: none;
 }
 
-.has-secondary.grid-view-item__link:hover img.secondary {
+.grid-view-item__link.has-secondary:hover img.secondary {
   display: block;
 }
 
