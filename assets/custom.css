@@ -1950,6 +1950,9 @@ select {
   border-radius: 2px;
   width: 80px;
   margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media screen and (max-width: 1920px) {
