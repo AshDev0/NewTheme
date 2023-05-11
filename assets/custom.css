@@ -2775,6 +2775,26 @@ select {
   #counter .des-section .des-section-items .des-section-item p {
     font-size: 10px;
   }
+
+  #hempzSection
+    .product-section
+    .product-item
+    .product-desc
+    .prod-price:before {
+    left: 14px;
+  }
+
+  #hempzSection .product-section .product-item .product-desc .prod-price,
+  .prod-compare-price {
+    font-size: 14px;
+  }
+  #hempzSection
+    .product-section
+    .product-item
+    .product-desc
+    .prod-compare-price:before {
+    left: -40px;
+  }
 }
 
 @media screen and (max-width: 930px) {
