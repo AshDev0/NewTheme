@@ -1887,6 +1887,7 @@ select {
   color: #fff;
   background: #f85695;
   text-align: center;
+  border-radius: 2px;
   width: 80px;
   margin: 0 auto;
 }
