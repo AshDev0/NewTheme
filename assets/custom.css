@@ -3054,6 +3054,26 @@ select {
   #hempzSection .hempzSection .product-section .product-item {
     width: 45%;
   }
+
+  #hempzSection .product-section .product-item .product-desc .prod-price,
+  .prod-compare-price {
+    font-size: 16px;
+  }
+
+  #hempzSection
+    .product-section
+    .product-item
+    .product-desc
+    .prod-price:before {
+    left: 75px;
+  }
+  #hempzSection
+    .product-section
+    .product-item
+    .product-desc
+    .prod-compare-price:before {
+    left: 0px;
+  }
 }
 
 @media screen and (max-width: 768px) {
