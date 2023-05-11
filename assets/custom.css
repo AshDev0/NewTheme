@@ -3699,13 +3699,13 @@ select {
     .product-item
     .product-desc
     .prod-price:before {
-    left: 85px;
+    left: 75px;
   }
   #hempzSection
     .product-section
     .product-item
     .product-desc
     .prod-compare-price:before {
-    left: 15px;
+    left: 7px;
   }
 }
