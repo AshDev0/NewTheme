@@ -38,7 +38,7 @@
       {% assign collection_two = collections[section.settings.collectionTwo] %}
       {% for product in collection_two.products %}
         <div class="product-item">
-          <a href="{{ product.url | within: collection }}">
+          <a href="{{ product.url | within: collectionTwo }}">
             <div class="product-img">
               <img src="{{ product | img_url:"master" }}" alt=" ">
               {% if product.compare_at_price %}
