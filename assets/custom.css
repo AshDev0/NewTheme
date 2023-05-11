@@ -1806,6 +1806,7 @@ select {
   font-weight: 500;
   font-style: normal;
   color: #000;
+  cursor: pointer;
   margin: 0;
   padding: 0;
   transition: 0.2s ease-in-out;
