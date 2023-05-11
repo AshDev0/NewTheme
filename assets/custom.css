@@ -1886,6 +1886,8 @@ select {
   font-style: normal;
   color: #fff;
   background: #f85695;
+  text-align: center;
+  width: 80px;
 }
 
 #hempzSection .product-section .product-item .product-desc .prod-price:before {
