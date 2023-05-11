@@ -1839,7 +1839,7 @@ select {
   position: relative;
 }
 
-#hempzSection .product-section .product-item .product-img {
+/* #hempzSection .product-section .product-item .product-img {
   content: "sale!";
   position: absolute;
   top: 0;
@@ -1853,7 +1853,7 @@ select {
   padding: 12px;
   border-radius: 50%;
   text-align: center;
-}
+} */
 
 #hempzSection .product-section .product-item .product-img img {
   width: 100%;
