@@ -2573,6 +2573,13 @@ select {
     .prod-price:before {
     left: 37px;
   }
+  #hempzSection
+    .product-section
+    .product-item
+    .product-desc
+    .prod-compare-price:before {
+    left: -35px;
+  }
 }
 
 @media screen and (max-width: 1024px) {
