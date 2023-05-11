@@ -1811,6 +1811,10 @@ select {
   transition: 0.2s ease-in-out;
 }
 
+#hempzSection .hempzSection .tabs-section p.active-tab {
+  font-weight: 600;
+}
+
 @media screen and (max-width: 1920px) {
   .new-container .text h2 {
     font-size: 90px;
