@@ -12,11 +12,9 @@
         <div class="product-item">
           <div class="product-img">
             <img src="{{ collectionOne | img_url:"master" }}" alt=" ">
-          </div>
-          <div class="sale-badge">
             {% if collectionOne.compare_at_price %}
               {% if collectionOne.price < collectionOne.compare_at_price %}
-                <span class="">sale!</span>
+                <span class="sale-badge">sale!</span>
               {% endif %}
             {% endif %}
           </div>
