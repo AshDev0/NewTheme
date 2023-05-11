@@ -3031,9 +3031,3 @@ details-disclosure > details {
     outline: transparent solid 1px;
   }
 }
-.product-grid a:hover img:last-child {
-  display: block !important;
-}
-.product-grid a:hover img:first-child {
-  display: none;
-}
