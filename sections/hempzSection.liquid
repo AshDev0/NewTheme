@@ -24,7 +24,7 @@
             <p class="prod-title">{{ collectionOne.title }}</p>
             <p class="prod-price">{{ collectionOne.price | money_with_currency }}</p>
             <p class="prod-compare-price">{{ collectionOne.compare_at_price | money_with_currency }}</p>
-            <span class="percent-count">-{{ discount_percentage | round: 0 }}% off</span>
+            <p class="percent-count">-{{ discount_percentage | round: 0 }}% off</p>
           </div>
         </div>
       {% endfor %}
