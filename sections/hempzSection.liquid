@@ -37,7 +37,7 @@
           </div>
           <form method="post" action="/cart/add">
             <input name="id" value="{{ collectionOne.variants.first.id }}" type="hidden">
-            <input name="add" value="ADD TO CART" type="submit">
+            <input class="addtocart" name="add" value="ADD TO CART" type="submit">
           </form>
         </div>
       {% endfor %}
