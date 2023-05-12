@@ -2083,9 +2083,9 @@ select {
 }
 
 #aboutus .content .talk p {
-  font-size: 28px;
+  font-size: 24px;
   line-height: normal;
-  font-family: Kepler-Std-Light;
+  font-family: "Tungsten";
   font-weight: 400;
   font-style: normal;
   text-align: center;
