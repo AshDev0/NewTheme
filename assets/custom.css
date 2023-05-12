@@ -2011,7 +2011,7 @@ select {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 50px;
+  gap: 30px;
 }
 
 #aboutus .content .heading h2 {
