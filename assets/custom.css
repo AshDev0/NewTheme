@@ -3866,6 +3866,13 @@ select {
     font-size: 18px;
     line-height: 28px;
   }
+
+  #aboutus .content .talk p {
+    font-size: 20px;
+  }
+  #aboutus .content .talk a.email {
+    font-size: 20px;
+  }
 }
 
 @media screen and (max-width: 380px) {
