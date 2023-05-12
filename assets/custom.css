@@ -3228,6 +3228,11 @@ select {
     .prod-compare-price:before {
     left: 0px;
   }
+
+  #aboutus .aboutus .content {
+    width: 80%;
+    gap: 30px;
+  }
 }
 
 @media screen and (max-width: 768px) {
