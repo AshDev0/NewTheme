@@ -26,9 +26,9 @@
 @font-face {
   font-family: "Compacta";
   src: (
-    "https://cdn.shopify.com/s/files/1/0741/7161/3489/files/CompactaBT.ttf?v=1683884697"
+    "https://cdn.shopify.com/s/files/1/0741/7161/3489/files/unicode.compacta.ttf?v=1683885220"
   );
-  font-weight: 700;
+  font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
