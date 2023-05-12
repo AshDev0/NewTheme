@@ -1995,17 +1995,16 @@ select {
 
 /* End Code */
 
-
-#aboutus{
-  width:100%;
+#aboutus {
+  width: 100%;
 }
 
-#aboutus .aboutus{
-  width:100%;
+#aboutus .aboutus {
+  width: 100%;
 }
 
-#aboutus .aboutus .content{
-  width:70%;
+#aboutus .aboutus .content {
+  width: 70%;
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -2014,7 +2013,8 @@ select {
   gap: 50px;
 }
 
-#aboutus .content{
+#aboutus .content .heading h2 {
+}
 
 @media screen and (max-width: 1920px) {
   .new-container .text h2 {
