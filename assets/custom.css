@@ -2093,7 +2093,7 @@ select {
 #aboutus .content .talk p {
   font-size: 24px;
   line-height: normal;
-  font-family: "Tungsten";
+  font-family: Tungsten;
   font-weight: 400;
   font-style: normal;
   text-align: center;
@@ -2105,7 +2105,7 @@ select {
 #aboutus .content .talk a.email {
   font-size: 24px;
   line-height: normal;
-  font-family: "Tungsten";
+  font-family: Tungsten;
   font-weight: 400;
   font-style: normal;
   text-transform: lowercase;
