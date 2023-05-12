@@ -2021,6 +2021,10 @@ select {
   text-transform: uppercase;
 }
 
+#aboutus .content .main-image {
+  width: 100%;
+}
+
 #aboutus .content .main-image img {
   width: 100%;
   display: block;
