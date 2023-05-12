@@ -7,12 +7,21 @@
 }
 
 @font-face {
-  font-family: "Tungsten";
-  src: url("Tungsten-Bold.ttf") format("truetype");
+  font-family: "Compacta" sans-serif;
+  src: url("CompactaBT.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
+
+/* @font-face {
+  font-family: "Compacta";
+  src: (
+    "https://cdn.shopify.com/s/files/1/0573/2201/2880/t/38/assets/CompactaBT.ttf"
+  );
+  font-weight: normal;
+  font-style: normal;
+} */
 
 .announcement-bar-section {
   display: none;
