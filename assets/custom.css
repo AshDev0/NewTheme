@@ -2015,6 +2015,12 @@ select {
 }
 
 #aboutus .content .heading h2 {
+  font-size: ;
+}
+
+#aboutus .content .desc p {
+  font-size: 28px;
+  line-height: normal;
 }
 
 @media screen and (max-width: 1920px) {
