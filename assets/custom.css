@@ -2057,7 +2057,7 @@ select {
   padding: 0;
 }
 
-#aboutus .content .talk a {
+#aboutus .content .talk a.email {
   font-size: 28px;
   line-height: normal;
   font-weight: 400;
