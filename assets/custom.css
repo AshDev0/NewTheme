@@ -2021,6 +2021,8 @@ select {
 #aboutus .content .desc p {
   font-size: 28px;
   line-height: normal;
+  font-weight: 400;
+  font-style: normal;
 }
 
 @media screen and (max-width: 1920px) {
