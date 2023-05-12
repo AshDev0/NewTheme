@@ -3849,6 +3849,23 @@ select {
   #hempzSection .hempzSection .product-section .product-item {
     width: 100%;
   }
+
+  #aboutus .aboutus .content {
+    width: 90%;
+    gap: 0px;
+  }
+  #aboutus .content .main-image {
+    width: 100%;
+  }
+
+  #aboutus .content .subheading h3 {
+    font-size: 25px;
+  }
+
+  #aboutus .content .desc p {
+    font-size: 18px;
+    line-height: 28px;
+  }
 }
 
 @media screen and (max-width: 380px) {
