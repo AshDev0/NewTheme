@@ -2062,7 +2062,7 @@ select {
   line-height: normal;
   font-weight: 400;
   font-style: normal;
-  text-transform: unset;
+  text-transform: lowercase;
   background: unset;
   color: #000;
   text-decoration: none;
