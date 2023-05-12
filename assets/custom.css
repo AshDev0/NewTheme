@@ -2040,6 +2040,7 @@ select {
 #aboutus .content .desc p {
   font-size: 28px;
   line-height: normal;
+  font-family: Kepler-Std-Light;
   font-weight: 400;
   font-style: normal;
   text-align: center;
@@ -2054,6 +2055,7 @@ select {
 #aboutus .content .talk p {
   font-size: 28px;
   line-height: normal;
+  font-family: Kepler-Std-Light;
   font-weight: 400;
   font-style: normal;
   text-align: center;
