@@ -1,4 +1,4 @@
-<section id="reservenow" class="">
+<section id="reservenow">
   <div class="reservenow">
     <button class="close-btn">
       <img
@@ -17,7 +17,33 @@
             <div class="input_field">
               <input class="email-input-field" type="email" name="email" placeholder="Your Email">
             </div>
-            
+            <div class="select-model">
+              <select name="" class="" id="select_model">
+                {% assign collection = collections[section.settings.collection] %}
+                {% assign product_reserve = '' %}
+                {% for product in collection.products %}
+                  {% if forloop.first %}
+                    {% assign product_reserve = product %}
+                  {% endif %}
+                  {% for variant in product.variants %}
+                    <option value="{{ variant.id }}">
+                      {{ variant.title }} - {{ variant.price | money_with_currency }}
+                    </option>
+                  {% endfor %}
+                {% endfor %}
+              </select>
+            </div>
+            <div class="dragon-btn">
+              <a href="/cart/{{ product_reserve.selected_or_first_available_variant.id }}:1" class="add-btn"
+                >Reserve DragonFly</a
+              >
+              <script type="text/javascript">
+                $('#select_model').on('change', function(e){
+                  var id = $(this).val();
+                  $('.add-btn').attr('href', '/cart/'+id+':1');
+                });
+              </script>
+            </div>
             <div class="logo_klarna">
               <img
                 src="https://cdn.shopify.com/s/files/1/0741/7161/3489/t/10/assets/Klarna_marketing_badge_pink_rgb.svg_4.svg?v=1683281032"
@@ -43,7 +69,11 @@
   "tag": "section",
   "class": "section",
   "settings": [
-
+         {
+      "type": "collection",
+      "id": "collection",
+      "label": "Dragonfly Scooter"
+    }
   ],
   "presets": [
     {
