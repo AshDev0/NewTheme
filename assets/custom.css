@@ -2046,6 +2046,10 @@ select {
   padding: 0;
 }
 
+#aboutus .content .talk {
+  margin-top: 30px;
+}
+
 #aboutus .content .talk p {
   font-size: 28px;
   line-height: normal;
