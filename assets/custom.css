@@ -29,7 +29,8 @@ body {
 @font-face {
   font-family: "Compacta";
   font-display: swap;
-  src: url("CompactaBT.ttf") format("truetype");
+  src: url("https://cdn.shopify.com/s/files/1/0741/7161/3489/files/CompactaBT_9dd84a83-7f3e-4386-8f08-ad03cf4b0a29.ttf?v=1683886855")
+    format("truetype");
   font-weight: normal;
   font-style: normal;
 }
