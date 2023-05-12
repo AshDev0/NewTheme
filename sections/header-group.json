@@ -4,6 +4,7 @@
   "sections": {
     "announcement-bar": {
       "type": "announcement-bar",
+      "disabled": true,
       "blocks": {
         "announcement-bar-0": {
           "type": "announcement",
@@ -38,6 +39,7 @@
     },
     "368500a4-c567-4ad8-99a6-e6412f9b8f94": {
       "type": "NewSection",
+      "disabled": true,
       "settings": {
         "heading": "A Modern, Smart Approach to Sales Tax Compliance",
         "para": "<p>We help e-commerce businesses to get them compliant with sales tax in the US.<\/p>",
@@ -48,6 +50,7 @@
     },
     "c33539a5-625f-4bde-8ad5-d4607d3aec43": {
       "type": "graphSection1",
+      "disabled": true,
       "blocks": {
         "f8ad5ff7-286b-41ef-9321-f6ed908f78e6": {
           "type": "block",
@@ -81,6 +84,7 @@
     },
     "5083e136-89b3-42bf-bf99-cb92082051b8": {
       "type": "reportDashboard",
+      "disabled": true,
       "blocks": {
         "37f153b1-8f02-4d50-8b49-0f4cf5cd5085": {
           "type": "report",
@@ -118,6 +122,7 @@
     },
     "a7745780-bc5e-4335-a429-6f05d5383500": {
       "type": "meetTax",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Screenshot_2023-05-02_133635.png",
         "mainheading": "Meet tax experts online & solve tax problem fast",
@@ -127,6 +132,7 @@
     },
     "196134aa-2f15-40c3-9dec-3798884c0922": {
       "type": "reducerisk",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Screenshot_2023-05-02_154118.png",
         "mainheading": "Reduce your risk of errors and missed deadlines",
@@ -137,6 +143,7 @@
     },
     "80394829-3f31-45e6-8958-bcb26d63f4d2": {
       "type": "reviewSection",
+      "disabled": true,
       "blocks": {
         "7fa6aafe-c53f-4d9e-a489-f426d4efe83a": {
           "type": "review",
@@ -183,6 +190,7 @@
     },
     "26935be7-f2e7-4e34-b142-ee51c0682fc0": {
       "type": "ReadBlog",
+      "disabled": true,
       "blocks": {
         "8c82ed89-6812-477e-96b7-d4b043f9ef10": {
           "type": "blog",
@@ -212,6 +220,7 @@
     },
     "9af8a080-2fe7-4bd0-bd8f-65cad1363160": {
       "type": "bookSection",
+      "disabled": true,
       "settings": {
         "heading": "Take action now to stay compliant. Grow business without tension.",
         "bookCall": "Book A Call",
@@ -220,6 +229,7 @@
     },
     "da7d6cda-6e63-4fc0-b432-50ed99e5f300": {
       "type": "scooterModel",
+      "disabled": true,
       "blocks": {
         "c6f99496-9278-456a-b2af-b2ba3e151fcf": {
           "type": "model",
@@ -369,6 +379,7 @@
     },
     "218575aa-7211-4d60-9ce9-99c02f30eb00": {
       "type": "blackbgReview",
+      "disabled": true,
       "blocks": {
         "229bee6c-e798-47d5-a316-f1763fd2a6a2": {
           "type": "reviews",
@@ -394,16 +405,19 @@
     },
     "c5c9355a-f9ec-4845-ad59-902752683480": {
       "type": "reservenow",
+      "disabled": true,
       "settings": {
       }
     },
     "c150655b-0ddd-40af-bd7e-3a2964e58856": {
       "type": "counterSection",
+      "disabled": true,
       "settings": {
       }
     },
     "fd58c143-9029-451a-b186-ab023d5e1253": {
       "type": "hempzSection",
+      "disabled": true,
       "settings": {
         "heading": "",
         "collectionOne": "collection-one",
