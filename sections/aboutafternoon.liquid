@@ -5,7 +5,9 @@
         <h2>{{ section.settings.heading }}</h2>
       </div>
       <div class="main-image">
-        <img src="{{ section.settings.image | img_url: 'master' }}">
+        {% if section.settings.image != blank %}
+          <img src="{{ section.settings.image | img_url: 'master' }}">
+        {% endif %}
       </div>
       <div class="subheading">
         <h3>{{ section.settings.subheading }}</h3>
