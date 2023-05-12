@@ -28,13 +28,10 @@ body {
 
 @font-face {
   font-family: "Compacta";
-  src: (
-      "https://cdn.shopify.com/s/files/1/0741/7161/3489/files/CompactaBT.ttf?v=1683884697"
-    )
-    format("truetype");
-  font-weight: bold;
-  font-style: normal;
   font-display: swap;
+  src: url("CompactaBT.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 
 .announcement-bar-section {
