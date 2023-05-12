@@ -2065,6 +2065,7 @@ select {
   text-transform: unset;
   background: unset;
   color: #000;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 1920px) {
