@@ -7,7 +7,7 @@
 }
 
 @font-face {
-  font-family: "Compacta" sans-serif;
+  font-family: "Compacta";
   src: url("CompactaBT.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
