@@ -2066,6 +2066,8 @@ select {
   background: unset;
   color: #000;
   text-decoration: none;
+  padding: 0;
+  margin: 0;
 }
 
 @media screen and (max-width: 1920px) {
