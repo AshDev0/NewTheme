@@ -8,12 +8,20 @@
 
 @font-face {
   font-family: "Compacta";
+  src: url("CompactaBT.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* @font-face {
+  font-family: "Compacta";
   src: (
     "https://cdn.shopify.com/s/files/1/0573/2201/2880/t/38/assets/CompactaBT.ttf"
   );
   font-weight: normal;
   font-style: normal;
-}
+} */
 
 .announcement-bar-section {
   display: none;
@@ -2032,7 +2040,7 @@ select {
   gap: 30px;
 }
 
-#aboutus .content .heading h2 {
+#aboutus .content .heading h1 {
   font-size: 35px;
   font-family: "Compacta";
   font-weight: 700;
