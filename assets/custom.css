@@ -2002,6 +2002,7 @@ select {
 #aboutus .aboutus {
   width: 100%;
   background: #f6f1ed;
+  padding-bottom: 20px;
 }
 
 #aboutus .aboutus .content {
