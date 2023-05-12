@@ -3231,7 +3231,10 @@ select {
 
   #aboutus .aboutus .content {
     width: 80%;
-    gap: 30px;
+    gap: 20px;
+  }
+  #aboutus .content .desc p {
+    font-size: 22px;
   }
 }
 
