@@ -2018,6 +2018,12 @@ select {
   font-size: ;
 }
 
+#aboutus .content .subheading h3 {
+  font-size: 28px;
+  line-height: normal;
+  font-weight: 600;
+}
+
 #aboutus .content .desc p {
   font-size: 28px;
   line-height: normal;
