@@ -423,6 +423,15 @@
         "collectionOne": "collection-one",
         "collectionTwo": "collection-two"
       }
+    },
+    "9b9aa202-8f4f-4bcd-a7d8-df2566ca591b": {
+      "type": "aboutafternoon",
+      "settings": {
+        "heading": "about",
+        "image": "shopify:\/\/shop_images\/gif2.gif",
+        "subheading": "Honey, we're home.",
+        "desc": "<p><em>Afternoon Light<\/em> is a curated, editorialized, e-commerce destination for home décor and furniture. Find modern classics, rising independents, special projects and covetable one-of-a-kinds across an authoritative platform for a community of the best brands and makers.<br\/><br\/><\/p><p>Started by Deirdre Maloney and Minya Quirk, co-founders of the Shoppe Object trade show and longtime fashion industry veterans, Afternoon Light was built to solve the problem of scattered presence (annoying), one-note merchandising(boring), and hard-to-find great stuff (literally, no clue) in the home décor and furniture market. <\/p><p>The Afternoon Light team scours the industry for best-in-class products by brands and real people who design and produce objects with integrity. Because what and from who you buy - matters. We are proud to present these amazing goods on platform for discovery, in an accessible, everyday vernacular to make shopping for all corners of your space - no matter the size or vibe - easy and fun. Just the way it should be.   <\/p><p><strong>Everything looks better in Afternoon Light.<\/strong><\/p>"
+      }
     }
   },
   "order": [
@@ -440,6 +449,7 @@
     "218575aa-7211-4d60-9ce9-99c02f30eb00",
     "c5c9355a-f9ec-4845-ad59-902752683480",
     "c150655b-0ddd-40af-bd7e-3a2964e58856",
-    "fd58c143-9029-451a-b186-ab023d5e1253"
+    "fd58c143-9029-451a-b186-ab023d5e1253",
+    "9b9aa202-8f4f-4bcd-a7d8-df2566ca591b"
   ]
 }
