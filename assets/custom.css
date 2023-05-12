@@ -1995,6 +1995,27 @@ select {
 
 /* End Code */
 
+
+#aboutus{
+  width:100%;
+}
+
+#aboutus .aboutus{
+  width:100%;
+}
+
+#aboutus .aboutus .content{
+  width:70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
+
+#aboutus .content{
+
 @media screen and (max-width: 1920px) {
   .new-container .text h2 {
     font-size: 90px;
