@@ -95,6 +95,11 @@
 <p>{{ content_for_index }}</p>
 <p>{{ content_for_layout }}</p>
 
+{% assign models = product.media | where: 'media_type', 'model' %}
+{% for model in models %}
+  {{ model.alt }}
+{% endfor %}
+
 {% schema %}
 {
   "name": "Liquid Objects",
