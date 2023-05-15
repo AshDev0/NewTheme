@@ -133,6 +133,7 @@ Hello, {{ billing_address.name }}
 
 {{ cart.item_count }}
 {{ cart.item_count | pluralize: 'Item', 'Items' }} ({{ cart.total_price | money }})
+{{ comment.created_at | date: '%b %d, %Y' }}
 
 {% schema %}
 {
