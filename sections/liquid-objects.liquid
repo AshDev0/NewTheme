@@ -186,6 +186,29 @@ You save: {{ checkout.discounts_amount | money }}
   {% endfor %}
 </ul>
 {{ variant.image.src }}
+
+{{ shop.address.city }}
+
+{{ shop.address.company }}
+
+{{ shop.address.country }}
+{{ shop.address.country_upper }}
+{{ shop.address.province }}
+
+{{ shop.address.province_code }}
+{{ shop.address.street }}
+{{ shop.address.summary }}
+{{ shop.address.zip }}
+{{ shop.secure_url }}
+{% for product_type in shop.types %}
+  {{ product_type | link_to_type }}
+{% endfor %}
+
+{{ shop.url }}
+{% for product_vendor in shop.vendors %}
+  {{ product_vendor | link_to_vendor }}
+{% endfor %}
+
 {% schema %}
 {
   "name": "Liquid Objects",
