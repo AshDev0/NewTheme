@@ -438,7 +438,8 @@
     "f431791d-6b0c-4d60-a1cb-1b02d5c51ee9": {
       "type": "liquid-objects",
       "settings": {
-        "liq-obj": ""
+        "liq-obj": "Liquid Objects",
+        "collection": "collection-one"
       }
     }
   },
