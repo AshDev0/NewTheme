@@ -116,6 +116,18 @@ Hello, {{ billing_address.name }}
   {{ address.street }}
 {% endfor %}
 
+{{ linklists.main.title }}
+
+{% for link in linklists.main.links %}
+  {{ link.title }}: child_active: {{ link.child_active }}
+  {% for sub_link in link.links %}
+    {{ sub_link.title }}: child_active: {{ sub_link.child_active }}
+    {% for sub_sub_link in sub_link.links %}
+      {{ sub_sub_link.title }}: active: {{ sub_sub_link.active }}
+    {% endfor %}
+  {% endfor %}
+{% endfor %}
+
 {% schema %}
 {
   "name": "Liquid Objects",
