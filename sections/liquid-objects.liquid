@@ -208,7 +208,8 @@ You save: {{ checkout.discounts_amount | money }}
 {{ shop.secure_url }}
 <br>
 {% for product_type in shop.types %}
-  {{ product_type | link_to_type }}
+  {{ product_type | link_to_type -}}
+  <br>
 {% endfor %}
 <br>
 {{ shop.url }}
