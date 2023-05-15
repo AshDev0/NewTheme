@@ -73,6 +73,9 @@
 {% if collection.image %}
   {{ collection.image | img_url: 'medium' }}
 {% endif %}
+
+{{ collection.all_products_count }}
+{{ collection.all_products_count | pluralize: 'Item', 'Items' }} total
 {% schema %}
 {
   "name": "Liquid Objects",
