@@ -53,6 +53,10 @@
 {% for product_type in collection.all_types %}
   {{ product_type | link_to_type }}
 {% endfor %}
+
+{% for product_vendor in collection.all_vendors %}
+  {{ product_vendor | link_to_vendor }}
+{% endfor %}
 {% schema %}
 {
   "name": "Liquid Objects",
