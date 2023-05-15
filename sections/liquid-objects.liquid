@@ -212,6 +212,7 @@ You save: {{ checkout.discounts_amount | money }}
 {% endfor %}
 <br>
 {{ shop.url }}
+<br>
 {% for product_vendor in shop.vendors %}
   {{ product_vendor | link_to_vendor -}}
   <br>
