@@ -8,6 +8,8 @@
 <br>
 {{ canonical_url }}
 <br>
+
+{% assign collection = section.settings.collection %}
 {% for collection in collections %}
   {{ collection.title -}}
   <br>
