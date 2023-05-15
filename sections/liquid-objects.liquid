@@ -131,6 +131,9 @@ Hello, {{ billing_address.name }}
 
 {{ cart.currency.iso_code }}
 
+{{ cart.item_count }}
+{{ cart.item_count | pluralize: 'Item', 'Items' }} ({{ cart.total_price | money }})
+
 {% schema %}
 {
   "name": "Liquid Objects",
