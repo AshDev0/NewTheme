@@ -2,12 +2,12 @@
 
 {{ page_title }}
 {{ all_products['fancy-shoes'].title }}
-
+<br>
 {% assign article = articles['news/new-products'] %}
 {{ article.title | link_to: article.url }}
-
+<br>
 {{ canonical_url }}
-
+<br>
 {% for collection in collections %}
   {{ collection.title -}}
   <br>
