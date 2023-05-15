@@ -57,6 +57,10 @@
 {% for product_vendor in collection.all_vendors %}
   {{ product_vendor | link_to_vendor }}
 {% endfor %}
+
+{% if collection.current_type %}
+  We are on an automatic product type collection page. The product type is {{ collection.current_type }}.
+{% endif %}
 {% schema %}
 {
   "name": "Liquid Objects",
