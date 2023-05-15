@@ -108,6 +108,14 @@ Hello, {{ billing_address.name }}
   {{ tag }}
 {% endfor %}
 
+{% for article in blog.articles %}
+  <h2>{{ article.title }}</h2>
+{% endfor %}
+
+{% for address in customer.addresses %}
+  {{ address.street }}
+{% endfor %}
+
 {% schema %}
 {
   "name": "Liquid Objects",
