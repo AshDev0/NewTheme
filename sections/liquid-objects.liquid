@@ -147,6 +147,8 @@ Hello, {{ billing_address.name }}
   * {{ discount.code }}: {{ discount.amount | money }}
 {% endfor %}
 
+You save: {{ checkout.discounts_amount | money }}
+
 {% schema %}
 {
   "name": "Liquid Objects",
