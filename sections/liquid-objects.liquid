@@ -29,6 +29,14 @@
 <h1>{{ pages.about.title }}</h1>
 <p>By {{ pages.about.author }}</p>
 <div>{{ pages.about.content }}</div>
+
+{% if request.host == 'myshop.com' %}
+  Welcome USA!
+{% elsif request.host == 'myshop.ca' %}
+  Welcome Canada!
+{% else %}
+  Welcome!
+{% endif %}
 {% schema %}
 {
   "name": "Liquid Objects",
