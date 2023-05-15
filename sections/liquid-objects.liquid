@@ -76,6 +76,10 @@
 
 {{ collection.all_products_count }}
 {{ collection.all_products_count | pluralize: 'Item', 'Items' }} total
+
+{% if collection.sort_by %}
+  Sort by: {{ collection.sort_by }}
+{% endif %}
 {% schema %}
 {
   "name": "Liquid Objects",
