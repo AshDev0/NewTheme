@@ -5,6 +5,10 @@
 {{ article.title | link_to: article.url }}
 
 {{ canonical_url }}
+
+{% for collection in collections %}
+  {{ collection.title }}
+{% endfor %}
 {% schema %}
 {
   "name": "Liquid Objects",
