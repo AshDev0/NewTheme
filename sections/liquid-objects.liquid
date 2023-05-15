@@ -76,19 +76,19 @@
 
 {{ collection.all_products_count }}
 {{ collection.all_products_count | pluralize: 'Item', 'Items' }} total
-
+<br>
 {% if collection.sort_by %}
   Sort by: {{ collection.sort_by }}
 {% endif %}
-
+<br>
 <select name="sort_by">
   {% for option in collection.sort_options %}
     <option value="{{ option.value }}">{{ option.name }}</option>
   {% endfor %}
 </select>
-
+<br>
 {{ collection.template_suffix }}
-
+<br>
 <h1>{{ collection.title }}</h1>
 <br>
 <p>{{ content_for_header }}</p>
