@@ -71,7 +71,7 @@
 {% endif %}
 
 {% if collection.image %}
-  {{ collection.image | img_url: 'medium' }}
+  <img src="{{ collection.image | img_url: 'medium' }}" alt="">
 {% endif %}
 
 {{ collection.all_products_count }}
