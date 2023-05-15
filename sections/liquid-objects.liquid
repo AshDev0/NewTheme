@@ -143,6 +143,10 @@ Hello, {{ billing_address.name }}
   Discount name: {{ discount_application.title }} Savings: -{{ discount_application.total_allocated_amount | money }}
 {% endfor %}
 
+{% for discount in checkout.discounts %}
+  * {{ discount.code }}: {{ discount.amount | money }}
+{% endfor %}
+
 {% schema %}
 {
   "name": "Liquid Objects",
