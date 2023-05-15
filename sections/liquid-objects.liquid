@@ -156,6 +156,12 @@ You save: {{ checkout.discounts_amount | money }}
 <h2>{{ section.settings.heading }}</h2>
 <a href="{{ section.settings.featured_collection.url }}">This week's best selling items</a>
 
+<ul>
+  {% for product_option in product.options_with_values %}
+    <li>{{ product_option.name }}</li>
+  {% endfor %}
+</ul>
+
 {% schema %}
 {
   "name": "Liquid Objects",
