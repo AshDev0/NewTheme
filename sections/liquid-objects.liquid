@@ -149,6 +149,10 @@ Hello, {{ billing_address.name }}
 
 You save: {{ checkout.discounts_amount | money }}
 
+{% if checkout.requires_shipping %}
+  You will receive an email with your shipment tracking number as soon as your order is shipped.
+{% endif %}
+
 {% schema %}
 {
   "name": "Liquid Objects",
