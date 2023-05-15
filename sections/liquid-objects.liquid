@@ -3,6 +3,8 @@
 
 {% assign article = articles['news/new-products'] %}
 {{ article.title | link_to: article.url }}
+
+{{ canonical_url }}
 {% schema %}
 {
   "name": "Liquid Objects",
