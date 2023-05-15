@@ -191,19 +191,26 @@ You save: {{ checkout.discounts_amount | money }}
 
 {{ shop.address.company }}
 
-{{ shop.address.country }}
+{{ shop.address.country -}}
+<br>
 {{ shop.address.country_upper }}
+<br>
 {{ shop.address.province }}
-
+<br>
 {{ shop.address.province_code }}
+<br>
 {{ shop.address.street }}
+<br>
 {{ shop.address.summary }}
+<br>
 {{ shop.address.zip }}
+<br>
 {{ shop.secure_url }}
+<br>
 {% for product_type in shop.types %}
   {{ product_type | link_to_type }}
 {% endfor %}
-
+<br>
 {{ shop.url }}
 {% for product_vendor in shop.vendors %}
   {{ product_vendor | link_to_vendor }}
