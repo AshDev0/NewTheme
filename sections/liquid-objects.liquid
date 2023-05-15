@@ -12,6 +12,10 @@
 {% endfor %}
 
 {{ page_title }} - Page: {{ current_page }}
+
+{% if handle contains 'hide-from-search' %}
+  <meta name="robots" content="noindex">
+{% endif %}
 {% schema %}
 {
   "name": "Liquid Objects",
