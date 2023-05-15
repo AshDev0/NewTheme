@@ -69,6 +69,10 @@
 {% if collection.current_vendor %}
   We are on an automatic vendor collection page. The vendor is {{ collection.current_vendor }}.
 {% endif %}
+
+{% if collection.image %}
+  {{ collection.image | img_url: 'medium' }}
+{% endif %}
 {% schema %}
 {
   "name": "Liquid Objects",
