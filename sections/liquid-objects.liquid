@@ -80,6 +80,12 @@
 {% if collection.sort_by %}
   Sort by: {{ collection.sort_by }}
 {% endif %}
+
+<select name="sort_by">
+  {% for option in collection.sort_options %}
+    <option value="{{ option.value }}">{{ option.name }}</option>
+  {% endfor %}
+</select>
 {% schema %}
 {
   "name": "Liquid Objects",
