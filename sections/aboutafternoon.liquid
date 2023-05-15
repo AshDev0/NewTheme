@@ -24,6 +24,9 @@
       <select name="country">
         {{ all_country_option_tags }}
       </select>
+      {% if additional_checkout_buttons %}
+        {{ content_for_additional_checkout_buttons }}
+      {% endif %}
     </div>
   </div>
 </section>
