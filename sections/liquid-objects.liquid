@@ -135,6 +135,10 @@ Hello, {{ billing_address.name }}
 {{ cart.item_count | pluralize: 'Item', 'Items' }} ({{ cart.total_price | money }})
 {{ comment.created_at | date: '%b %d, %Y' }}
 
+{% if checkout.buyer_accepts_marketing %}
+  Thank you for subscribing to our newsletter. You will receive our exclusive newsletter deals!
+{% endif %}
+
 {% schema %}
 {
   "name": "Liquid Objects",
