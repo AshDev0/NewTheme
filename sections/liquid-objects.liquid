@@ -37,6 +37,10 @@
 {% else %}
   Welcome!
 {% endif %}
+
+{% if scripts.cart_calculate_line_items %}
+  <p>We are running a {{ scripts.cart_calculate_line_items.name }} promotion!</p>
+{% endif %}
 {% schema %}
 {
   "name": "Liquid Objects",
