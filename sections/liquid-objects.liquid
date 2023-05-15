@@ -129,6 +129,8 @@ Hello, {{ billing_address.name }}
 {% endfor %}
 {{ cart.attributes['your-pet-name'] }}
 
+{{ cart.currency.iso_code }}
+
 {% schema %}
 {
   "name": "Liquid Objects",
