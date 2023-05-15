@@ -168,6 +168,24 @@ You save: {{ checkout.discounts_amount | money }}
   {% endfor %}
 </ul>
 
+<select>
+  {% for value in product_option.values %}
+    <option
+      {% if product_option.selected_value == value %}
+        selected
+      {% endif %}
+    >
+      {{ value }}
+    </option>
+  {% endfor %}
+</select>
+
+<ul>
+  {% for value in product_option.values %}
+    <li>{{ value }}</li>
+  {% endfor %}
+</ul>
+
 {% schema %}
 {
   "name": "Liquid Objects",
