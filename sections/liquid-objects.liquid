@@ -18,6 +18,12 @@
 {% endif %}
 {% assign image = images['logo.png'] %}
 <img src="{{ image }}" alt="{{ image.alt }}">
+
+<ul>
+  {% for link in linklists['main-menu'].links %}
+    <li>{{ link.title | link_to: link.url }}</li>
+  {% endfor %}
+</ul>
 {% schema %}
 {
   "name": "Liquid Objects",
