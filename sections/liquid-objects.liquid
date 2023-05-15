@@ -104,6 +104,10 @@ Hello, {{ billing_address.name }}
 
 {{ shipping_address.street }}
 
+{% for tag in blog.all_tags %}
+  {{ tag }}
+{% endfor %}
+
 {% schema %}
 {
   "name": "Liquid Objects",
