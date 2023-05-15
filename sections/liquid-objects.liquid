@@ -139,6 +139,10 @@ Hello, {{ billing_address.name }}
   Thank you for subscribing to our newsletter. You will receive our exclusive newsletter deals!
 {% endif %}
 
+{% for discount_application in checkout.discount_applications %}
+  Discount name: {{ discount_application.title }} Savings: -{{ discount_application.total_allocated_amount | money }}
+{% endfor %}
+
 {% schema %}
 {
   "name": "Liquid Objects",
