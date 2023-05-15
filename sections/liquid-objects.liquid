@@ -153,6 +153,9 @@ You save: {{ checkout.discounts_amount | money }}
   You will receive an email with your shipment tracking number as soon as your order is shipped.
 {% endif %}
 
+<h2>{{ section.settings.heading }}</h2>
+<a href="{{ section.settings.featured_collection.url }}">This week's best selling items</a>
+
 {% schema %}
 {
   "name": "Liquid Objects",
